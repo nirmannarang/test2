@@ -1,0 +1,22 @@
+--- /home/test/e_aesgcmsiv.c_old	2019-07-19 06:19:28.504093808 +0000
++++ src/crypto/cipher_extra/e_aesgcmsiv.c	2019-07-19 06:22:31.796025712 +0000
+@@ -630,7 +630,7 @@
+   for (size_t done = 0; done < in_len;) {
+     uint8_t keystream[AES_BLOCK_SIZE];
+     enc_block(counter.c, keystream, key);
+-    counter.w[0]++;
++    counter.w[0] = BSWAP_32(BSWAP_32(counter.w[0]) + 1);
+ 
+     size_t todo = AES_BLOCK_SIZE;
+     if (in_len - done < todo) {
+@@ -678,8 +678,8 @@
+     } bitlens;
+   } length_block;
+ 
+-  length_block.bitlens.ad = ad_len * 8;
+-  length_block.bitlens.in = in_len * 8;
++  length_block.bitlens.ad = BSWAP_64(ad_len * 8);
++  length_block.bitlens.in = BSWAP_64(in_len * 8);
+   CRYPTO_POLYVAL_update_blocks(&polyval_ctx, length_block.c,
+                                sizeof(length_block));
+ 

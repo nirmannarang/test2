@@ -1,0 +1,11 @@
+--- /home/test/bn_test.cc_old	2019-07-19 14:04:09.993407896 +0000
++++ src/crypto/fipsmodule/bn/bn_test.cc	2019-07-22 06:47:11.526563651 +0000
+@@ -2168,7 +2168,7 @@
+       for (size_t k = 0; k < one_word; k++) {
+         SCOPED_TRACE(k);
+         EXPECT_EQ(k <= i && i < j ? 1 : 0,
+-                  bn_in_range_words(kTestVectors[i], kTestVectors[k][0],
++                  bn_in_range_words(kTestVectors[i], BSWAP_ULONG(kTestVectors[k][0]),
+                                     kTestVectors[j],
+                                     OPENSSL_ARRAY_SIZE(kTestVectors[i])));
+       }

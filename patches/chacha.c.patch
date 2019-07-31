@@ -1,0 +1,61 @@
+--- /home/test/chacha.c_old	2019-07-17 10:30:53.099365001 +0000
++++ src/crypto/chacha/chacha.c	2019-07-17 10:54:55.508986005 +0000
+@@ -26,7 +26,7 @@
+ 
+ 
+ #define U8TO32_LITTLE(p)                              \
+-  (((uint32_t)((p)[0])) | ((uint32_t)((p)[1]) << 8) | \
++BSWAP_32(((uint32_t)((p)[0])) | ((uint32_t)((p)[1]) << 8) | \
+    ((uint32_t)((p)[2]) << 16) | ((uint32_t)((p)[3]) << 24))
+ 
+ // sigma contains the ChaCha constants, which happen to be an ASCII string.
+@@ -37,10 +37,14 @@
+ 
+ // QUARTERROUND updates a, b, c, d with a ChaCha "quarter" round.
+ #define QUARTERROUND(a, b, c, d)                \
+-  x[a] += x[b]; x[d] = ROTATE(x[d] ^ x[a], 16); \
+-  x[c] += x[d]; x[b] = ROTATE(x[b] ^ x[c], 12); \
+-  x[a] += x[b]; x[d] = ROTATE(x[d] ^ x[a],  8); \
+-  x[c] += x[d]; x[b] = ROTATE(x[b] ^ x[c],  7);
++  x[a] = BSWAP_32(BSWAP_32(x[a]) + BSWAP_32(x[b]));   \
++  x[d] = BSWAP_32(ROTATE(BSWAP_32(x[d] ^ x[a]), 16)); \
++  x[c] = BSWAP_32(BSWAP_32(x[c]) + BSWAP_32(x[d]));   \
++  x[b] = BSWAP_32(ROTATE(BSWAP_32(x[b] ^ x[c]), 12)); \
++  x[a] = BSWAP_32(BSWAP_32(x[a]) + BSWAP_32(x[b]));   \
++  x[d] = BSWAP_32(ROTATE(BSWAP_32(x[d] ^ x[a]),  8)); \
++  x[c] = BSWAP_32(BSWAP_32(x[c]) + BSWAP_32(x[d]));   \
++  x[b] = BSWAP_32(ROTATE(BSWAP_32(x[b] ^ x[c]),  7));
+ 
+ void CRYPTO_hchacha20(uint8_t out[32], const uint8_t key[32],
+                       const uint8_t nonce[16]) {
+@@ -126,10 +130,10 @@
+   }
+ 
+   for (i = 0; i < 16; ++i) {
+-    x[i] += input[i];
++    x[i] = BSWAP_32(BSWAP_32(x[i]) + BSWAP_32(input[i]));
+   }
+   for (i = 0; i < 16; ++i) {
+-    U32TO8_LITTLE(output + 4 * i, x[i]);
++    U32TO8_LITTLE(output + 4 * i, BSWAP_32(x[i]));
+   }
+ }
+ 
+@@ -157,7 +161,7 @@
+   input[10] = U8TO32_LITTLE(key + 24);
+   input[11] = U8TO32_LITTLE(key + 28);
+ 
+-  input[12] = counter;
++  input[12] = BSWAP_32(counter);
+   input[13] = U8TO32_LITTLE(nonce + 0);
+   input[14] = U8TO32_LITTLE(nonce + 4);
+   input[15] = U8TO32_LITTLE(nonce + 8);
+@@ -177,7 +181,7 @@
+     in += todo;
+     in_len -= todo;
+ 
+-    input[12]++;
++    input[12] = BSWAP_32(BSWAP_32(input[12]) + 1);
+   }
+ }
+ 

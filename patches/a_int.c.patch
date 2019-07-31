@@ -1,0 +1,11 @@
+--- /home/test/a_int.c_old	2019-07-17 10:23:15.356490694 +0000
++++ src/crypto/asn1/a_int.c	2019-07-17 10:24:30.636780033 +0000
+@@ -310,7 +310,7 @@
+ 
+     OPENSSL_free(out->data);
+     out->data = newdata;
+-    v = CRYPTO_bswap8(v);
++    v = CRYPTO_BSWAP8(v);
+     memcpy(out->data, &v, sizeof(v));
+ 
+     out->type = V_ASN1_INTEGER;

@@ -1,0 +1,11 @@
+--- /home/test/jacobi.c_old	2019-07-26 10:01:30.320056403 +0000
++++ src/crypto/fipsmodule/bn/jacobi.c	2019-07-26 10:02:28.667755887 +0000
+@@ -58,7 +58,7 @@
+ 
+ 
+ // least significant word
+-#define BN_lsw(n) (((n)->width == 0) ? (BN_ULONG) 0 : (n)->d[0])
++#define BN_lsw(n) (((n)->width == 0) ? (BN_ULONG) 0 : BSWAP_ULONG((n)->d[0]))
+ 
+ int bn_jacobi(const BIGNUM *a, const BIGNUM *b, BN_CTX *ctx) {
+   // In 'tab', only odd-indexed entries are relevant:

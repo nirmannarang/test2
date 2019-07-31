@@ -1,0 +1,34 @@
+--- /home/test/tls_cbc.c_old	2019-07-19 06:23:25.796824536 +0000
++++ src/crypto/cipher_extra/tls_cbc.c	2019-07-19 12:43:44.457621871 +0000
+@@ -182,6 +182,7 @@
+   OPENSSL_memcpy(out, rotated_mac, md_size);
+ }
+ 
++#if __BYTE_ORDER == __LITTLE_ENDIAN
+ // u32toBE serialises an unsigned, 32-bit number (n) as four bytes at (p) in
+ // big-endian order. The value of p is advanced by four.
+ #define u32toBE(n, p)                \
+@@ -205,6 +206,23 @@
+     *((p)++) = (uint8_t)((n) >> 8);  \
+     *((p)++) = (uint8_t)((n));       \
+   } while (0)
++#else
++// u32toBE serialises an unsigned, 32-bit number (n) as four bytes at (p) in
++// big-endian order. The value of p is advanced by four.
++#define u32toBE(n, p)                \
++  do {                               \
++    *(uint32_t *)(p) = n;            \
++    p += sizeof(uint32_t);           \
++  } while (0)
++
++// u64toBE serialises an unsigned, 64-bit number (n) as eight bytes at (p) in
++// big-endian order. The value of p is advanced by eight.
++#define u64toBE(n, p)                \
++  do {                               \
++    *(uint64_t *)(p) = n;	     \
++    p += sizeof(uint64_t);           \
++  } while (0)
++#endif
+ 
+ typedef union {
+   SHA_CTX sha1;

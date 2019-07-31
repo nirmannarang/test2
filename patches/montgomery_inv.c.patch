@@ -1,0 +1,15 @@
+--- /home/test/montgomery_inv.c_old	2019-07-26 10:07:06.159083555 +0000
++++ src/crypto/fipsmodule/bn/montgomery_inv.c	2019-07-26 10:08:09.261650814 +0000
+@@ -70,10 +70,10 @@
+ 
+   // n_mod_r = n % r. As explained above, this is done by taking the lowest
+   // |BN_MONT_CTX_N0_LIMBS| limbs of |n|.
+-  uint64_t n_mod_r = n->d[0];
++  uint64_t n_mod_r = BSWAP_ULONG(n->d[0]);
+ #if BN_MONT_CTX_N0_LIMBS == 2
+   if (n->width > 1) {
+-    n_mod_r |= (uint64_t)n->d[1] << BN_BITS2;
++    n_mod_r |= (uint64_t)BSWAP_ULONG(n->d[1]) << BN_BITS2;
+   }
+ #endif
+ 

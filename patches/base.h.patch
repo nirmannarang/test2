@@ -1,0 +1,11 @@
+--- /home/test/base.h_old	2019-07-26 13:37:36.772263286 +0000
++++ src/include/openssl/base.h	2019-07-26 13:39:33.279928093 +0000
+@@ -114,6 +114,8 @@
+ #define OPENSSL_32_BIT
+ #elif defined(__myriad2__)
+ #define OPENSSL_32_BIT
++#elif defined(__s390x__)
++#define OPENSSL_64_BIT
+ #else
+ // Note BoringSSL only supports standard 32-bit and 64-bit two's-complement,
+ // little-endian architectures. Functions will not produce the correct answer

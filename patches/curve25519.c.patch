@@ -1,0 +1,14 @@
+--- /home/test/curve25519.c_old	2019-07-26 13:40:18.217464278 +0000
++++ src/third_party/fiat/curve25519.c	2019-07-26 13:43:13.468485179 +0000
+@@ -1964,9 +1964,9 @@
+     UINT64_C(0x1000000000000000),
+   };
+   for (size_t i = 3;; i--) {
+-    if (scopy.u64[i] > kOrder[i]) {
++    if (BSWAP_64(scopy.u64[i]) > kOrder[i]) {
+       return 0;
+-    } else if (scopy.u64[i] < kOrder[i]) {
++    } else if (BSWAP_64(scopy.u64[i]) < kOrder[i]) {
+       break;
+     } else if (i == 0) {
+       return 0;

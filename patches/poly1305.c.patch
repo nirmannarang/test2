@@ -1,0 +1,15 @@
+--- /home/test/poly1305.c_old	2019-07-26 13:35:28.488394239 +0000
++++ src/crypto/poly1305/poly1305.c	2019-07-26 13:36:31.340776748 +0000
+@@ -32,10 +32,12 @@
+ static uint32_t U8TO32_LE(const uint8_t *m) {
+   uint32_t r;
+   OPENSSL_memcpy(&r, m, sizeof(r));
++  r = BSWAP_32(r);
+   return r;
+ }
+ 
+ static void U32TO8_LE(uint8_t *m, uint32_t v) {
++  v = BSWAP_32(v);
+   OPENSSL_memcpy(m, &v, sizeof(v));
+ }
+ 

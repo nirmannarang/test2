@@ -1,0 +1,11 @@
+--- /home/test/p224-64.c_old	2019-07-26 11:29:04.066094577 +0000
++++ src/crypto/fipsmodule/ec/p224-64.c	2019-07-26 11:29:32.828060852 +0000
+@@ -183,7 +183,7 @@
+ static uint64_t p224_load_u64(const uint8_t in[8]) {
+   uint64_t ret;
+   OPENSSL_memcpy(&ret, in, sizeof(ret));
+-  return ret;
++  return BSWAP_64(ret);
+ }
+ 
+ // Helper functions to convert field elements to/from internal representation
