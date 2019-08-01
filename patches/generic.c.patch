@@ -106,7 +106,7 @@
 +    BN_ULONG tmp = BSWAP_ULONG(a);     \
 +    BN_UMULT_LOHI(rr0, rr1, tmp, tmp); \
 +    (r0) = BSWAP_ULONG(rr0);           \
-+    (r1) = BSWAP_ULONG(rr1);           \    
++    (r1) = BSWAP_ULONG(rr1);           \
    } while (0)
  
  #endif  // !BN_ULLONG
