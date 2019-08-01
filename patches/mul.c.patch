@@ -168,7 +168,7 @@
 -    BN_ULONG old = r[i];
 -    r[i] = old + c;
 -    c = r[i] < old;
-+    BN_ULONG old = BN_ULONG old = BSWAP_ULONG(r[i]);
++    BN_ULONG old = BSWAP_ULONG(r[i]);
 +    r[i] = BSWAP_ULONG(old + c);
 +    c = BSWAP_ULONG(r[i]) < old;
    }
