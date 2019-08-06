@@ -1,0 +1,194 @@
+[ RUN      ] DigestTest.TestVectors
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "cb00753f45a35e8bb5a03d699ac65007272c32ab0eded1631a8b605a43ff5bed8086072ba1e7cc2358baeca134c825a7"
+  digest_hex
+    Which is: "f1e5c021eb68010587dbf033809ad2cc483b780d2be5ee7fe1dec712f2ecbd07f56b95d80675291e2d5a55d06e5215c1"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 23
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "cb00753f45a35e8bb5a03d699ac65007272c32ab0eded1631a8b605a43ff5bed8086072ba1e7cc2358baeca134c825a7"
+  digest_hex
+    Which is: "f1e5c021eb68010587dbf033809ad2cc483b780d2be5ee7fe1dec712f2ecbd07f56b95d80675291e2d5a55d06e5215c1"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 23
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "cb00753f45a35e8bb5a03d699ac65007272c32ab0eded1631a8b605a43ff5bed8086072ba1e7cc2358baeca134c825a7"
+  digest_hex
+    Which is: "f1e5c021eb68010587dbf033809ad2cc483b780d2be5ee7fe1dec712f2ecbd07f56b95d80675291e2d5a55d06e5215c1"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 23
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "cb00753f45a35e8bb5a03d699ac65007272c32ab0eded1631a8b605a43ff5bed8086072ba1e7cc2358baeca134c825a7"
+  digest_hex
+    Which is: "f1e5c021eb68010587dbf033809ad2cc483b780d2be5ee7fe1dec712f2ecbd07f56b95d80675291e2d5a55d06e5215c1"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 23
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "cb00753f45a35e8bb5a03d699ac65007272c32ab0eded1631a8b605a43ff5bed8086072ba1e7cc2358baeca134c825a7"
+  digest_hex
+    Which is: "f1e5c021eb68010587dbf033809ad2cc483b780d2be5ee7fe1dec712f2ecbd07f56b95d80675291e2d5a55d06e5215c1"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 23
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "cb00753f45a35e8bb5a03d699ac65007272c32ab0eded1631a8b605a43ff5bed8086072ba1e7cc2358baeca134c825a7"
+  digest_hex
+    Which is: "f1e5c021eb68010587dbf033809ad2cc483b780d2be5ee7fe1dec712f2ecbd07f56b95d80675291e2d5a55d06e5215c1"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 23
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "09330c33f71147e83d192fc782cd1b4753111b173b3b05d22fa08086e3b0f712fcc7c71a557e2db966c3e9fa91746039"
+  digest_hex
+    Which is: "5f360a2b847fbe5a347e7cecae776d17ee3e82487dfa8aff56f3c311236bbf1372b0a504fa59a837aeb0bde97ae3412d"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 24
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "09330c33f71147e83d192fc782cd1b4753111b173b3b05d22fa08086e3b0f712fcc7c71a557e2db966c3e9fa91746039"
+  digest_hex
+    Which is: "5f360a2b847fbe5a347e7cecae776d17ee3e82487dfa8aff56f3c311236bbf1372b0a504fa59a837aeb0bde97ae3412d"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 24
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "09330c33f71147e83d192fc782cd1b4753111b173b3b05d22fa08086e3b0f712fcc7c71a557e2db966c3e9fa91746039"
+  digest_hex
+    Which is: "5f360a2b847fbe5a347e7cecae776d17ee3e82487dfa8aff56f3c311236bbf1372b0a504fa59a837aeb0bde97ae3412d"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 24
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "09330c33f71147e83d192fc782cd1b4753111b173b3b05d22fa08086e3b0f712fcc7c71a557e2db966c3e9fa91746039"
+  digest_hex
+    Which is: "5f360a2b847fbe5a347e7cecae776d17ee3e82487dfa8aff56f3c311236bbf1372b0a504fa59a837aeb0bde97ae3412d"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 24
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "09330c33f71147e83d192fc782cd1b4753111b173b3b05d22fa08086e3b0f712fcc7c71a557e2db966c3e9fa91746039"
+  digest_hex
+    Which is: "5f360a2b847fbe5a347e7cecae776d17ee3e82487dfa8aff56f3c311236bbf1372b0a504fa59a837aeb0bde97ae3412d"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 24
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "09330c33f71147e83d192fc782cd1b4753111b173b3b05d22fa08086e3b0f712fcc7c71a557e2db966c3e9fa91746039"
+  digest_hex
+    Which is: "5f360a2b847fbe5a347e7cecae776d17ee3e82487dfa8aff56f3c311236bbf1372b0a504fa59a837aeb0bde97ae3412d"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 24
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f"
+  digest_hex
+    Which is: "b5d80451e2f1d2a28b137f3cd4c324e48ca5dd0a0a317e36e8b1d23ccdc5e78e710d2fa39bbca33d3ec081e2452ad3a185fd9f419b706166a8018698f607e714"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 25
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f"
+  digest_hex
+    Which is: "b5d80451e2f1d2a28b137f3cd4c324e48ca5dd0a0a317e36e8b1d23ccdc5e78e710d2fa39bbca33d3ec081e2452ad3a185fd9f419b706166a8018698f607e714"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 25
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f"
+  digest_hex
+    Which is: "b5d80451e2f1d2a28b137f3cd4c324e48ca5dd0a0a317e36e8b1d23ccdc5e78e710d2fa39bbca33d3ec081e2452ad3a185fd9f419b706166a8018698f607e714"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 25
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f"
+  digest_hex
+    Which is: "b5d80451e2f1d2a28b137f3cd4c324e48ca5dd0a0a317e36e8b1d23ccdc5e78e710d2fa39bbca33d3ec081e2452ad3a185fd9f419b706166a8018698f607e714"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 25
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f"
+  digest_hex
+    Which is: "b5d80451e2f1d2a28b137f3cd4c324e48ca5dd0a0a317e36e8b1d23ccdc5e78e710d2fa39bbca33d3ec081e2452ad3a185fd9f419b706166a8018698f607e714"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 25
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f"
+  digest_hex
+    Which is: "b5d80451e2f1d2a28b137f3cd4c324e48ca5dd0a0a317e36e8b1d23ccdc5e78e710d2fa39bbca33d3ec081e2452ad3a185fd9f419b706166a8018698f607e714"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 25
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "8e959b75dae313da8cf4f72814fc143f8f7779c6eb9f7fa17299aeadb6889018501d289e4900f7e4331b99dec4b5433ac7d329eeb6dd26545e96e55b874be909"
+  digest_hex
+    Which is: "623b89dfbeb1b490b0eb3e0ac0c4bcfc922255ee1a3f331a8943f3d823b8edee105166310d4e7f9227dec5a56b313505c7263e2c4688ff09a5a7949aa1643691"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 26
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "8e959b75dae313da8cf4f72814fc143f8f7779c6eb9f7fa17299aeadb6889018501d289e4900f7e4331b99dec4b5433ac7d329eeb6dd26545e96e55b874be909"
+  digest_hex
+    Which is: "623b89dfbeb1b490b0eb3e0ac0c4bcfc922255ee1a3f331a8943f3d823b8edee105166310d4e7f9227dec5a56b313505c7263e2c4688ff09a5a7949aa1643691"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 26
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "8e959b75dae313da8cf4f72814fc143f8f7779c6eb9f7fa17299aeadb6889018501d289e4900f7e4331b99dec4b5433ac7d329eeb6dd26545e96e55b874be909"
+  digest_hex
+    Which is: "623b89dfbeb1b490b0eb3e0ac0c4bcfc922255ee1a3f331a8943f3d823b8edee105166310d4e7f9227dec5a56b313505c7263e2c4688ff09a5a7949aa1643691"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 26
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "8e959b75dae313da8cf4f72814fc143f8f7779c6eb9f7fa17299aeadb6889018501d289e4900f7e4331b99dec4b5433ac7d329eeb6dd26545e96e55b874be909"
+  digest_hex
+    Which is: "623b89dfbeb1b490b0eb3e0ac0c4bcfc922255ee1a3f331a8943f3d823b8edee105166310d4e7f9227dec5a56b313505c7263e2c4688ff09a5a7949aa1643691"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 26
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "8e959b75dae313da8cf4f72814fc143f8f7779c6eb9f7fa17299aeadb6889018501d289e4900f7e4331b99dec4b5433ac7d329eeb6dd26545e96e55b874be909"
+  digest_hex
+    Which is: "623b89dfbeb1b490b0eb3e0ac0c4bcfc922255ee1a3f331a8943f3d823b8edee105166310d4e7f9227dec5a56b313505c7263e2c4688ff09a5a7949aa1643691"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 26
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:159: Failure
+Expected equality of these values:
+  test->expected_hex
+    Which is: "8e959b75dae313da8cf4f72814fc143f8f7779c6eb9f7fa17299aeadb6889018501d289e4900f7e4331b99dec4b5433ac7d329eeb6dd26545e96e55b874be909"
+  digest_hex
+    Which is: "623b89dfbeb1b490b0eb3e0ac0c4bcfc922255ee1a3f331a8943f3d823b8edee105166310d4e7f9227dec5a56b313505c7263e2c4688ff09a5a7949aa1643691"
+Google Test trace:
+/BoringSSL/boringssl/crypto/digest_extra/digest_test.cc:235: 26
+[  FAILED  ] DigestTest.TestVectors (784 ms)

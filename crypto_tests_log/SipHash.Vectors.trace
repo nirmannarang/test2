@@ -1,0 +1,2163 @@
+[  FAILED  ] SipHash.Basic (0 ms)
+[ RUN      ] SipHash.Vectors
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: d68e5d75cc9b7001
+  Bytes(hash)
+    Which is: 9f06a76d8ae7ff05
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 3
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 0d5498c7ac43e817
+  Bytes(hash)
+    Which is: 9698cd8e2620362f
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 7
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 12aacc4383cd2bf4
+  Bytes(hash)
+    Which is: a94c8f359a6034d0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 11
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8991d4ea8df4144f
+  Bytes(hash)
+    Which is: 5f12329867deb530
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 15
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 687311d8ca3a46b7
+  Bytes(hash)
+    Which is: 38824fa193583e1c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 19
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f2bf97d586a59a14
+  Bytes(hash)
+    Which is: 5586f5ed0a52d560
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 23
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 53d6118438106da8
+  Bytes(hash)
+    Which is: acc2bf8eb5308b5b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 27
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: aad5122e42b5353e
+  Bytes(hash)
+    Which is: 2349992cbb601e73
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 31
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c32a708cc0c91b61
+  Bytes(hash)
+    Which is: c7a610c0743b7f8c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 35
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 061bce4d0448edcc
+  Bytes(hash)
+    Which is: 7f25736f962974ce
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 39
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7179585da9eeb2ba
+  Bytes(hash)
+    Which is: 3f3acf72be80cb20
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 43
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 120c58c805d25e98
+  Bytes(hash)
+    Which is: 4c8ee337c7103c0b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 47
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 5b914c1af8ee393f
+  Bytes(hash)
+    Which is: 3d5ca090c68d3a94
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 51
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 2a5d0a3d519504ce
+  Bytes(hash)
+    Which is: 8ee7682323bbf06b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 55
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a8d4e93ed914afb0
+  Bytes(hash)
+    Which is: 078b76ac3dc840e2
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 59
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: cd863a8d88af3a7e
+  Bytes(hash)
+    Which is: f5fc32c55915e9ff
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 63
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: e30b84aa7d036717
+  Bytes(hash)
+    Which is: 9e266efdc2b55efa
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 67
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f0208c19d183c9ef
+  Bytes(hash)
+    Which is: c4bb7312a7d39486
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 71
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 36d8018f28af185e
+  Bytes(hash)
+    Which is: 67dc4aa8a52069df
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 75
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: ae4485bf80f4e272
+  Bytes(hash)
+    Which is: 35d6199bb8b26627
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 79
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f44ed4d985d35ae2
+  Bytes(hash)
+    Which is: 8da47f7d2c8a24b9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 83
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: e6da776abe1d8bc0
+  Bytes(hash)
+    Which is: 8dab02709978b647
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 87
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 981c5df8978d7075
+  Bytes(hash)
+    Which is: 1364c8043fb9baac
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 91
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 999fa1ebb023a82b
+  Bytes(hash)
+    Which is: c8e50f39c0605ecb
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 95
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: e51754e78c301f12
+  Bytes(hash)
+    Which is: 9f46bd8f53a03217
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 99
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 48cb0e04660f1a43
+  Bytes(hash)
+    Which is: 7305e77b0e3dd8bb
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 103
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8e9b3caf376f5f97
+  Bytes(hash)
+    Which is: 2f05ddca521adcf1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 107
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 99d1e1846d103f39
+  Bytes(hash)
+    Which is: dd0547e80e8505e1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 111
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7d78c79a9ae62365
+  Bytes(hash)
+    Which is: 7ce492853fc22eb8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 115
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 6b86d881fb5499ba
+  Bytes(hash)
+    Which is: 5830bdb3f6cdbf80
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 119
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 41821bf8e9cce446
+  Bytes(hash)
+    Which is: cc29ae6a40051fa9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 123
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 0b069139f904db92
+  Bytes(hash)
+    Which is: 8959c817d89057b1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 127
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 4cbc4dcfd4769445
+  Bytes(hash)
+    Which is: ef44eb07b3dabf20
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 131
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7815347655412204
+  Bytes(hash)
+    Which is: 31c38d85506f95e2
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 135
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: e610c0739cca942a
+  Bytes(hash)
+    Which is: 83ac7417ef2f78cc
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 139
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8130fd7c7a14ba92
+  Bytes(hash)
+    Which is: 87bfacf3844aa239
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 143
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 3443b8172813b1c1
+  Bytes(hash)
+    Which is: 170b6b574e480859
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 147
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a43c024d9888b229
+  Bytes(hash)
+    Which is: 5d0f521bc4b1c1e1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 151
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: e395582817479572
+  Bytes(hash)
+    Which is: 2b72bb41af9f002a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 155
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 1056826111788084
+  Bytes(hash)
+    Which is: 6d67485ebe1e15ad
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 159
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 617d61ac423b0266
+  Bytes(hash)
+    Which is: 390e3fe50119cac3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 163
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: cfa1f0fa28c2107c
+  Bytes(hash)
+    Which is: a58b6f3f1df212fb
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 167
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 655d0efc7290a4fb
+  Bytes(hash)
+    Which is: 30527d54ef667563
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 171
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f25e6df3ea7deddf
+  Bytes(hash)
+    Which is: e58617ceafeab62f
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 175
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f1790bea8bcfd9df
+  Bytes(hash)
+    Which is: 0037588ae129b9e4
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 179
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: d08fb201648db58b
+  Bytes(hash)
+    Which is: 236763204e7ce6be
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 183
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 219f894bdc95c1fd
+  Bytes(hash)
+    Which is: bb3bd93cf471803a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 187
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8f6e925fbaa7713f
+  Bytes(hash)
+    Which is: 823931f402c9d3ae
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 191
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: de779b521eec7f90
+  Bytes(hash)
+    Which is: 050afb47067c73d4
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 195
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a2b54e6265ed4499
+  Bytes(hash)
+    Which is: 7c0fb55d3f5e8363
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 199
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 16ac412bd198d7e4
+  Bytes(hash)
+    Which is: 78ab42112974448c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 203
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7f0eb28a94399d03
+  Bytes(hash)
+    Which is: 7fa74c95642f9644
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 207
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 49f263d38685ff94
+  Bytes(hash)
+    Which is: 708bebc79de07dc6
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 211
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8a9eb64c9eb3eb37
+  Bytes(hash)
+    Which is: e9d43d98f790f1e9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 215
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: fe22afc497a8b713
+  Bytes(hash)
+    Which is: 689de641675e6b3c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 219
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 3deb2577ca8d14d7
+  Bytes(hash)
+    Which is: 30ff83beb6a4eb30
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 223
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c4640ff6b3de40bf
+  Bytes(hash)
+    Which is: 987b4b16546765bc
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 227
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 6af055182ddf54f0
+  Bytes(hash)
+    Which is: ed3e957005bf498a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 231
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c8f520985d20861a
+  Bytes(hash)
+    Which is: b5e479243d036ead
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 235
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 1e2281f645b9419a
+  Bytes(hash)
+    Which is: 7ce56ef8daac6676
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 239
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 077abe896d7c1915
+  Bytes(hash)
+    Which is: 3e5ab339d1f90e72
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 243
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c0120e0ff9245d30
+  Bytes(hash)
+    Which is: 0821d1f9e241ca1d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 247
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: b5da40c99f118cb5
+  Bytes(hash)
+    Which is: 0a5fe889f9475d8e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 251
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: ab2820274148e85a
+  Bytes(hash)
+    Which is: a2c05353cb689240
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 255
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8c3c0a5857937506
+  Bytes(hash)
+    Which is: f64a0fe86b7dffa1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 259
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: fd2086e93e51d4da
+  Bytes(hash)
+    Which is: 2ceb3eded2754829
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 263
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 06c65b69fdc561b6
+  Bytes(hash)
+    Which is: 8fc78a2ca1ba1f7f
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 267
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 557455e8c4df7d54
+  Bytes(hash)
+    Which is: 36ea4accc3181075
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 271
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 92018d237a873914
+  Bytes(hash)
+    Which is: 7a1a36cfdd778b12
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 275
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 2b982b72264e202f
+  Bytes(hash)
+    Which is: e144d10851a7e0da
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 279
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 5cb5beaee71335ad
+  Bytes(hash)
+    Which is: 4a935a091f380fbe
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 283
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 73d7f7cfa2424f32
+  Bytes(hash)
+    Which is: f2df3a49621a40ad
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 287
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 0ce669aa22fd24c6
+  Bytes(hash)
+    Which is: f187bacabe914603
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 291
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 75e6f5e6167776e9
+  Bytes(hash)
+    Which is: a9a8c0bc50104e8d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 295
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 386732c3439d7948
+  Bytes(hash)
+    Which is: 4fc2a87b168477a8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 299
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f97c45f9bc5e0b6f
+  Bytes(hash)
+    Which is: c1cc6da484446857
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 303
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 4109e6472d37a3d1
+  Bytes(hash)
+    Which is: f9d37ca5a7750584
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 307
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c58e65d0588db0b4
+  Bytes(hash)
+    Which is: 965ba9830abddee5
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 311
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8cf01b4f005b1bf5
+  Bytes(hash)
+    Which is: 4841b9dd5502f605
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 315
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 483924d6e7614d87
+  Bytes(hash)
+    Which is: d21db84542deb383
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 319
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 346b21a26b88eb40
+  Bytes(hash)
+    Which is: 0c4d09f8827c0c37
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 323
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 6346e970607bc1ea
+  Bytes(hash)
+    Which is: 7c47369a6d8387ff
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 327
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7d6ec94a543e46a3
+  Bytes(hash)
+    Which is: 2ba3e3082bdd312b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 331
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a87272d7fa5685e2
+  Bytes(hash)
+    Which is: d14da7a2dc3b015c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 335
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8065253fe81d0d05
+  Bytes(hash)
+    Which is: 2f7cb69c5e4f942d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 339
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 933203332557ba2d
+  Bytes(hash)
+    Which is: d3a5fe4ac656bef1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 343
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 6e7b7732456cebe5
+  Bytes(hash)
+    Which is: 57a4daa6abfb5a2d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 347
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 3244b9450d89c3f6
+  Bytes(hash)
+    Which is: fc353ccf54b8c294
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 351
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 0e68323b524ee48e
+  Bytes(hash)
+    Which is: 47108a5f3f664b98
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 355
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 62cef2def34c78da
+  Bytes(hash)
+    Which is: 6afdff80d074b585
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 359
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: b40bc4c5782f05d1
+  Bytes(hash)
+    Which is: 8f89c9b9a3b9bf62
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 363
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: dd49c9e5551e9be7
+  Bytes(hash)
+    Which is: 86f09b1edb5f7934
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 367
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c7f1b587aa417580
+  Bytes(hash)
+    Which is: 64e098ae04f9e06b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 371
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f737654020261955
+  Bytes(hash)
+    Which is: 746b10b00aafaf2c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 375
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: aef47d58b080f8ec
+  Bytes(hash)
+    Which is: 1899998766305ccb
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 379
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a28a9906a886db41
+  Bytes(hash)
+    Which is: 208be5482e6ebba2
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 383
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c3e61fba64e0a001
+  Bytes(hash)
+    Which is: e46838d2cbfe6c33
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 387
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c21862bb0e5a2c90
+  Bytes(hash)
+    Which is: 433657c53e5fa081
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 391
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: d0449d8cb09d81de
+  Bytes(hash)
+    Which is: 25272780593c358a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 395
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 82019abe390470c8
+  Bytes(hash)
+    Which is: e995824b960f3012
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 399
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: d0925f65a0509d84
+  Bytes(hash)
+    Which is: 7a6d533f1d13f598
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 403
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 963f833c06668623
+  Bytes(hash)
+    Which is: 05eeed619f335b0b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 407
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7f69b5bfb3bb5422
+  Bytes(hash)
+    Which is: 3b54dfef0537f65a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 411
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 5106e980f981e2cf
+  Bytes(hash)
+    Which is: 0880d53fcd40525d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 415
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 539f58888f69b926
+  Bytes(hash)
+    Which is: 758c1f2f92b68e49
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 419
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 2b026e31d0873953
+  Bytes(hash)
+    Which is: 2275a762396e6942
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 423
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 70200ba6520690de
+  Bytes(hash)
+    Which is: 53b8f6e69f5a89d7
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 427
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: bda3e3b6410694c4
+  Bytes(hash)
+    Which is: 8aedf4fc510a8fe7
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 431
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 640f4f26b47bdb0f
+  Bytes(hash)
+    Which is: 4d85e666f836edcd
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 435
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 26175a79dbf6b3bc
+  Bytes(hash)
+    Which is: 885116def6316c20
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 439
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7185be50f920592d
+  Bytes(hash)
+    Which is: fd965ec9c1ef4449
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 443
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: d32649674e095753
+  Bytes(hash)
+    Which is: e92615340f232b12
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 447
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c9eb88ffb6497191
+  Bytes(hash)
+    Which is: 9d6ee722d9af0ac1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 451
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c63785ec28770cfb
+  Bytes(hash)
+    Which is: 7d6d8be4026abd19
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 455
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: ea12c6ceb993487c
+  Bytes(hash)
+    Which is: c9cd54ada0139758
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 459
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7a214a6c3e75de1e
+  Bytes(hash)
+    Which is: 219b0dfe6c21ff2a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 463
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: dcef46842feaff82
+  Bytes(hash)
+    Which is: b31faaa12c80d2b3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 467
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: d32dcb45a04693f7
+  Bytes(hash)
+    Which is: 3e9be4b24cd3f47f
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 471
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 64cbfe6545ca0c93
+  Bytes(hash)
+    Which is: a0b3afbcb9412ad0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 475
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 5d0fcc604dada903
+  Bytes(hash)
+    Which is: 285affa883d1597e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 479
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 97e2a4a832f03ffc
+  Bytes(hash)
+    Which is: 5aae64a7fcaf3072
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 483
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 06a26be764c1a150
+  Bytes(hash)
+    Which is: 339b0843b05f2652
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 487
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 6fb67e284737275b
+  Bytes(hash)
+    Which is: 254a78254aa531f7
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 491
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 42f1677c3776c3fa
+  Bytes(hash)
+    Which is: e5d2f7f9315945d9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 495
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 3bbab313adb949d9
+  Bytes(hash)
+    Which is: 7c416c3bb889ff8b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 499
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 26eeee8e513cf0e8
+  Bytes(hash)
+    Which is: 21cb18940175042b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 503
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a278e31879d54f96
+  Bytes(hash)
+    Which is: 843747a123971b2c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 507
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 1f81a9c706a32e88
+  Bytes(hash)
+    Which is: 65fb43b58c02946d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 511
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c0201310103f82ac
+  Bytes(hash)
+    Which is: 256afb4a3c5c11bc
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 515
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: e4a2af10ff295ce8
+  Bytes(hash)
+    Which is: 6bc58dc448c8bfec
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 519
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 12686d65b95e6ba0
+  Bytes(hash)
+    Which is: 56771e9dec77ba8a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 523
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 326186dd32d1e2f4
+  Bytes(hash)
+    Which is: 3e3d191e902ffbfe
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 527
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 5685b355824fa05f
+  Bytes(hash)
+    Which is: bf8fdf47f81bbb66
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 531
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 0b133fc572e8431b
+  Bytes(hash)
+    Which is: d8ef7ea4f58a0dc7
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 535
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 9509080f13a4aed7
+  Bytes(hash)
+    Which is: 2fd51c80624ffa26
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 539
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 16fa6b130ba2713d
+  Bytes(hash)
+    Which is: faecf6c8febda350
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 543
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8239ae0e5f8da065
+  Bytes(hash)
+    Which is: fadfb08f99d573ed
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 547
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8517fc271dc5ca5a
+  Bytes(hash)
+    Which is: 0034c746323cf711
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 551
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 004687fb7439b13a
+  Bytes(hash)
+    Which is: 89daef38d2d0b92b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 555
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 22ba4d8cbb761139
+  Bytes(hash)
+    Which is: 5ae9f9dc3920c206
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 559
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a6be577db70d16e3
+  Bytes(hash)
+    Which is: 4bc688bb42425151
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 563
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a29ee997703c56ce
+  Bytes(hash)
+    Which is: 1d70036369da4147
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 567
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 5dd1038ec39b0997
+  Bytes(hash)
+    Which is: 92b8f8135b61c24e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 571
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: b98e638e4974abb8
+  Bytes(hash)
+    Which is: 5236a88232eb5ab1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 575
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 121876d4d5a5ed7a
+  Bytes(hash)
+    Which is: 2da3b7beed2821f4
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 579
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: e16e414880a8af85
+  Bytes(hash)
+    Which is: 838d68d92d6af47e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 583
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a729af3dd1a52568
+  Bytes(hash)
+    Which is: 4cbc3c663ef52c50
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 587
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c10afe2aae09342a
+  Bytes(hash)
+    Which is: 832d6dbe4d2ec17e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 591
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: b32cd4778bedaa8f
+  Bytes(hash)
+    Which is: 342bc4c512c02b30
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 595
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: dce533b4a6bca59e
+  Bytes(hash)
+    Which is: 2fe22c1ba3676005
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 599
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 15418cd369d39fc7
+  Bytes(hash)
+    Which is: c0c1c1dd9b39ca84
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 603
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: e959e58c226e6c85
+  Bytes(hash)
+    Which is: 2333bacf5cfe1865
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 607
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 1d7649c5c89b793b
+  Bytes(hash)
+    Which is: 911924aacd551b6b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 611
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8dd7c0f07f93fc0d
+  Bytes(hash)
+    Which is: a3f506fe42dbdeea
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 615
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 0c845e05a3606e74
+  Bytes(hash)
+    Which is: 8ea572557b7fc5ee
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 619
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 1cf61fe4f97ddab8
+  Bytes(hash)
+    Which is: 832ec0dcece0b555
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 623
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 814ff1ea831d9e87
+  Bytes(hash)
+    Which is: b4f1eb30f213d07a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 627
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 178dfde57f5142e1
+  Bytes(hash)
+    Which is: 0931c8aab2db6545
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 631
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 205332abe2064a51
+  Bytes(hash)
+    Which is: 2a93ef0059f5c80c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 635
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 73b20df77c9a3f20
+  Bytes(hash)
+    Which is: 98be298ca4415fd8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 639
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 2b6a9647f8d19bad
+  Bytes(hash)
+    Which is: 562d46195b277315
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 643
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: dca899ea55d5d610
+  Bytes(hash)
+    Which is: c34b39849d9c589d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 647
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 869036f45aac159e
+  Bytes(hash)
+    Which is: cc4f9f646046b152
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 651
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 171ca2156a64a9a7
+  Bytes(hash)
+    Which is: 0811c1fd2047ada5
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 655
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8d0d35c655a8ee4d
+  Bytes(hash)
+    Which is: 23263a4fca4dc1cb
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 659
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 290bc47be04481c1
+  Bytes(hash)
+    Which is: 8221bf0da6c9d0d3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 663
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 2718132c057c02d6
+  Bytes(hash)
+    Which is: 4f1e74abfdb697da
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 667
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f4afd236705c7a71
+  Bytes(hash)
+    Which is: 457fb4e835a8fd94
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 671
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c97fd46b4a441a30
+  Bytes(hash)
+    Which is: 2b23830e90785de3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 675
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: aaf5730920499fa7
+  Bytes(hash)
+    Which is: 2e6f8d56bc4ffa70
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 679
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f9a0163f8ff147cb
+  Bytes(hash)
+    Which is: c15f435c7372dfda
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 683
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7042e84dad051d06
+  Bytes(hash)
+    Which is: 511dc81ec62424dc
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 687
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: aaa3a0ea29c2b30d
+  Bytes(hash)
+    Which is: 080bbaaddc2f3aca
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 691
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: fb9b45adf4410d5f
+  Bytes(hash)
+    Which is: 4ccdc25aec4ba25b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 695
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 50ce8746378dc900
+  Bytes(hash)
+    Which is: f1e25541eebd5ab8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 699
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 86001f09ba474d5e
+  Bytes(hash)
+    Which is: 9c32983911d68018
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 703
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: fc22f723087f192a
+  Bytes(hash)
+    Which is: cc54beb20f2d80b2
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 707
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7c8f96d602b2f583
+  Bytes(hash)
+    Which is: fd468e0f40f32894
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 711
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 65cef99fb4972f1b
+  Bytes(hash)
+    Which is: 8285187584947455
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 715
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: dc742ce038396dc2
+  Bytes(hash)
+    Which is: a9a18028cc49d5b3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 719
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 02cc0f40621383c1
+  Bytes(hash)
+    Which is: ec16a5874532d913
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 723
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a7400c669eebb8ec
+  Bytes(hash)
+    Which is: 99f7786350012739
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 727
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f506218a23bd47f3
+  Bytes(hash)
+    Which is: 2b5795dc26423d82
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 731
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 450ff6ab80e1ed8b
+  Bytes(hash)
+    Which is: 9ec5a9511a23ab04
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 735
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 81b2be67dda17a8c
+  Bytes(hash)
+    Which is: cb7dba8ab55e0d82
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 739
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 4318c124b20b765f
+  Bytes(hash)
+    Which is: 6a8a679785440307
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 743
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f4815277b30c87e7
+  Bytes(hash)
+    Which is: 27984128c2833ea8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 747
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: be335c906dafb993
+  Bytes(hash)
+    Which is: 80b732324609fca0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 751
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 77518569654c7f5b
+  Bytes(hash)
+    Which is: 11cefb921f4e2a54
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 755
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 04699a66163e7ad5
+  Bytes(hash)
+    Which is: 851108e3cffeaa47
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 759
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 23333f8cc255273f
+  Bytes(hash)
+    Which is: 4ad30b7af37ee5d1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 763
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 1468b8536c3aee63
+  Bytes(hash)
+    Which is: 7d1899d71fc9ed14
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 767
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: aceda7e091fae1c1
+  Bytes(hash)
+    Which is: 1c2be2a14e15d1f6
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 771
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 4afe4312295d09f7
+  Bytes(hash)
+    Which is: 3c0f1863d7a2d4e9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 775
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 6226e42a80e70a94
+  Bytes(hash)
+    Which is: 2fb62b186e731663
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 779
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 1788d9b1956f2a57
+  Bytes(hash)
+    Which is: a8a18ad22ad98ef9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 783
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a17819fcd2d477ce
+  Bytes(hash)
+    Which is: c85bdf13c1da265f
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 787
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c5dc3be62c1a5407
+  Bytes(hash)
+    Which is: 0fc0dd702f54bf34
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 791
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f6d6ecd7af29a36c
+  Bytes(hash)
+    Which is: ea1b7e5156f09163
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 795
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: cf990af132025853
+  Bytes(hash)
+    Which is: d45c3f2164c5034e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 799
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 45ac1c1dbf321cfb
+  Bytes(hash)
+    Which is: cab01455abaff8c4
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 803
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: fde8ffc608bab2ad
+  Bytes(hash)
+    Which is: 57b4c25b6cd917ed
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 807
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 5b7afa6139401706
+  Bytes(hash)
+    Which is: 3b2294558b1e0353
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 811
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: e7295bc3c8a670d1
+  Bytes(hash)
+    Which is: e867bebdc0e185f7
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 815
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 8f91d0c1827b9db1
+  Bytes(hash)
+    Which is: 6f9ce421d15fac38
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 819
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: fb6a00c14ac48855
+  Bytes(hash)
+    Which is: be78e88292bdb465
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 823
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: dadb943eeb9c9dad
+  Bytes(hash)
+    Which is: de3a48d266533d5e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 827
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 737790251a618f75
+  Bytes(hash)
+    Which is: dbbfc5d600229e64
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 831
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: fc483f7e234f64d5
+  Bytes(hash)
+    Which is: e5d08edf17eab577
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 835
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: ea2343c49fdc64d8
+  Bytes(hash)
+    Which is: 6bb82b5bc56b8451
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 839
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 53304b5207d081e9
+  Bytes(hash)
+    Which is: 51a33c222edcb979
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 843
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 052cca40abd031fd
+  Bytes(hash)
+    Which is: 09e933b789e7ecc3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 847
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: adca24143f886db6
+  Bytes(hash)
+    Which is: 19ac849b2fdf3f69
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 851
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 69dd512e4063f266
+  Bytes(hash)
+    Which is: 388b701724a52e01
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 855
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: eea9cce55f608c4c
+  Bytes(hash)
+    Which is: 54e52ffe0cc75930
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 859
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 2567e898b6c7b50a
+  Bytes(hash)
+    Which is: 13b535675c3671c7
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 863
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7e02d2b377d15168
+  Bytes(hash)
+    Which is: 9edbfd9a1509e0af
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 867
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 54218d105dc28604
+  Bytes(hash)
+    Which is: c8f99a471202a47e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 871
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: b5e6f262e503dd4a
+  Bytes(hash)
+    Which is: a0f82e3e201341f3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 875
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: b0ae547d3b6564a9
+  Bytes(hash)
+    Which is: d6b14df3cf4c7f49
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 879
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c10c0455b2a1dbf3
+  Bytes(hash)
+    Which is: 2eaf85ca296e71f6
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 883
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 3ea943c0fe093f77
+  Bytes(hash)
+    Which is: f1cfda7a4f7e71ea
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 887
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a41200f55b9db42d
+  Bytes(hash)
+    Which is: 0c6d32d8384d66ad
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 891
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 954b4a098cce80bc
+  Bytes(hash)
+    Which is: 5df3435199d3acf9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 895
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f1c330b399dfb9d2
+  Bytes(hash)
+    Which is: 009604731001be85
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 899
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 02358c6b995694a1
+  Bytes(hash)
+    Which is: eaa52c9d937058bc
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 903
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 1b447f7afba983d8
+  Bytes(hash)
+    Which is: aeb231e3d8dc7929
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 907
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c346a3997c339c8a
+  Bytes(hash)
+    Which is: a252d05a57be030a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 911
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 6255cf8579ba1920
+  Bytes(hash)
+    Which is: d2c20d0e5079c609
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 915
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: b6ea27a9b61f78cd
+  Bytes(hash)
+    Which is: e9bb0be3d8c71cdc
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 919
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 90613525b9b7bb92
+  Bytes(hash)
+    Which is: 9b41935860e05a2a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 923
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 1b5be4254502122d
+  Bytes(hash)
+    Which is: 65913fb8e4f1ef6b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 927
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 96d5425bb379b1c3
+  Bytes(hash)
+    Which is: b199822f1811ec96
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 931
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 17dbfc9ec5636aee
+  Bytes(hash)
+    Which is: e974a29e63624bfd
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 935
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 223b5d3a66e67386
+  Bytes(hash)
+    Which is: 173022c25c47bbcc
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 939
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: d42de7d04f89fff2
+  Bytes(hash)
+    Which is: e91f147c8967bfff
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 943
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 400e72431b9f44a7
+  Bytes(hash)
+    Which is: 6e651cdf9607d1b2
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 947
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: b7183e1e65688c73
+  Bytes(hash)
+    Which is: 79cafc4c1f36d921
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 951
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 71b751e325557531
+  Bytes(hash)
+    Which is: f6a64307c9821557
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 955
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 30159556daca9b18
+  Bytes(hash)
+    Which is: 761ba884dec4ac03
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 959
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 18ec58e0e36c9ad6
+  Bytes(hash)
+    Which is: 302751549cc2415e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 963
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: fa385cf219f1d653
+  Bytes(hash)
+    Which is: 2583827c53bdf070
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 967
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 3313bd2cba5e775e
+  Bytes(hash)
+    Which is: 023f403d40ddc4d3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 971
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 29b015b44e617fe9
+  Bytes(hash)
+    Which is: 2da234639b4f5b51
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 975
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: fc5c0ce2b2789f71
+  Bytes(hash)
+    Which is: 525c8c3503737a42
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 979
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 59b5a979b7150aa2
+  Bytes(hash)
+    Which is: ee54e3909a0b371c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 983
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 763b3a7ddff79652
+  Bytes(hash)
+    Which is: f803371f2f4d3277
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 987
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: faa46811d1500a21
+  Bytes(hash)
+    Which is: 7e9bce366d20bea8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 991
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 619ad6f3dd53bca2
+  Bytes(hash)
+    Which is: 03b55be4e5f448ad
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 995
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 1f29f5af477f6f09
+  Bytes(hash)
+    Which is: 135f12ed177a486f
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 999
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: ec31d4ed4087ffb5
+  Bytes(hash)
+    Which is: ee2d28c3ea0b7ce5
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1003
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a4c2b65058741136
+  Bytes(hash)
+    Which is: b5fcdecae4d9f22f
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1007
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 22028a2edf01ce55
+  Bytes(hash)
+    Which is: b18e5bc73472b149
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1011
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 37c54994e72f2da1
+  Bytes(hash)
+    Which is: 33e708ecdb29ab35
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1015
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f1e684a508b74f91
+  Bytes(hash)
+    Which is: 0af2dc6739b90eb2
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1019
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 14cdd19219cbe71b
+  Bytes(hash)
+    Which is: d10db578e9b44fc3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1023
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: a6d6ce0c244879c8
+  Bytes(hash)
+    Which is: 1b460b968867e42d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1027
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 4381cf78872bd268
+  Bytes(hash)
+    Which is: 2529cebc7a6002d2
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1031
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: bd2ad8f2bff80683
+  Bytes(hash)
+    Which is: c4746b2d19941e56
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1035
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: c393c232c864e177
+  Bytes(hash)
+    Which is: b24f340cc0fb1d2d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1039
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 03fd88c823df4e46
+  Bytes(hash)
+    Which is: 36bd2cce6ed21122
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1043
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 03b12a442d5df8f3
+  Bytes(hash)
+    Which is: f6624d4d13833699
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1047
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 57133a7f08ae0798
+  Bytes(hash)
+    Which is: 00ab496891593584
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1051
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 7c3d7282acfc4e25
+  Bytes(hash)
+    Which is: 792ff12185fc3326
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1055
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: ddbe5b31978cdf57
+  Bytes(hash)
+    Which is: e428c0fa3cf4f1cf
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1059
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: f6086a63893196a5
+  Bytes(hash)
+    Which is: 1b44de49c45e9bc3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1063
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 3f77319be18106b4
+  Bytes(hash)
+    Which is: cd45d7070e5ecb55
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1067
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 1da6290372927c3b
+  Bytes(hash)
+    Which is: 079a62a92c61d7ad
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1071
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: 71d0ec1b6759550b
+  Bytes(hash)
+    Which is: fcda80db378102b4
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1075
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:57: Failure
+Expected equality of these values:
+  Bytes(reinterpret_cast<uint8_t *>(&result), sizeof(result))
+    Which is: ee6d7b0bc29d230c
+  Bytes(hash)
+    Which is: f8181640a08f1343
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/siphash/siphash_tests.txt, line 1079
+[  FAILED  ] SipHash.Vectors (15 ms)

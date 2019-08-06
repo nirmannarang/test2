@@ -1,0 +1,8 @@
+[ RUN      ] X509Test.TestEd25519
+/BoringSSL/boringssl/crypto/x509/x509_test.cc:1277: Failure
+Value of: X509_verify(cert.get(), pkey.get())
+  Actual: false
+Expected: true
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+2930202306120:error:0b000006:X.509 certificate routines:OPENSSL_internal:public key routines:/BoringSSL/boringssl/crypto/x509/a_verify.c:105:
+[  FAILED  ] X509Test.TestEd25519 (1 ms)

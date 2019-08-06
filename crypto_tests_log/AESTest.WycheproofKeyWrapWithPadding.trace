@@ -1,0 +1,467 @@
+[  FAILED  ] AESTest.TestVectors (0 ms)
+[ RUN      ] AESTest.WycheproofKeyWrap
+[       OK ] AESTest.WycheproofKeyWrap (5 ms)
+[ RUN      ] AESTest.WycheproofKeyWrapWithPadding
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 10
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 16
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 22
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 29
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 36
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 43
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 50
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 57
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 64
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 71
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 85
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 92
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 99
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 106
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 113
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 120
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 127
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 134
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 141
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 148
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 155
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 162
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 169
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 176
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 183
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 471
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 477
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 483
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 489
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 495
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 501
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 508
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 515
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 522
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 529
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 543
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 550
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 557
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 564
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 571
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 578
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 585
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 592
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 599
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 606
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 613
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 620
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 627
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 634
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 641
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 984
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 991
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 999
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1005
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1011
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1017
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1023
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1029
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1035
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1041
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1047
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1054
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1068
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1075
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1082
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1089
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1096
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1103
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1110
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1117
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1124
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1131
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1138
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1145
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1152
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1159
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:226: Failure
+Value of: AES_unwrap_key_padded(&aes, out.data(), &len, ct.size() - 8, ct.data(), ct.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/kwp_test.txt, line 1166
+[  FAILED  ] AESTest.WycheproofKeyWrapWithPadding (8 ms)

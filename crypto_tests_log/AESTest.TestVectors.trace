@@ -1,0 +1,30 @@
+[ RUN      ] AESTest.TestVectors
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:139: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 138bdeaa9b8fa7fc61f97742e72248ee5ae6ae5360d1ae6a5f54f373fa543b6a
+  Bytes(buf.get(), static_cast<size_t>(len))
+    Which is: 6b574a66821d0ba3fde98e7abdaf5ec7f4621a352db7f38a70da70594a004f45
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/aes/aes_tests.txt, line 55
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:146: Failure
+Value of: AES_unwrap_key_padded(&aes_key, buf.get(), &len, ciphertext.size() - 8, ciphertext.data(), ciphertext.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/aes/aes_tests.txt, line 55
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:139: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: afbeb0f07dfbf5419200f2ccb50bb24f
+  Bytes(buf.get(), static_cast<size_t>(len))
+    Which is: 0f694f1a597455ffce37c1759ee1d42c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/aes/aes_tests.txt, line 60
+/BoringSSL/boringssl/crypto/fipsmodule/aes/aes_test.cc:146: Failure
+Value of: AES_unwrap_key_padded(&aes_key, buf.get(), &len, ciphertext.size() - 8, ciphertext.data(), ciphertext.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/aes/aes_tests.txt, line 60
+[  FAILED  ] AESTest.TestVectors (0 ms)

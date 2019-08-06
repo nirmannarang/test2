@@ -1,0 +1,8 @@
+[ RUN      ] SipHash.Basic
+/BoringSSL/boringssl/crypto/siphash/siphash_test.cc:41: Failure
+Expected equality of these values:
+  0xa129ca6149be45e5UL
+    Which is: 11613035633349379557
+  SIPHASH_24(key.words, input, sizeof(input))
+    Which is: 12537755287837289648
+[  FAILED  ] SipHash.Basic (0 ms)

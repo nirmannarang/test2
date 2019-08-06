@@ -1,0 +1,11 @@
+[ RUN      ] SelfTests.KAT
+AES-GCM Encryption KAT failed.
+Expected: 4ad8e77d78d77d5eb211b6c9a4bcb2aebe93d1b7fe65c1822ab6715f1a7ce01b2be253faa047fad78fb14ac4dc89f9b4144dde95ea29697681a35c33d837d8fa4719462ff190b7618f6fdd313f6a640d
+Calculated: 0308617d25b067930d246fb8eb7d835cd89380d4fbf0a7c7c023e96157e9dd8abe37e6e1f7bf6803e6bc92988231fa839364340922b8f8bdd09de394875d5413a65cb64a4178f5e0c8a3dc284e5e365e
+EVP_AEAD_CTX_seal for AES-128-GCM failed.
+/BoringSSL/boringssl/crypto/self_test.cc:22: Failure
+Value of: BORINGSSL_self_test()
+  Actual: false
+Expected: true
+[  FAILED  ] SelfTests.KAT (0 ms)
+[----------] 1 test from SelfTests (0 ms total)

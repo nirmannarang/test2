@@ -1,0 +1,194 @@
+[ RUN      ] HMACTest.TestVectors
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:106: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 63c5daa5e651847ca897c95814ab830bededc7d25e83eef9195cd45857a37f448947858f5af50cc2b1b730ddf29671a9
+  Bytes(mac.get(), mac_len)
+    Which is: 8e463672dc1e22c966167377cdc2e9176f0cf9352b4e1552e72421d650e8138c32c33abab0acf36c20e9e70302598052
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 71
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:114: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 63c5daa5e651847ca897c95814ab830bededc7d25e83eef9195cd45857a37f448947858f5af50cc2b1b730ddf29671a9
+  Bytes(mac.get(), mac_len)
+    Which is: 8e463672dc1e22c966167377cdc2e9176f0cf9352b4e1552e72421d650e8138c32c33abab0acf36c20e9e70302598052
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 71
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:120: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 63c5daa5e651847ca897c95814ab830bededc7d25e83eef9195cd45857a37f448947858f5af50cc2b1b730ddf29671a9
+  Bytes(mac.get(), mac_len)
+    Which is: 8e463672dc1e22c966167377cdc2e9176f0cf9352b4e1552e72421d650e8138c32c33abab0acf36c20e9e70302598052
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 71
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:128: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 63c5daa5e651847ca897c95814ab830bededc7d25e83eef9195cd45857a37f448947858f5af50cc2b1b730ddf29671a9
+  Bytes(mac.get(), mac_len)
+    Which is: 8e463672dc1e22c966167377cdc2e9176f0cf9352b4e1552e72421d650e8138c32c33abab0acf36c20e9e70302598052
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 71
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:106: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 6eb242bdbb582ca17bebfa481b1e23211464d2b7f8c20b9ff2201637b93646af5ae9ac316e98db45d9cae773675eeed0
+  Bytes(mac.get(), mac_len)
+    Which is: fbd3bfa6277423dac3e12ebb030fcc97eeb2654cf8326bb48f9704822f0193bedb2a578c5dafbf66aaf53c914baccb26
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 76
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:114: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 6eb242bdbb582ca17bebfa481b1e23211464d2b7f8c20b9ff2201637b93646af5ae9ac316e98db45d9cae773675eeed0
+  Bytes(mac.get(), mac_len)
+    Which is: fbd3bfa6277423dac3e12ebb030fcc97eeb2654cf8326bb48f9704822f0193bedb2a578c5dafbf66aaf53c914baccb26
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 76
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:120: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 6eb242bdbb582ca17bebfa481b1e23211464d2b7f8c20b9ff2201637b93646af5ae9ac316e98db45d9cae773675eeed0
+  Bytes(mac.get(), mac_len)
+    Which is: fbd3bfa6277423dac3e12ebb030fcc97eeb2654cf8326bb48f9704822f0193bedb2a578c5dafbf66aaf53c914baccb26
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 76
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:128: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 6eb242bdbb582ca17bebfa481b1e23211464d2b7f8c20b9ff2201637b93646af5ae9ac316e98db45d9cae773675eeed0
+  Bytes(mac.get(), mac_len)
+    Which is: fbd3bfa6277423dac3e12ebb030fcc97eeb2654cf8326bb48f9704822f0193bedb2a578c5dafbf66aaf53c914baccb26
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 76
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:106: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 5b664436df69b0ca22551231a3f0a3d5b4f97991713cfa84bff4d0792eff96c27dccbbb6f79b65d548b40e8564cef594
+  Bytes(mac.get(), mac_len)
+    Which is: d9f386394a2e4a666bafb27bc239cd38381c18cdb9672c03a5e92c07df57ddccd97e2f710081ddbdfcb2d935fe2a7aef
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 81
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:114: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 5b664436df69b0ca22551231a3f0a3d5b4f97991713cfa84bff4d0792eff96c27dccbbb6f79b65d548b40e8564cef594
+  Bytes(mac.get(), mac_len)
+    Which is: d9f386394a2e4a666bafb27bc239cd38381c18cdb9672c03a5e92c07df57ddccd97e2f710081ddbdfcb2d935fe2a7aef
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 81
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:120: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 5b664436df69b0ca22551231a3f0a3d5b4f97991713cfa84bff4d0792eff96c27dccbbb6f79b65d548b40e8564cef594
+  Bytes(mac.get(), mac_len)
+    Which is: d9f386394a2e4a666bafb27bc239cd38381c18cdb9672c03a5e92c07df57ddccd97e2f710081ddbdfcb2d935fe2a7aef
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 81
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:128: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: 5b664436df69b0ca22551231a3f0a3d5b4f97991713cfa84bff4d0792eff96c27dccbbb6f79b65d548b40e8564cef594
+  Bytes(mac.get(), mac_len)
+    Which is: d9f386394a2e4a666bafb27bc239cd38381c18cdb9672c03a5e92c07df57ddccd97e2f710081ddbdfcb2d935fe2a7aef
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 81
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:106: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: fc25e240658ca785b7a811a8d3f7b4ca48cfa26a8a366bf2cd1f836b05fcb024bd36853081811d6cea4216ebad79da1cfcb95ea4586b8a0ce356596a55fb1347
+  Bytes(mac.get(), mac_len)
+    Which is: 218fb0abee8bb2453396a0955c71ce0513afc559afdc776f95f89f170d792236e7f69a34439ab8f4393956217e52d3a5cc2e24265000b05a76bc6048158d4315
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 86
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:114: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: fc25e240658ca785b7a811a8d3f7b4ca48cfa26a8a366bf2cd1f836b05fcb024bd36853081811d6cea4216ebad79da1cfcb95ea4586b8a0ce356596a55fb1347
+  Bytes(mac.get(), mac_len)
+    Which is: 218fb0abee8bb2453396a0955c71ce0513afc559afdc776f95f89f170d792236e7f69a34439ab8f4393956217e52d3a5cc2e24265000b05a76bc6048158d4315
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 86
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:120: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: fc25e240658ca785b7a811a8d3f7b4ca48cfa26a8a366bf2cd1f836b05fcb024bd36853081811d6cea4216ebad79da1cfcb95ea4586b8a0ce356596a55fb1347
+  Bytes(mac.get(), mac_len)
+    Which is: 218fb0abee8bb2453396a0955c71ce0513afc559afdc776f95f89f170d792236e7f69a34439ab8f4393956217e52d3a5cc2e24265000b05a76bc6048158d4315
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 86
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:128: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: fc25e240658ca785b7a811a8d3f7b4ca48cfa26a8a366bf2cd1f836b05fcb024bd36853081811d6cea4216ebad79da1cfcb95ea4586b8a0ce356596a55fb1347
+  Bytes(mac.get(), mac_len)
+    Which is: 218fb0abee8bb2453396a0955c71ce0513afc559afdc776f95f89f170d792236e7f69a34439ab8f4393956217e52d3a5cc2e24265000b05a76bc6048158d4315
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 86
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:106: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: fd44c18bda0bb0a6ce0e82b031bf2818f6539bd56ec00bdc10a8a2d730b3634de2545d639b0f2cf710d0692c72a1896f1f211c2b922d1a96c392e07e7ea9fedc
+  Bytes(mac.get(), mac_len)
+    Which is: 0249f3d07d19f5a41c8b223c02f4999f6d5ac4e3fd8596e5f9cbb4e75633efc05cc5b86694129e7e908eb4e3db5fc4cc26d3bbf0bacc31e7bb841cf2da2e585d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 91
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:114: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: fd44c18bda0bb0a6ce0e82b031bf2818f6539bd56ec00bdc10a8a2d730b3634de2545d639b0f2cf710d0692c72a1896f1f211c2b922d1a96c392e07e7ea9fedc
+  Bytes(mac.get(), mac_len)
+    Which is: 0249f3d07d19f5a41c8b223c02f4999f6d5ac4e3fd8596e5f9cbb4e75633efc05cc5b86694129e7e908eb4e3db5fc4cc26d3bbf0bacc31e7bb841cf2da2e585d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 91
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:120: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: fd44c18bda0bb0a6ce0e82b031bf2818f6539bd56ec00bdc10a8a2d730b3634de2545d639b0f2cf710d0692c72a1896f1f211c2b922d1a96c392e07e7ea9fedc
+  Bytes(mac.get(), mac_len)
+    Which is: 0249f3d07d19f5a41c8b223c02f4999f6d5ac4e3fd8596e5f9cbb4e75633efc05cc5b86694129e7e908eb4e3db5fc4cc26d3bbf0bacc31e7bb841cf2da2e585d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 91
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:128: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: fd44c18bda0bb0a6ce0e82b031bf2818f6539bd56ec00bdc10a8a2d730b3634de2545d639b0f2cf710d0692c72a1896f1f211c2b922d1a96c392e07e7ea9fedc
+  Bytes(mac.get(), mac_len)
+    Which is: 0249f3d07d19f5a41c8b223c02f4999f6d5ac4e3fd8596e5f9cbb4e75633efc05cc5b86694129e7e908eb4e3db5fc4cc26d3bbf0bacc31e7bb841cf2da2e585d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 91
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:106: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: d93ec8d2de1ad2a9957cb9b83f14e76ad6b5e0cce285079a127d3b14bccb7aa7286d4ac0d4ce64215f2bc9e6870b33d97438be4aaa20cda5c5a912b48b8e27f3
+  Bytes(mac.get(), mac_len)
+    Which is: fc4af649a8b29f1bdf3d561d934d215e6a906656809bd4146a6414b5af7b4a47a62e8449ba718998a67d4aa5cdac327b11ee3eb8c15de559772d3a67bb0a4c9a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 96
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:114: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: d93ec8d2de1ad2a9957cb9b83f14e76ad6b5e0cce285079a127d3b14bccb7aa7286d4ac0d4ce64215f2bc9e6870b33d97438be4aaa20cda5c5a912b48b8e27f3
+  Bytes(mac.get(), mac_len)
+    Which is: fc4af649a8b29f1bdf3d561d934d215e6a906656809bd4146a6414b5af7b4a47a62e8449ba718998a67d4aa5cdac327b11ee3eb8c15de559772d3a67bb0a4c9a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 96
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:120: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: d93ec8d2de1ad2a9957cb9b83f14e76ad6b5e0cce285079a127d3b14bccb7aa7286d4ac0d4ce64215f2bc9e6870b33d97438be4aaa20cda5c5a912b48b8e27f3
+  Bytes(mac.get(), mac_len)
+    Which is: fc4af649a8b29f1bdf3d561d934d215e6a906656809bd4146a6414b5af7b4a47a62e8449ba718998a67d4aa5cdac327b11ee3eb8c15de559772d3a67bb0a4c9a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 96
+/BoringSSL/boringssl/crypto/hmac_extra/hmac_test.cc:128: Failure
+Expected equality of these values:
+  Bytes(output)
+    Which is: d93ec8d2de1ad2a9957cb9b83f14e76ad6b5e0cce285079a127d3b14bccb7aa7286d4ac0d4ce64215f2bc9e6870b33d97438be4aaa20cda5c5a912b48b8e27f3
+  Bytes(mac.get(), mac_len)
+    Which is: fc4af649a8b29f1bdf3d561d934d215e6a906656809bd4146a6414b5af7b4a47a62e8449ba718998a67d4aa5cdac327b11ee3eb8c15de559772d3a67bb0a4c9a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/hmac_extra/hmac_tests.txt, line 96
+[  FAILED  ] HMACTest.TestVectors (2 ms)

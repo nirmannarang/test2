@@ -1,0 +1,1282 @@
+[ RUN      ] PerAEADTest.TestVector/AES_256_GCM_SIV
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: c2ef328e5c71c83b
+  Bytes(out.data(), ct.size())
+    Which is: 47f2413f1db99606
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 11
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 843122130f7364b761e0b97427e3df28
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: e94db46b56b9d1d378f54e2f6a160766
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 11
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 9aab2aeb3faa0a34aea8e2b1
+  Bytes(out.data(), ct.size())
+    Which is: a5b2cba5666dc30f0124a9cf
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 18
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 8ca50da9ae6559e48fd10f6e5c9ca17e
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: d51df6920685856578ecba5add75c084
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 18
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 85a01b63025ba19b7fd3ddfc033b3e76
+  Bytes(out.data(), ct.size())
+    Which is: 3d86c336e6b1637a4f895a33ff290ae3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 25
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: c9eac6fa700942702e90862383c6c366
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 2be922ad409f85be16dac0229960e9c0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 25
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 4a6a9db4c8c6549201b9edb53006cba821ec9cf850948a7c86c68ac7539d027f
+  Bytes(out.data(), ct.size())
+    Which is: 376f407f7e0d8ebe96bdfdfb6c52a25c249a7945f6150310a1cfa71d91b849f9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 32
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: e819e63abcd020b006a976397632eb5d
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 2fc00c8060ad158e8fed7e99fdb05186
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 32
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: c00d121893a9fa603f48ccc1ca3c57ce7499245ea0046db16c53c7c66fe717e39cf6c748837b61f6ee3adcee17534ed5
+  Bytes(out.data(), ct.size())
+    Which is: cf17b62e7e4fb9be8544b2a6db8d5d76c27a2065fe741dfa5c89fa5d9bcb7e1e49534ea8c830d4a75debd196267c193e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 39
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 790bc96880a99ba804bd12c0e6a22cc4
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 23c69e07e788972cdab705126c62f9f2
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 39
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: c2d5160a1f8683834910acdafc41fbb1632d4a353e8b905ec9a5499ac34f96c7e1049eb080883891a4db8caaa1f99dd004d80487540735234e3744512c6f90ce
+  Bytes(out.data(), ct.size())
+    Which is: 42d060c3c7f8d17bf06b9ea1a7509e17881377d9b0a5ba0d721fee1990347b21a5bbe177bcaa408c3c126fa6434f6d30f4eeff8e5cbab3ae860600a66be130a6
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 46
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 112864c269fc0d9d88c61fa47e39aa08
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 0a0ca6bdf40d31b725ef52d02af469b0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 46
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 1de22967237a8132
+  Bytes(out.data(), ct.size())
+    Which is: 5b1e74e6ef77fdf7
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 53
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 91213f267e3b452f02d01ae33e4ec854
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: dd952d8b52ccdd0b21690ca3a0b06484
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 53
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 163d6f9cc1b346cd453a2e4c
+  Bytes(out.data(), ct.size())
+    Which is: 46fd712adeaf16b5172f8cc9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 60
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: c1a4a19ae800941ccdc57cc8413c277f
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 0296e787e89839b34f8c1d41b031a787
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 60
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: c91545823cc24f17dbb0e9e807d5ec17
+  Bytes(out.data(), ct.size())
+    Which is: bd374d112b0f877c484ba3f7403af1df
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 67
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: b292d28ff61189e8e49f3875ef91aff7
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 09c72dc3bdb6a0faded8c38ec6b680a5
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 67
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 07dad364bfc2b9da89116d7bef6daaaf6f255510aa654f920ac81b94e8bad365
+  Bytes(out.data(), ct.size())
+    Which is: 293037417c965a12b5314961bc943a09f99680c6e5d8e497226597c38c9192b0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 74
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: aea1bad12702e1965604374aab96dbbc
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: bec95c136c7ee7a9a1091fc392e45bcd
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 74
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: c67a1f0f567a5198aa1fcc8e3f21314336f7f51ca8b1af61feac35a86416fa47fbca3b5f749cdf564527f2314f42fe25
+  Bytes(out.data(), ct.size())
+    Which is: 8318eeccc98d3c1a445157654974387279e13dcaa3f520dca4ef196ec5f9da761b51b93dcd5a33dce90dbdfac58c6f59
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 81
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 03332742b228c647173616cfd44c54eb
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: e6d7429275f1dc8ba3b482c418b47deb
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 81
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 67fd45e126bfb9a79930c43aad2d36967d3f0e4d217c1e551f59727870beefc98cb933a8fce9de887b1e40799988db1fc3f91880ed405b2dd298318858467c89
+  Bytes(out.data(), ct.size())
+    Which is: a8ef7f210c90d39725da873adaea7d0a3d92c6fa2f84c840907bc8e5f958e89f48e1210a88eba22e9893b2d27929f515a14174454358e31f123939bc5f459a08
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 88
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 5bde0285037c5de81e5b570a049b62a0
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: ad3b8058ab97eccf809074cd9774bf45
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 88
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 22b3f4cd
+  Bytes(out.data(), ct.size())
+    Which is: b1d31459
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 95
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 1835e517741dfddccfa07fa4661b74cf
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: af8ed1cf75efd4e54c59b32176443b77
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 95
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 43dd0163cdb48f9fe3212bf61b201976067f342b
+  Bytes(out.data(), ct.size())
+    Which is: fb5985fc4dd7d272a5ffafc3dc272670477d6cad
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 102
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: b879ad976d8242acc188ab59cabfe307
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 116134fc48cb5d97d2cf2389fbe7a215
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 102
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 462401724b5ce6588d5a54aae5375513a075
+  Bytes(out.data(), ct.size())
+    Which is: 7c6486ad791903cdabca6fc841c9b96682f0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 109
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: cfcdf5042112aa29685c912fc2056543
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: c2c8c4fd2e3d32f8b2d8acb5529c7629
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 109
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 9209cfae7372e0a3ec2e5d072d5e26b7b9
+  Bytes(out.data(), ct.size())
+    Which is: 30c2c8b407313ff5725eaa528a3106c688
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 125
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: f3acb73908e54cddf7be1864914e13cf
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 43f9d0f48fd12f1ca15aae5ce0852b1b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 125
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 8ad7deb4be91cdc4e75c77de1c746d816212b109c5a485c6cb79e3005d2e94355104
+  Bytes(out.data(), ct.size())
+    Which is: 4f442aed9245410b7702b989077045f8e449c063bdbe3dc7ec06f20390ee9a027b96
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 132
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: d71002b6a9de0addb173f49e34edab61
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 92148c3ae849e18e0aca428c0b41a375
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 132
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: ced477a00135f16006e100b9d7521f9e1bddbc7d339cc41333abe3cc79dd8e3a18e310dd1dd53ac664673ab9090d5dc07b4859
+  Bytes(out.data(), ct.size())
+    Which is: f39bf0e29aee7b30e52e4073054543e797d428255a7c9e12ef573c66690fd02b6bb5147573f7ac699d9209d4f7788c80d58b9d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 139
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: fdfb01ef873060efc7c3c32adf3b46cc
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 9a60cf9e9de01b359dd54adeed4b7869
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 139
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 01fcded8e89997d446236c8e3a77ba755b85b9b5ab8fa8f355be587a3954c4a4231a7c8c198b72525ce4304125a4dabd1574453437f6584790d8cd90d5957b0d5c804a6e
+  Bytes(out.data(), ct.size())
+    Which is: 3dcbdf4cc87acbb38c8855f5ffa228f68656804ce6a9b0100487890c327b7e3bf491aa74a1a2becd081077efed4f0f7298e332826b4cb188f7b3f80cfcf6f5db7bcfe485
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 146
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: ecb5e6b6e75d241c221a2f4dbd7d0448
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 3ecd54d2dfa361bf60a1c36db766e91b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 146
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: c49082d9a1bb49356f1a9b75b443832a56387066b617b939b60381db47711bfd174324e8d20c9713d562fb8f5c698dab02b5c00ecb652c182ac5544648599fd7fdd042009ed44961efd975972ae3c9aed8a4f58ddb
+  Bytes(out.data(), ct.size())
+    Which is: cb34ed7e708581b665ae7594581fd5ca0c616f3c803e8a018a21e88edf320579304dd5224151a7df2e2d55ca2a5e8ee0bc7d9bad4bb956d38505f2d4491ed341449d243ec0cb5c3e74f20f99dda1fb423e01a2e2b7
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 153
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 75639e5472bec58e96b358cbe429c4ac
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: a2852b13327f159f93258620fa521fdb
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 153
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 6841f9ffed11d165b18917ed0aeed507bfdbea3a57beac2f2e08625e9929d3f2d84373ac3b21813f7dde1b25c93129b541fc640e09f5233cd9f0587edad70b73c423011cccae55a9deff9f29308fbdfc9a73f5fff4a7b0ad308ca9b545223adcf724d3d8b127
+  Bytes(out.data(), ct.size())
+    Which is: 4851e07eafae22e87949fcadde89babba3f9eef37eac66f8aad43a1cda531112fdafe9cd9239bb7065ad3c90b67899b076f5b3fd58637c3ae75fd8452d243a3135e7064ef5c80d37eaeacd314e93087efec18de7a6080c9686d99b4816955c7f362b49f44275
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 160
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 479bf5015121d25bf2346429a5c569b4
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 7200592e4d3d94ab55ad8009ec484597
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 160
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 97d729cde56ec1f95bfbc16ca5dec6a208543c3255f7a2b97fbf5fcbbb34908ace9ce13bd9e90474ed620715a5e9e43c34802b85feebc4d4a23d1bc8b4b5a6c11da7158765c40d2c863185c5551cb2b10eb0b45c61b939f8274ad84fe0a74e163bfd6afc5759946362adc74b4a7f705827323f8291ec38
+  Bytes(out.data(), ct.size())
+    Which is: 6f046308f88657bc709d9d07b8e9939aa7a60602724a521ff0e4980ba0a7298f1dade553fbf4d8ca431c6d349780b7cd7dc9b3b41e9227eb44bebeb6fa2659f38fb2f5fcb87609da7c5d0ecaff53917c0de21cc940748dfeed7e85cad30d6d69754fa1a1d7763e6fbba4b4b05900318cf908a2113c56b4
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 167
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: ea1c9094241c5b75ea880723ccb17ca7
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 14bee850a87b2ac3a1cb3ceb9b73cff0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 167
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 85f7411a7f8ab505a7c10c5c1fb9bdabcd9a7826465de96e3b7c762830ce133b33d8956756ec29c00b429d30047040043cd5b3bd87dff60e09e4d7c3a95bcbfa2603ac964be32a82250741e19b6786638be28709ddeae496cba7558b7acbc5545b259e6a1b2ac1f5135f5719987dc547f97f68ffb7b9eac892527a4bf0ffbf59f77327ee763c54d6
+  Bytes(out.data(), ct.size())
+    Which is: f4732ab790e78ec6d83323d47639025c48385778b7133f62d601be23eb485dbb9b8c8d8c8713286b5a03af8e249359f07d5eff45bb7dacd7af0055637a21bd3b391e4dcf88f0c8f90e0722f7657ce3da0052d990b33ba88cf8758abb40a3bfb0f3e1d97c2eb8e81a4889ba1a071ea6eb3591b075d4ef287408c76201b36032a2e7ad278d01522f04
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 174
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 3a8cb8fdab2c79aceaef6680daaf3ecc
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: c2815f28ad7db6fe20c4062983544dfd
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 174
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 142722bf554b8c70e8e76e52b9c0e0bb19b618f7bbc7ffbc91a66031f418d031d3c111eddb9f1ff7c2e64191be8dad4f8cd175079d2ada20c8880d0565c56afe5c9742753cbd50b93620b081f0877f045d0be91ff05a603fdc87e1940ac1e1f0c9aa96d5aaf4a58e0393ced4fad8e83171fa71c397817cd48ce6991e3b73d3356ef0448be1bd8114feff5f23db3b9cacdcfb4d25fd4dbfcae7
+  Bytes(out.data(), ct.size())
+    Which is: af80a9ba5ad4f12498115fe0a98f94723bdcd17dba6c44d6dfa364dfa7ca6521fec710d50b5acc584f655467d492a3c8385b1a43c5430e65c91a2de726cb5aece76210fa942b1eb9fd791e0b4b5cf631592991901da4ad5322b38a530a291917fad14f6e64cf23a87972d9d559ad7e5927ee8abd27489d7f6304266b00002b593f81c504c128817e16db6b40a99dc903feb9820cf5fca6fe0e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 181
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: e489f6c52120c8cfdc0f164b3440de99
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: cb05368df9a1f549cdaf761cb162be50
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 181
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: d8355d51bcd69356ec74b9b8657cec57335731cebfe83202c1557fd208480a2c25747625bcc70533d1ef75d2bfbeb9354066a8650f59a575e836339dd45d0d8a5cac221954b77cabba5e95da7437665fe9b48257148b7e8a88cb2cc4e0912f511aba0a013aaaf09255ec13b27cd9cd05ea11fe2ff21c9ab8a3fe86090dfe13166b172ba08e76d30ad48bef0e2325da08835ecc468cc40222db0552834ae94458366f28f6ba63b3e656bf
+  Bytes(out.data(), ct.size())
+    Which is: 9075d2d04168b655651a4f2f736a4aa1500f9542dd05a67c2c901841ad2edb9dc250d0575e65df05b427d01c5147b8672481bfa220cfee88a3b8164e16efd1dcc54c9b1bef2a2c7e71ac38ef004c2b037283000efa7bcc65b3a58ec68c42801efcfcd794c0dc714aa3e2af480ce66d070fd15d07770a76cb50c4cf7314dbfd83c308f959bc49051e37addc59f0f83deabf458a3914cfe57baf317337292ba810ff32e32bcc93eeb987b8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 188
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 0c7f16d3294d5ef185c2d06ed719ed8d
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 4d6ac71b989fa2596325a4fedb543a41
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 188
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: e8d083e25f9332d30bfe60ac071f502909b26393440a848d1f81c3f5fd521de98cd9ad1fc3e806724f5b3732582853cf280f1b99cffdc6b46874d42adb8784cf9ab8e158531b4dbbd76391d48727b585fca0610777fa8ec6a2a7f070627f1ed254e430e55472622289f44089ff22f02b7f3c5e45e228b7b03a5d1e1abdc18b154124f8cdd3b2229e4720cbc1bd3cc3f86f3a6a745de0bffa2536027ee03d447b306ae69b1232e964ca27a6d252c1582422c99373ca2b9541a27081
+  Bytes(out.data(), ct.size())
+    Which is: f1c9fbe5fa379ca48de55bfe4f374f0bf958f05d85be0e32d6f5bf05f3f4f63a6a4137480cd4a469cd70bc6a2174fd1c431a52c33b66ee5e87022bbcba339716478243d7d1c5b8c5ed005590239d636571ab8bec4b2a37bdfbc91e960ad97174bf50746faa134c408d880cabae47fb216c800203c131e9a11f57673601c9fd87a33834e45fbcb37cccc0ba3a3d4531e8ebdde0f2ac11a6d06d29224b307bd6fd17a274f2a81712c0f5e9d76bf9b3cc35cc466660ff8c5e17f6a0bb
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 195
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: f6b8a72d4235589f7811ee1c6f8d2167
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: e323e4169215709e8c3364118ad4660e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 195
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 00d34f899f0a8b40fdfe9fcec98a96c5995b4524b144545026aaa55f629c3befbb8ff794b726e759e18b7198bb2fd2a866379418e6dc4f9fa9e4edc84d21454a5cd212f68a7df321b18e9eb2c537e0cf2e0bf65e80218b841ae8a994ea3f6832d667430dc314567267d7f31519fd856d73eaa1d3bfca419abc5001b25cc1fdf860812b077fda4b01abbe8f8a81a16ad2ab5d9299ea9a0d81aa26e1a573504d5fbdf29e6b2098ce975f2f3c8c212939569c8ea8ed63c4847f2d0fd16f47bcb30bd7e00956ab8a9deddc54e009
+  Bytes(out.data(), ct.size())
+    Which is: 7faf63997cbd11ce545024cf2525bb94d731d3d82d25ce9191a7c70cc294faca6749c8683ee84f18f23e2214208becb880941104e9fb3c6f66b4163171ebb08f66129124f7a5f9f8f43601f5d37f60588e5f9c3ab1a428c1f2cf50e3024b16c8466d9a14d018bec767fe60ca02359fc5e346f245fa88d54d89f21f3280fc86ce5f9d14c6dfe0916bbf29e34655f58d32571999f987d7576300ff71d10eeef872fa1fc83fdcecdde0137705582cf9cc9391892b254962e869334bd2e694d66431fe938c3416d13b630be36522
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 202
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 6152a0401a33257c8148e65440601d5c
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: bd66da24e28b41f345b8d2011ed9cfeb
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 202
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 11bd92445b4e43dca339491c8100cf933795ef7cf4c3c4d6c42ae5b729ca22869d443505fbb49ccd29b44046569da104f7ddaf325e71e7f30487e83acd012bd492cb4e98342ac7d64843eb499744b3d17db402d51b5bf8cbcb8995fad4a81dad4221ca30ceb3590df41e124c327fd31aa53c86514a12e22c477489871bfeb38cf71cb3a959f4167402576f142bd88b1221281a94661c8d643f89fc92dffef322ce97f8c19b133e55f8020232dbdf42e4527d9f133b8a5934bf0a2df3754d6455a9d765182691ab94ec7a2e68f3ff59805c7457428ee4af8388f91e88b3
+  Bytes(out.data(), ct.size())
+    Which is: 58163bf4398a866383930ab402f983be2bff6b9f53b43d03c2e63d33e02edff1e2f23e60733928ff7cae9efb0cd9a58663551e28c50bc199df9f6ab0d345fbcd9d09f2cd239b847aa52190c040de7b1af94cf2170a98c494d8b8007a5154fbe2d0f7fbbbdc6776a1ae2b08bbb54c882ed5d61012d5000184991e39556df9234b0ddff732df86548c38853fdf71c506df5fa48ea9cc1a3095eac64ce21ad75e4faf0eb9bb4da82a7d49ea0bd393f33bdefeddb80be5baaf5500c3e6c3818ee64457bd12407befde6038f06313855eb94b38fe33d5a3896273d3eb13e83d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 209
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 8f1bd0ef9d08299f494054ab9409f663
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 8a1a781b4b29aa88847c5cdc3549197f
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 209
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: ddc900dd582d322c567e3fd7eb23069b9e559bb16639cc79ffc6f3deb6e92cbf71ee66c839b4115e883390646245a42480ae6c638fe7fa04b575b4a8341050e2f3de075f2f19ad9b24d9cc1c39a659b0ffc362d46354da6bee0e41319221cf7cb160017d589413e5c1f07e5f626c2a1f8ae9e8b9ba0320a2de9e1b5f7baa4d551c090521d8ee0b30c8c709fbc00f1fdce999f1f96883e3b83b363cc47665e5a21fcf25afb6aa2bbcd0a374618c3dd8b8f97f21037946dde9bfdc7e907ac39e64f1a5ec8dda60a47148bd066f907a25b9caeb3804c0423836a8d9c35bc58c57882c5b23e00c7f4e3b1743cb14f102
+  Bytes(out.data(), ct.size())
+    Which is: 6aefc1a7061328a961b945e461d3721e268648a712ef745610c582f24bbf5e62a73fd238637dc49b098bab1d3328f8ac6abecede4a307b5b8bcc62f88e3e80ebe65eb546b9240d4815f981963e045777fbb9767ff622c3c9c0a0b8df5b0a004bb9697fda360ee2336c34da9f1d5829fbee0dbcd80c20ed8a2a74826a1204f0640fd306634a207b05e271ffea80e1a00a498345c5a426c34ef11433c85f25378b9460b92685fdb6b6fa30f0854ca658f507ae92eb65ceb052f3f7d933c68ce806738ff0e6105b656532d4e28844188f539d34537d1e7d7481eb7c9019fa57d97ac75bbb3efa541b754f0bea3836ec
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 216
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 8ac7e104a0165df543c7454223a01f90
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 600e05c2f15e7f1266b1afe4c12f29b6
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 216
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: d0e58d936c8b83c253ae9bd29f45afaaba9712647b3da6c6ffd40a9390a4476a0e74a2f2d458c88056bcc0a57fb64597a7c8a5e2be39669dec53c6bf0f7b4a2bacaff9aef36b43fe37b80cccc7d42cc283ba1c1eca739167c07754edec14375d86e88668b156d04c989bcf3fdc70e8a25aa3e6052d6befe3072ec0993d6b520c722dda62b6879324eb4ae016e54d139d816be7fb1bf9c0168d8f7225bc8ed9b7509b45cdb2c8a1db4b3619120c824d0bad7deb7fd0dfdb3674ab15a712f6196a5a840ee8895670cf3b20b8a5e43caa41c5524bf47c2ed4ae7027c2b566dc3e2548244057b880da2a3f1abe5e4eff090f9358970da6568bdb5f8288f9d25829
+  Bytes(out.data(), ct.size())
+    Which is: f8d62732c7376328da7d7bcad61441693b8fda322274d1ad864a7243d9afc7effe8778d8a28fffdc7119fa8a680fd9c23fc5af4425b29a39dcaf74e3286327fb23427bc61977a154b75581f500001afdafa07b03cfa5e282a1ff1c479779344a63999fd2ffbdc471102bcc2272793fcd05601a0d7e87b806fa8f1e0b78db5852641a6311a4832b67f2d713a3cb65cc4c580967dbe41c4d77cf40b43dca12611ac4ad7e19f9e0a87a0eaa081286afe38e7e3dcde73d94565564ff0caea786f2d8331362f148f8ccc5619538afeeffe5741f183bd053fc20a8de93df093cfbdf07f98d02a8275c2108c5d15b2c5981f51a3bcf8145493bfb0dce6707035c1998
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 223
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 057ab8d811b5c3819781752230badd5c
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: b26a12d682c24580599df5b9d2d2d6d6
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 223
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 5eb6120cae6df4766b40ffb4d204ade5ae08aa2cda263b39ec7b47756ed7e6b7837fdcde8d01a2bf01367e9398e25991f9da11bc9f8de8e6c1b4e922af05d20d683edb4a245e22eb6cc4fec2375e8d81f9f27af5f118a16fde654b4ceabe770fb3a00bc7a88763b670b5e3a6ca06aea1824e20b9c1a304c4bdb62643fea73030ef6d18ee2e22095b4c73abc51abc4883f2bcce14033608ff7e1ce72ab3382c29069eb75426d283a4a71348123be19f480dba1d1677055de9e82d683c2d6413a6a4e0c6d58f7f2188ca5c8b916aa49975b80630d27a89ac284b971478376ad6e55dc64098951bec2ca7d77ebe790b1ed7fe7f33fe571d8613f143e3d3ab6bc613
+  Bytes(out.data(), ct.size())
+    Which is: 7e9a4479ebfe728f595528c615900c872f15515e305573b348a64a693852eb287f97e69a7b63afb67d86ab72876af175fecd354c1219f7ddc02045646cb2d66bd01348fa24fee378b8ff47dda27eb846a94877d23c9b67ec7dff65c9644620a7119090fb54883cffb9f8a1a154a149da08122cc6a0f95bd50d1b6f327085df84744e3ce0d809c0c73db0ad2c69102d790be5da66dd6a82e7427441a9c987235e968672883c4e9910f64f850acb502824cf095d5d9ee02cd1feb32e964b49886845714f79f4f70f42fc5aff0ba0a37a3fe1bce390f6578064211c942ef66104259af2f2b014c42a971d595e2ef9e93e397f9427345cddc09a68c0c945695a288d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 230
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 6f3f79c6231d7e45ebc1ccbe5d110a0b
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 57388bba24d06c38eac924894de973f1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 230
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 27bf7ffbf2c9733c3da8947db11ac8801475451b0a65c96a2a3934bf45ff54fd5fb21ff0d51c83ddf0f49b005d424620b04d0c731cb214f4beb6d353a6d6b7bf1a706b070faf5146b562c9f4e6c0ba5dc9ef9ccde79cd162bcdd887dc02bc95e29dd606d22845f35d0cd6d5eb1f1b154607c0c5c2e8c7dac005eeb17c238e3d4d1e1caab72b20a9d7b2676e6491eb84e9cab903bb0c05751a33642e145de8391ca9e598ffe2e579486ce32d5d76a35d440836ede088267e8cecf4b660fc5eaf05f68872b6cd9427607b146e15fae406ae7089ae446cc2172b8ac9e42cbc27d4e5ee38c21d3fd6d4d52b2d43462756d93995b9333a079dc1f2bea9ac4248c448d932c5c0f6b76da4698d15a64f761a7380b
+  Bytes(out.data(), ct.size())
+    Which is: 9d3c90828d2cf4147fad14ae81edcee62f61a28885b0ac6bd971bf48a875b02399a9ac85450900fd4f68d81729e09082de067f977d4e45abec69ec6de0691f94801063e27fac1545a5edc74c9876293b6c4ed85f59ada2e47ab7c6a16657268afa3e346509c31da0b74dcb98e9779578203012db5870cd6d977c75d5a9c1b90c99db7bb7ddea953555890884b79506c80bd3c5b19e7e55a12985a9895283a5193aebf6340dc3f463c0970eb11822d5e4de3446e949bf13102de2c2f05b79a1ba105c98733782dab39779aa300e3caf9bfa0b29c16c29eb6adc4064c542fdf1a4020e1ee393c5b23175910df04c5d91ef12814303d3f57552cb00c4cce81f0e7eaef4b52a59fd465e6bb7d45307164f658d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 237
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 7efb02056e18e98960cc5718edd07cb2
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 6156d1863683756307b7d9851f53fa27
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 237
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 92aa5661d04af60245f6f56153cd86c6a61d5584473979eef596d6d0c205db9e4d928ba4827dbb08d5b34946b8f3e58ff62a976461ea5639fe2ee79839f99f83cde00e3fa3258e21754fa91a17e0d1fa22cc76fbce0bebb7adad09f99bd12e70e519048d96c1f97a183d8ae66445e63a4a1f936821fa7b58f569a16e25a0d0b202231a79eca0e8a2ed21755f496d8b7a9f59f6bfcf47ee4bf35788935cfb1b5ec2af2ce11c002b2843090e2267d5fc5e26f927e8836d6a97dea2a7e508f82a4cb7df375110217f88f4376782626039af166b080e181d8a310ea7fbb4fb11d5b24367f63ae83475269281aa09b7bd259a348fca28f2e1d7938127c888c68bad2608f89a2440add0c644de2b5f08d3477641675cdb428393758317c273536942caad42
+  Bytes(out.data(), ct.size())
+    Which is: c1e971ecadf2048fe077c34fc36467891d9bea0528e0f12ed142e471721ac1b5e03817909ecc375a9a230d3fdca4c55a6ea129797bc44caeb2c47d2b9388d1384f806783f2e5e2b8db23d6dbfddb53aae6b3c1fa58bbcd7ccc5ac32b34f55d1b3707cacdde17f6ab21e488e7342657d6ae1663cf3eeae6845499661ea9703337d9b314fad6f50dc82a97a386a90300102bee26914df6e82eade8cfc2d091304626d309f7b3c833a751b878ed892f02c8cad9cef597e96c528a866c9a0792a4bdd610623c5a8bd9f2835c68f9a481dc272db592b77617496578894f12f221ddbe0ac696afa7b95f042d6c9b7eb251b334f98d6fede64aba8c938dc8f58a8471a9a76eec241aa1f96ce88f30f4c79936f9d6dfbda9bdaedf8a04441ecab2031408f7b7
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 244
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 4a43c15d469378383e9a9a26dca7083a
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 2af066e4a9ab030b43d7b97086b466ae
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 244
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: d64a6980718a5fe833da2e6c1a119f2f16a5bf3cc5089168520603d37998d5fab07a9e18ebdc0b8417cb6a4d34357f8d598753affd51e93b451269dc24354d197885ce9a3b2f575fdc9c572b05bd7bc8df091a6675185ac15bd1c4f2cc0a8a412ff72baa6fbe95065bf2111910f4f004f6c39cd8e7ff5bab5f86abdb231406763233354734807fe0346ff6ad23a1c9c81b9942b370e02bd79eacf703ebcd53a54a5782f13ad3591801d1ece15c6deb56bb5e32d959ed1363875c57cd9d42881dc1799e652bd554059ce059a9d00a126de35f0285d5d82bfdc383b1b37d77cc1180184b2180aa35d46f816fcf125c9e8e3bbdd67c8770da26b89c7e406f02ec515edca3910de72fc76ddad8344ae36fec1d72315e1a568ee69a08154696e4545ec5ca53b3c0f5ec9cfe82792380c1b9a151a8d6
+  Bytes(out.data(), ct.size())
+    Which is: 205ae74ecb017dfc7550eec01abd1956c7b1e5cdf4284af1feb4f096a30ec13fcd98f0ead8977a9074780072a0139e5bb33e01a8a79f70658c23f198682c9055148d3ccb82d16c788bd057a98716e28f1f17ec5497760eaaafeb9c0ce7c8bc85c345574d157657b492ef3ff4199ccbe444944f3223969364746987fb5f1b02c374f136d79b0d040a22827e1f80a95997a8aba92938f372d2877407ff462a1679dfacffa49bcce70b3c8207056af07c88582a5b578c2d1ff454eb72fe768aca5a8b0776d9b73bcf942b6bb93cb32c70bdfa106187421b09c01409d0a2cfea2b74c2dc4f05fcb871c01187413c6d50a9c77b58685a869180f2e4a28b3ed07d0556457bc049ff172436a3bf6ce68a94e9f8f7a0c4431e321ad7c7380ac3b3de65d88bdf20892f2752b7bb912ba55649dced03c872
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 251
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: a258557d32e1924b3eafceb7b73e43d2
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: e54738bb70d0110d4138f8daa43b4237
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 251
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 2ac34bf9d0d909a32322cbfb765875297c50110ad859857c641ffba8efd60ca003b8f32d157b6fd8fcfb1c6037b13285be884ae2dbcbc9194e8757560807a14b2219b9f2dac11af7dbbb2f504e3d8ad47ff73657a4d1283c78bcd410acc1399a529f239440db4b72a48bb3ed984565d180015fa7ca9c0ff0281a2e14807cb90631c75506585c18cefa5cba7e0c943e44e85f60d47927339e3685c1fbf1bf497684a6075e0984ddce22e9c130d3cae99ab35394c315bf8e1040a830344c63d3719cd250ce04d818df0e20650f66613439c0c5153b2fad41e10b296e6fb0feb8977532079ceba9361227f69005c9e696f9b04d724074f4aae59dca55c74e87049c8f6bf1b8642e7c4dc73688260c540be50e8d4997d4b68346a0ea7749747dc72e26ac3bff58802cd60e63b3d8c509d0ce0d9886c50ae7f3a1621a077db155ceceba926919
+  Bytes(out.data(), ct.size())
+    Which is: 7266a3f61653755738747943340bbae8ee33f0e7e1a0fb76bc70363a5122408f3e183fdba13ec051a9f86fc2f477fb1d1e52a022ff95e92553a1c2059ecb5db660f8d863cc4be32630ee270209f6645961a6837ba57e8561c2ab4226cf15ad24e80bb8520b409f57fadd9e7371c15e3500f81d1b49c8143d2724ca8359811cdfd8054e4130f48b7160bbaf38f4ee32360d210a161075b9af2e9ae7f8de819674d2fa87916107044df1c5a3a970d0c8f708b60399574b88f6948904dff4ae3489439c03eb0cf9f6ad057fee4656cee405acf1436f0c38967e2654a133937e2bcb42ed58bb6dd419bf7db7b2bc6e2c4038c40d1e9f9231e2b000fbb85e1f592c3c40d9ecce39f58071c6382d65d36017a3e1aab673446df80984747f26582a21afbcf47f7b8fbab10e05eca41a506c3db2dfd7aead3dad92631c4fe86e582caa7f767cf567
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 258
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 67a891187fe42bd1bc7a6037513760a2
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 8c523638b5946309fbcaa56cd94a0482
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 258
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: ae05b44cd3cd86c828e53930c4a80e01c59a8c1c9ff4b327122cfd325cc4ea0ef4f70e3ac48ede66f4ba7fae9024dd5d78dba260d06f8888aa236e7de50f57ef48ee4b553d42b41ccb8716c59f69f30afad97778f3e48df1d5a57aab3d471fd5079633b3972e2703a86c4e24d0a035b3625a5c7380b963496f9439542b15f4013002445fba9a9f4e9f1a15c5a6bd2894c0f540d264481bd3fb6b8b63d503866edf178d8d6cf007f9c6337bfd900f5c4712d82049a2f82e43fba589a372d44f57c3d260df6f5393d3b182eecdb503e4e35018667e91c4d4362122de3d88971691e7ed05ba7341cb9cd39cc12e12ea114abb6f7cf1bdb9906d3086147a1c22c67a74fb712ba6aba1ae12167a9d77a4e5fc0c19312d20080cb2d39a3a9a8cef7cd286739d5387e1728a2c8450ccca03d0c89332120555f97652d122192374bb4e05bc5839c4c2761de9e2f732a803171a97445f3d70fd
+  Bytes(out.data(), ct.size())
+    Which is: fb21c25f37a76af5dcddf62ba25db4f7168037310a4af121947b4974c05ad169952a091bd88966fdc2f8ca0b3bb2c9eedb684fca6bbc128e3400866021183d716e04a3bca86eafa2f8e936ff80094186d90279c5f7506b8f0918659956ca6ef8587647046ed8c39593c3e2f8a3c4c93cf5081848b047470ffabe6b2d4baca87a366e445e54c4fffcb41e3f9f31ab08d2f7dcdcba4bf5d7591036eca80323b2248090d98a5f776516a07556f6ec7903a994d29bd8697dd3035d561a2bd2c0fd738cd892a1ee849b4e4eff07eb510c516da44fac488f21f01e280d634544b7d9667d425332b3b58c592ea689e03192b3698154f3670d850ce5b1ee909eb7120198b68108be0ae0bb88921691bb929b690962c034286e003a4870f839596413045861c2121ef35c20cbada89b9148f84ea8d8b107acafa54b8cef0af2c012a2f4bd994913465c403cee2258fa7127234ba3dcabd81b9b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 265
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 7e339b51b4e6395ea01ddd2272e5b185
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 38427bdc783c4fb5f03e1394d44836c6
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 265
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 98ce773c72c6d7d40fb8aaafcda02ed688644ac8e9ac868315cfd9db521870b40ef9decb01673aaae0c8f6403f61389c9454784f007bde6a50c3c69cce30efa5d851cde2f019bc9a9bebb79c19b29304ed908db6e45445ca7f785433abfdca7c553e8f6aa4e6670e839b5a9204648fdad4a35c0a6e44151afeff135e7e080626854e68c0afb5bc6be9aeff91d71b33d294ff1c04fda6291ef535972f3020ec70cd31b156a1468c105655561d8755a4a88c380f6c56ec1e1f49c2670454f1493262a753da4d40343b04f91aaa3e69fa4abdc625869f72839623ed8764692c23e1131f6567a1936cb43c238e0dcc2aa093a728fadd5b0e7d04505b9fedb9212218f1b5452183e8cfb366e7583dedc590f16d713948a85bc4462134eff25eb9703b34b5bdbdc63299575cb0e076f3cc7afe35ff3021658d83b526f7b8018cec38d3da93a0ed388ade0941c740da975dc433b74b1b528ff92bf5484149166f97b44e81d083bc40e5
+  Bytes(out.data(), ct.size())
+    Which is: d6b1115388210c738654159a2c68bfa55caf57587067f7d71f68790cd8f85881c15281957dbd98858326e1176a1dab7a0e489a63e9236b254b48e82987458e477ee64af2d74a7c9b966d3c28a5c51cb458b061af6fbe1397ec2aac7ab22524fab82683dc33811eae5d39e11729c6e0957983059d81a52e40d5514072acb6edccbb3b7463e4047f6dd5c83e3a4f4cd7cbd9f4f317e33c46c9d8bb1eeb85bd1fb31e7167f394d614238a183242fd9d48ef3cfa548e021642e2675ccce25323c5580e2c44040cc91c27813d2a19a30636c50c189fbda4ee972b31211eb52c3e97c20ff4bdaf711d0d2075e80994b9ea05c36739077fa67b7ea9d0cdc875dadb21ea17cd728c96e0383692348a8ccae7d0f16d6abb723286029df5d7ff3a9408b35ea045b3c1b2974d1526c19b057a283e5ff9168460e5788700659b3072d716ffcb6aa3b9f2a453818bd61ff20718c1a27ec005d43ddf8f8f09777510dc99f94f6d95a9f99a40dc
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 272
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: fb61d2ad676a0e8961aa9f00a164f294
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: ef7b5524351b5b4919477f7c394ff170
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 272
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: e919008704bfbe7657974c9e499a3cbcedaee7b813752ddf49a69cfe3ef39a8d6e1ffb1f3bee7065e8b74b28b25b5054d9a0e86ba50d9e6aa4babd075dac7b7a8a0141f0adf9c274eebbd381a3a5f89c287019db217f5b644862319f799ec3f1ffe71e26c1b501eaa56c97a0d679f2c85158531ea41080b4c690ebf7a02ec2016ba260dd6c5fe1cc5084c94ddfb2b897cf597ff36adc11957ee4e4e3f7f7fee3b15df6930ee9bd7a1c1d6a74316194cc4b9e2483acb675def10dbdafc7093c18f46ee3ae155a385a2bf4dfd33db9eb33202d82070cbbf9df7bd6e679f2ef866eb37654c82669434b25764ab8ecf1cbab63ba7b1fdbd5e53bf24f679e321708cae599664a4e5585723df96638bbccc0db568ca8aac82c072e6548cfca1fd978ee1d732f46c6723340625d3a5ae89cb098a35a5ddfea382f1efc3c4b0528af42007c47c76e9baba69833e0219baaf4448308e9bb1eef5512ea41b8c774cbd044b2cd69c6f1c13fa6ae950e48d14cd05d8c5a97cfe4334f7f
+  Bytes(out.data(), ct.size())
+    Which is: c0d82d6bfe36eb10356e7e463bacf9ccc00c95e211e77676af5fa1935daa2f4b0bed8f71b2ee0cd2fb639b29cba5eb9c1c1a473f99a2a2fb3a87076ae4eb4e3a0fbc2cab15e79f3918544c6371f93aa37b86b71b4fc196e017641426429e68b2b5d3659efe058dea1c3144069b737372914b82fdc41194333e0a307e8df321909999116815926b1f56a90724bec58089ce02e81bb233b5b90beb96e170f24e5b5769ab04b25c39f7866162c8ac56368ad626f1b3a4f46fe2e1586d6e484a1a28c40d08d786f8b7aed82102cdae6e500bf710e205e7af888c2eb22523cf96fed18dd94141a24840e64ae3b4f25c8f6f7a9c768069160ff5f2f515b157d12c657c6da95687b1cdc1f235bef469b3ed9903e13a69b0b0e2877d133cc4f814866551d9623425272bad35d756eb0503bf134cc81974dfe4f84ad63300df6c6223270ea33844ace1dd1c8608eb03b7b437e8e86514bb8251fc31f3780cbe14ffd82230629a8ca4549871c2b0b94337e81fb394154c6e79ef3229
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 279
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: ed970cb4c8e9493e2b5b16c99aa6932f
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: d1099f0487df907c6695ad2ecfb1bf74
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 279
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 5fb2516faf226ba7767500f7bb3fbb0750b535b2e4e61f4b1a8f8ac58fd0bfc20d6c83b6d646de135d151ca50d10b7816bc0086e0e45021b3e5ef2560be8a8dd5efad693a7a15192614e2c977d9c7c21792c8226d89171b3020dec505a38162ecd1fb3dbffede31ec80875b5a5c84038fa33895e9f10242885a6a59fe07be083c7d7f904ca636f1d8d812e33d3776fc705d5a658984544a6554176b2cacb0aeca55d3c53cb065769e8bd13096aa7bc86ff923a856d9b6dca7146efc39ab1eb41a3f84bc3240ca7b4882ff937bbb21f3242e98bbc6858a1aaa21f5a603dffaf680d21c9c32e383d4a56c6cbda51dda0db76498c2d3e8dd746662c804f968476f5600c4dc32a2bbd966659b097679a9d604e93b0a0de11935a9945b92821f985a25d065242fa120048d4760d58acf930ad57091bcbca236fcfa1bc6cd5f84dc7d19197a2c349138679a6bb13727a207c46bf733a3a86e52907886cbf6bfccf82fda3dad1b94ae819bdd847f5860b9e9711fb7de0d50868ddf792b3383efb1a2002ac57648af7bcd48b
+  Bytes(out.data(), ct.size())
+    Which is: b4811b88ea9699292a25d829b412ce3077c55a15b6645aa1ee540944daea1fe2643b46e9d5e98cf9ac5036bae12a4a3afbdfc16497c8ca9fbb3c3ddbbce6d11994d9e9b586f0137f054164a3c5a8249d350115f6af334795c8a17982d4f8cf47bca0b4b809e659a95cb4487cf0ec79dfcb31321adf06ac044891d14188fd3dc8e2042294fb91c91d61af28d56edc4c82e349f70b493aae44382e7f88fcac27e35f3020379b42ccbf10566d4158b67bd3c5f47593790c2572bd5be29d801d66557c5950290fa86c2abd7655f05c242ffde4f34349737a927ce69ff5240a6f194da96f1571727d5bd07edb960831a70082b1c7d56f051d3cd08e2666b8feb1ea99c2b760112e0da77fe28e0756d9a40ff27a6d9cd523c50765028bca5657ab1422cee267420807857f24de3a18cf8d4fabcfb6035467f672ad687ddbaee4571207124206f4434296b1afcd956aa18478b8e5ba198f1d440e33d80feb70fdc8155242454c6fa374a30de4123624d697cd948f7c999c1fca397e5d514330a930fb83a9f62e2fe378d4d5
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 286
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 2205942e6c43fcc24e7a8e0e80c3d494
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 95cd5d25688a8b15338afff53c6a08c8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 286
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: d02e8bb096fe307bfb5d5f359e8895f775c126e43289fd30f631559a2edf6d5000974faac0b24b7aec5e6633f862009c0f3e17aeed6fc86154a365a99200d5855a39743f219cccfeaa317b7c9866831e2f61ac7a9553e6b6ab5e5c16ef2711cb0ea9a46a483c057316e4c82b62a895e6d4ed5dd9d3d43576443ffc769630f93b37cef9fe9a79dea94b84ffd991e4429ae6de76fa6d6a9f65479842070271cde06c6e49d21acf98f4ea3e2c28eb67275446e3bcd797bd610cb9aa302430993ef3453c4ae6133f66f766cefbfa5c566bcd43a357fbc502819224352ec68c6da3d596935dfd0dc79655373a588ba08beb1ae21cf222a00e53495946f9ffa7a3edc6dc20559b401c2c5a35ff461bc12bf656b7ab86bb63fd72e7828f3915156a93c4718eb5164e359ae22086f43bb1ac868ab6a3d0631baf4ecb8688a48fa802571606ddc8215af784b04f6823439f0d5cc409c1622ae2a586fe413e4492eae627eee9578e5ef9c891a23341561a9c0f342d824a0347eaae52da91827f55269ffda3ec959613cfe9fbe022f7a8f8f8ba2dd39833ffba261746cca9
+  Bytes(out.data(), ct.size())
+    Which is: 55113ea054a5b1c6ab204db466356fd795e058a28a028277ce067541b9f3bfebbdd5452edf6dd426a994adb03109f7d1eeddb67f6392e8fefd6de855431b544b8ef7b0afcc27f7b55a68f468ba46f2dce7000451cc93fc9068cf6c03e8bc54ac0f94223b6f25d554802b746f005cc0fe04d63c546e5f7e6d9988ad1c79b2350c818dd7c128ecb4d974999f541eb0f05c29d5c21c3188a2e792ad10ef3a5c90b5a1e8cb9ac8316d074cd8b33527f779415ab2532f0bb16c163b8b64be6e5d6c184224a107e0cde3f063c4348b9ec51b3f06c1b3cc3a9805328a91c3b77651580e2237aa144166552e827f6e77daf2cb3f4970868de58206ba1a207733a1619818802a4bdcf6c8a05246cf89593d277e60d75130030b15d542344a5ea9a8fb5458db054d4ea58d59961bc064918f586c25a0fffc043e690ad11291fbafd98fe9414863e312035962f28fa573264e0541a14108d99aa56f2338994bb419c81703dd6fe06ff13858eb3b38f2abcf7304f3d6828a47fa20ce8410529b4d62c7ee7171892e4d8572d7232820ba5ed106feb4c9bbca93d2abbf423d65
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 293
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 7380475e9d2ff3d9df01b6c895d00dbd
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 084f418a5dacedc755d075de3dd67186
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 293
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 7a0f153b5f7976c608206d8791dce0f90cebdc0250b484d7e4669334e8f034165bf4a794dfb989206217c13d4de15e75e7e01a24d2c988212adca2056fa7bdf33a1ff69f6ffff29b78d1560ec21cb4cc96deb9b41437dfe044600724d8ea124f741a5605233143e54d8a58f68d5a7900ed57b734c61d264e71eee4477ffe4d833756c3f65c64ae8fd832296f61a2a7dae5a8cc2c7b3f0cb87900c8c1d885d42420e2a65c414bff138594d00250e8dc451ea319893fdd63f55cad85f9f76ab9806e687fa5e2c1096f13a09ca7febd28cdafc7d0a0592865e568a58b3622876aabdc9a0c0f7924c3173aa0b218e28ad98384ebf5baf7448f316ffd82c5d7b7a51125e65aa78291a342dd30d767e19fb996e961c78d171263e0bc8529c2e3ec6d9430454705a05bd841237a68dc4b7b3039bb3a0a1c22213c9fe6c11d41d39d3cfece07527e0ebacb593add061207c5b1fd221bce69cb5121050f805e2c759423c97a5952962f625c528ff8c11f6550d435d7fbaeffe4155d266f9d0e138ae25cae2030e31fceef9e39666da4fb7e196ab3859532bdcfc10f7ecbcbb8863e7a0c005e9bd7fd9f52dfe03c94
+  Bytes(out.data(), ct.size())
+    Which is: 0fac622ac8294e397b42e85df94624bcbc5fe2b900d848f0e6517a913b6b570a8372c1496d136b33c50bf7617b3c76d4561acda809e8a131958054da513745acccd903935051ddabee81cca92f1dad6e8de1693919e148df6affd4e05405b1c759f34c9bc4f151b82077f52a9af00169879659844085dfdbbde24c84cc3498eab387a0770e2b6b3d12f1115b686c07c6f170ce787df228e117c637efddd9862fd8900c6fa5d624785a3ec099ab0226f62562cb5c30e9c7abc776ecab910bfb7bcf545280a1dccda80542495150d372fc597a4159dfd746d0bd05ef79c6528bb6493be23e0ef5d168c27061b39e40dac9d7d4d8b5d2a8cd24e99153cfa9300db9a3505779797e7f8cdd5678ca81d99897838c5a02b696d7029b6ed382a39344ca4e41e0eb39d797ea8a2425cda1cc7189d19f8c8ffb3aa08395eb47fa351e0dc8e564a8008afe0663777ec24a00b896f398dd0baf66c73f482e41699b92dcf5c3283d42fde7e876939fd4767cb86effb9efa82a51a3752295a44e3961ec1945edecad3a611a7d84353a6019cdabb84db385825fd5f0f915b5c9815c4ac446b326762f315e3268f40c5ed8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 300
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: d6de820a9b85168257da829272d6271b
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: a86fc1eb2a49fbd00b89ec5795a0fd82
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 300
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: e62cb3363816bdbd4153221411b5599b453820d675b5824ea1ef57c2a1bee7563a092976ce33c918a33c67e4628d5661acf2ea7e353bd4cce6a87557593e0ebcece6510b63b9a4a2d2c055e28b464a752b919c593623ee4c2a6bbc2b2a95f884513e446b10e2f0ea6ec98c10d893088084f7519f912afa35a693bd312335cbe2a95e4bb4cff6dfb6c2b632ef01b48d102f244bd0df83d54cda5060a01f3c3c3c8b4dd7077d0f3eeb89cddcddd23ed391697996bfa741dda4462efd006be7bf15c3b2d63aadc3cdcd862e3d09d0ca675e397055307fca30641f62fdba74ccef65682701b9551814139f4ee4eaba2f1739966925b56cbd6c3b16e94980484d32f51a216e17f07deaf70694745829564e486f53bf5cdd38ee660be09a8860be35873f14ce269adc17ce7c2ceb7941810b978a0db7e7d472f23e8ee80c9faef243cafd019d689aafaf0dab91e4b7afd5808f30753b46061057f302b8ca383c6dd7fb35b3282ffcc98487c9616a451386c1204d75337b28390e9968b24800c5a66449831da8ea3bf3aeacf2e6608b96c3291752cd049b168b1ed1f812a6f4901f30363a09b90b4b7f8af22468708c550cf77c30ca4385441d3c74e5f78c
+  Bytes(out.data(), ct.size())
+    Which is: a771a328758e7d22c3c3799b76d66460ac2fc9255501c33815470d703da9d9c19ad32191c2e900b0c009cc73cff7c8a22958cf124e77565bc8faf876d09062e3fd518733b96574254a07e40e79cce075ed948d706def5721ca600bb33377ecce88ece3eecbbb981c14b7852cfe221aac9f07b6adc5b837469e8eb7a82705281224cc0db2789549720e97fd4987a7bdb53ddd442460fa500cab85308c43ab3f05ab645c106a721c1ec002f7ee08bbc5474213997c4afdb194157292d5c3a7bd1114e080d92b2eafecb92ef070903733ca730ea83c97234b4f779248a0cc7d6ba00b448403b97790ea26aab873f61466b5bd7dc12b3c87cb908cf5883edb9d308743af3584120ac7e6982376cff6b301a8ffc759846360703d42bca116a6bfacc1be054844f17062d1fa7df268b302e300cb81186ac4777dac93f6b46d830f7b2549a4c8508943275c6caf4b5959a06423a50fcef0f6a679c27bfe88d428aa98ac14ef69fa89c9390664860573b000338b6321bb15deff76f58e3ee8020d97b8d1919e687e541fd5b11413fde21e50a9a225e4aba550afeee0b9344d4cc62d28637728a2b8ebda6a396adfe30f1d060f8bc1398e942d8c1dc8cd4e17
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 307
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: dfa7cc77acedf8de5a7a0375472f3c07
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: a73f8c28441023015127ee9eb93adb4e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 307
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 44234f12f5df525e7f45d785a5503ef1a78398d9e756eec0b97c426af4661471c57baba5b76a19da18984c8824b0e6573ed324758918543618ece2163e969b07fdb6c1a65164e09f1382653b5cc4823deba6ba403046860421529013e79c703e2b467fc15e4a39b5e9caf9f521a0428b1e68fa51b60492cb6c021bab35107c452c94747b59034da681b1f253d594494983df44e7b394e3c9fa190802fef8fb178a2828ea7ef2aa41cd56779036565da68642da9456079fd3bc8718b218725f657db994a19a0a01ebc51f7bb1dea2c7d476417876a7ccf8b517b968b2243e327eb6288f02858c3d679e599c2d603c80b33fc3603f689b91ce117a8481074f11540f6d75c2bbb5d3c8a3a9d7b5699acef00ce981d6c5fda7a8fcf5ea77a365873d185de9f302be3ccc4567b98b74cb695a323cc6ac162a06556f8c0a9b218407a909d7b173b2f1ad4a497fec9f8ffbb2436a4101f57746cdc24ceeb234fd8dc6f04e488227d4a2a42142bb6122b1b59087dc902e8d11e81852aae897227dbcfe872b537e57849d51968d1aa2dcaa63d6de8faeeb5753cfd8af808c69a2a7e831b34ad8e78c97b6a162401cb85247e9d89bcd593242e8c93f9378c1880a4b3c45aa434a5f6d16182035dea99a4c
+  Bytes(out.data(), ct.size())
+    Which is: c8417a57262a9b797c5b493091033806d42191f63a84d1a20faba0e7bfd3074b455ed126c7f08011ad4cd46422d4157805a4bf0cbb9530b00da95e6fa3d727c944ea2da46f4cfa5b7416acbc06f6cf159dcdb2530d647950154650e5a79ab4a1b7798b09b65edc0f0ffc873aed304ccfd6b23d6fe0a55f0cb87e83f4a522f8c6b5e9581e3c27970294134c5f62137dc55f706064afaa5bf7467d411454bd5c456b07be06342ca8edaae74c4504864834c31765694c51c495241d21f5454e1c40ef1a677832ca78349d8b73f4c01eea8a405a2480dd0fed01323bae2f6ccbd9d27db5ee8efd9ec0df454e9a7b444edb57ca973f0af904bab5ed74a7311c34578071c033973f984f0d3ff28229055f82a578582d1962429fd6c000da22d5c946f0257612bf9df1203ea4dc49b214510266c6c7a1d08bddd75e9ea945481033802a54e30bf248b89f4bfccd52f7d11d7f22c9e728efd3093d0eba82abad3102aac456e0b8123469687a9ad28daade454220a2443f6c00b1fa47ec29d21b5d8c0a017aae8ba08ea20a0706d808fa5f96156177ea57470b1eff77189cfc889419aab80d76d441795f95047c5a8bc2e94ed329cdff0b60bafc33862b7275a2983ebae8a4dc664cdddc39148f164282
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 314
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: f53384a5ef6edc2cbcfda00cb7456d78
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 6302457f6de76c7a805e1f857aab9a67
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 314
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 90ccaad48bdd13c3df79d9679465dd0d794b0a0ce4ded4add7f3e2952bf8593c295d17fc43b4c44e56971e0fdb116bae0e7e3203bd02647e8feddbee667ca469ba3b0351a968d746ffe033a60a26b12b525d280353605b71f46cfe3758d9efee4fbb8333945dd794eedca6279fcf5a31003cbce29d748e39ff654bbdf1bed5e7516212dd1ac27e0ac5a121bb5f95c124dc92520b25b8de80874d5d230214c30a8a17196fd23fd91b00e64bb0fb78ea22f15363bc532549252e0f2fc90944ceef75f7c320e3ec75fd148cd130cdf48f88f85cfacde2b6b80ec0f45d0defa941fa89350429da61aea18d25a2d9dd156197dedbc7f736208390274143f63a4f8d2f1dc557c544e364dd3923e54eb79cada64c69c7deffd3ad75f8660b90ea15a2a818d6c5f0d6bd43519eec6cd43618c35b468e10d17b79865e591a0bf1324941a5066c7d1c12dadb77d4993685ac8dcbd2c284f62273888c453808ef40c5d09b054f8459a43c0fbf5c714e8c7b8985ea932ace7a79987b0a9be926335b87d37bc182400a38a847362b3e74b08a952c8c64ca72f1b79d6e0b52cfbe28012c1aa424da95c5a2e8b8c49dc2f305cef00e50b92d320cbec992ca1656848860e0bd790bac5298b7a09b7586c866fed3dcb53afd2f7b313272f1c4b458e1b1bee6
+  Bytes(out.data(), ct.size())
+    Which is: 1503cc73f4b8328027a1f5bc043ae41c478b094c8a56effa2647f442a7a11b155414ba5383e69c78f06267971fb27edc76d67dee44c236df3857938abc12b5ae6495670a323901aeb680f4d9fd69b3dcc50d0b88a8e7093a487795f2e85ed99810b7a71b6b25c5e66499b3f2e7ec2d6f927b1837d2b06ee380914ae4c70f04bd568b35030ee6346e130f775f9739d8b81f80794f74b8ae065dc432d047a4f2e5744b19ec17bc3363df8253c1dd2788de6d7a8767a705da3e14103412e783b7717e29a339f924f4c0e27fe64d15150ac789e19dcaee9ff06832489139adaeff7a0b83d4d625e83905a23bfa8001885df310d2f9d431995ca612aa77997c1356d96e5a2505beb1a9306607f8761094e0c09c72ac681d86f3a664b467bb987c2e45e21ba0f2ee0033e15d5e5a05882aff35915e1c932805180b7e626c2d4e72b68a7fdf7bb15d12d1d8a398e74f2476f2398ac474b51a74846c71f22ba4385ac22aed64a24a69a0b2bbcdf938fcc5c2f875bc18ac09fdd5b4123422707d9b2bcfc9c70b75f868bfead2ea3b7c026ca17efcafa8403c63a68445f5c56dafc8fdf83b6b76421962f2c9945710712cc3991452830a404a225ffaaf9c11af991007deb6dba04e0de3ee4cbef8733d99d43bc959e0463ddefd41a53ee7299beb5d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 321
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 1139d5d9f7e52a51d258d95a9a51b5a3
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 3d5f52926d0bb878edc468316268a7ed
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 321
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: af56537eae418deb9f7da2500111c077ca99da5e835705385924845547a592cd3910dd419e6fa4b9b2d7c21d42ce2797873a494a735cfbb4277143dd25592a1f70ad8d29a42b55f697807994a1c0338543bb56543609e052e52e1b7ac473ce717711fd7ce4c269291764c11615637b29bee0a8001ce82003ac91f410153fed863f7aa1071a76b5583852f6e8bb7b565eac8042e0ed76704ddcb2c03504b9c79b1e66c179a9e91d2cd890380421d84e05a70e05c4aae13fa600e57a78d7668e94f87d7bef00b055118480e4944131a39c7b6066161a3815137a3b0e89cc0db03775507b4d3325ee4449946b33892e064954294c6ce83c97fbd7f11f203fd1af49a478cd3eed3cca766ca3b9d3402dcaa4ab9729f209ad46daf17a584d6187659b039176deb9e08a0cc78db16e4122dc5f81ae4f5ee23a7140d2041cc81c8c43568fdd45c9ce4aaefdf7bf2f650f478f7581202b548164c4c160d3e2d5762569341170304e965e09474130e397bda5326b2aa07067a4fc8275a1cbcc43777414185b243ff67f8947b16db687a5b15bd5f685ce250be6ff21355ada2e125b64b57d57b94d6461ed19e77bba9234ba891d8da2008493a07d4f8c76e71973bb9ef87eb048c453cf66bce0e820966d9f62d39deb43c7a2c25335184e0e5ddc1b191138e71b155d39271becbdf097bdfaf1
+  Bytes(out.data(), ct.size())
+    Which is: 1065211e4e55bffe6ebeb325d911ac71f2757616adc746b9e05d5b659b14f3e78ca664df9a7a79447e9b6adf358fef2669ddcb6cabb48d09131571afa8105bed62c326b42fda79c9f14ed8af5eb5fe69a9dc06e918a8e415cad880f90cf7d1a05d6c604830e8caeb2ad1f9db4decb014df8d85528d7a9ac2b2ce71977147bfd5e0f0551045b37bfd08ba0eed3232cfbdfafdf0320eb96ef8718fb2539a168da8bd4d2da6c4d770ce3fa55195eeee4ddb5304856dbeac43360846b4551dffa47652c6b705f346f550db9f62d5d5963b5878249d9ff0dbc8571a192b5af7ec04de5a86a5822502739608cbda95e162e7310db7140a68c113352954c5448f7e38c4d6a06d59e8d28cb644ef6a226b210594ba291d65d724eb7fac81b4daebe144b2558461722dc447380dbc83cf718386d1c5c94917dc6b835ed1af475cdc8477ed90bade6ebdbb18ea9cbe3de642bbe66883d7bc3616358f77a4088a86a2b33916750f57ee95f7da14259266d988b496b2535c66d4825cfc2dfe40e383c771fc4569aa67926d8e0c61a7f7bef4fa9a7ef25f896dbae14943a4426dfe78ea572c0ba0cf5b41eb47484c6dbe02466e7aae74681484791280ced3a6f5baf9db12039cc84543a158c34d02822635799c7cada696986bde8add6a2db5648281e2f19db177f8692bbdb2dcff57ef8027de46
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 328
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: febaae3a1e94e47bf92a1171c91aff8e
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 8e900e0d71e452bc956a021543ea119e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 328
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: fcc54b58b1330cc5e87305ad574eb3ddc760f12a0dbc5075d8b7e825cb52237f48845a1099527fcd5e483f2d99a06a413eaaab04e641bf7ee3e6f08575658da3e48af76b849ca68443b61f260118bf7730d9a4b965c4d55d391c66c87ac9a065f32e784758be031f9f24901737da41fb0b800e61c5d3e75024ce3cbc03c9b0a318b90821623cb50e487fc15ffe6e3b1ba69b98ab10564bb72f868faa2e4f446e5331065f36d30942022038d11dd040d872aecd22163affa37003302cee8da8b02fc1ece3c3b6a29bc515609faaa460032a09adc496bbcc70ae7d35b78c8f97f4b5a55b9fc03a00561bdbdf883edac8761a8c31275c4833ca06a212dcc4fdabaa022c7e7daaaa7435b5c7014fa3866bb77890ef0955afb267417706ccaf3ccd9e633ed9892fb5049600597e9b85f73f7fb065bcc748237f33a0c300298dc4cf37781fe632adac9fdc0f3388d315a1816f315c96b8d75c7143795f56e0e51f09443396dd7e291828cdb0bb70125e90211c68530f33e0b2ef8bceb42905b908fb3f64dcf48ba8ec4abbcfc3da2bc6f04dc8bd993a438cf3e64efafbdad932e01ab3000b6bc819e1c205242220ea72ecd4cb38e54ab7c483a58956f992304512bbeaf7fc0f987098c25797d734cdf74a3bf06a5ec90cbe1e12e59fc47e8ddc4ec0ffcd90e0db824e44bebe661a88a94b335bfd2d957186723d9e0d50544e68547c
+  Bytes(out.data(), ct.size())
+    Which is: 12ec42848e807d3247efb3e3b154dd382a3697f6e2b71bfda8b24a39a69289c6e071c1f370251dfb3db5980c7b84f42856a75231720a1e3bb47c99799eeac8285adda3de342f836c8366784b714b552022734d9d5a942c26eafcb4079d1a753117131197f736e734e5e24f8e1e4feba8e829772ab09f98fd4597e6d34ede71422ab1a2a3dd4aa1f5dee85e2d6aa4faec72ec1342b4534f93d603357195bec664adda9a784fa37c5c9d5636e72bd5b6f57b1b89a1c2d2419397d62735230d71b83ac47308682ebd5f62e6e118a98d4e4718929a35e0be32c47071a2cd7a2ca1496d6f50a8b3cf0b26a77717eed899e3eaa1072995465c250923b8eca0c879e9a81601b1ed8ae35120649b2676ffd26fc9c9d44c63ee50ed8dc7414a0af478375debef9bc5d895f9df0ebe33527854b2405beee2d3420b1bec3e8d84d237937e14e418b78e5de37e906b0853587bb9241a2d752c703506137690b479a698ecc4ff92ad69183ef251f2b885535748428c74e5f52887c96c7646b234e9f3baeb1dffcf3479e8acf34ae5896b023afa4881d4b895142cfbc3f69b5b911f73f09d451e1cf1b4e0325de5e2d324a7f4bec88811878a81f63028426963e3f904ae5ab6f929b6975cd758d52487358acd67fb446d019d0a8d16720ac98b087fdaac1e652468a2754a148c0a463628704d035f26f1f9d2dc1695fed8388e7ff022a12e90
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 335
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 9c7a7696965ac3b4d1b175a1136fff97
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 5cd6dc04be13dd93a29703b1ea0acfb8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 335
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 3fe29eb90fe4d85b070d118e2ee7b5820ba5aa019b5aa64c04485305771ab03b7dbfbf9cefc1f1d4ac7b91e82e460e1e4bff9d6ec7cb61138fd3521a9a13aebaf082907b6bd82fb0cddd4c6d2af72b054c2742ded0241e2db9573ea7cb76b56b14c7bbb2a983b9032bb701a83f7328da550e6fe2c07026a81989d030610afa859b1622c8743e957d3441f044339d5936921104f0d98c427fee9430dc1689261c63f0a02beb9095623480ba798fd13ec536d678550f10f71f2dced90edef6e3db5699a27f20d2382b06adf5df7108d44b5610bd49a7270d1021b93cb167b15cfbafc875c9188211fa31aac4dd9f4abff49cf18c466731d3d343aa04851abf731137c83e8815a04cb48957b7514f5b8d27d1bcfb3f8bb805603062fa4f2a1e50734b2e52ca9e99bf834001dc6f57fca600bc49d0e95c2ca80581a66176f182cbf9602e683b2480492d1e6b0f6119930a85e09f4e56b861c8c287da0b4028c055e3f325802260b7666b38da47960acbf10f9206e68ef247a78b0f9b7b5bc50aa6f5a47684d1e64c79ff28f1bb21bf3e67f7d6ea5c2074b45bfa7d905b989fd262afb2253b172415c16706b9c88a322787a3001460848391863b71aba1d23dda76adb560e7a03c81271330bbf36b6b21d1c8965f8973afa9772b7590b9de18a9c961bac11590825abb5a7fbe78f4d120e6eff290b8b3e4b36222a0fa1de8a5ba2501
+  Bytes(out.data(), ct.size())
+    Which is: 7726ec24ce8e023439e5b26f24facc496e2712ebaa13b22ab79706cc3963191a672063b5fe979312fa7529a353bbf994250c1dbbff77695e95562161f12ba23b003b3d8b0b5f3aef543cb77dea0142621a3d0291f003198fe0a348e9debecf04ca4115aa3c6bf8f108c9072e5c0f10ab4ad5be38776647d54b5f79bcf6e4ffb66c5dcb798ae3a76dcc5ab6954ef222df8753ffa4238d445ff5434873964de7233a9612b9eb6e354a842677d51fe6d420920bf5f2582eb48be2cb3e2f8a689d90a8e78e61ebb0ae8d4e736d3d183bb1b19bbd7385118e75aaf3e6ea37e51511046cb97771ed0ea7e25161f42a2859a3c14eeb206a60d101c592387ccb0b8350e90e63377efee1ef8d072e21b081dd6e0369d91820100a2dba659980c762b1631868134a28febbdff2f392e107952841b56f63914324f256a89f0944ca2f9ee343fc26584f69daec32b193b5f3d3a32ca76d7211826d1f59ca48a4b14560fc58c792fba9c332ca21517d85f3c687fb348d20a81aff020a2e5063557605a3bf5d44efc3cbd1fc09e06f0acccbae642a4742f0b505f859518350c91d8ee7ab60bad60393af742d55f376fc730f899a3c179ea1b02a76bae3670c49fccfa3884091fe8ec1d79fe5362c45ea2639874789e921919bb9aab59cefe16605b3f70d0251af7499db5273e6c89b0ffa1f347d70d28e9471666fdc121e7a84ba5210fd59e7f3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 342
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 0948cf55a922d9ca8061356f5a829236
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 5a8d5f9edff7f86f9d46637e3a0bc661
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 342
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: d412afdcb77bfba94aa9a2a3a3a016369706fa4ab1efb2bdbf4c657fee4ca85b1c497a4a85e1330854fbff098c2f8450b7a95c4642b970518293a8d6e3f66ea0467cb05b7f2eb5b406e3ba36e153d97c9bf9bf45780e6576840888355f6084adc7ef517ec42e11271d2b72f2675553e21521e4a6b8f92f15fdaee335a4b8141e42a7204e35a96a3bbad2b955e1d9fbf02f735cd1c31f1fbc069b89361a9e0e18c75a587f7f5279a9005f8338412e71eb6e7e644586b9e6aeb6397744cbac0f60b086f7e36b7147c27c077d7038797c6da35bd3812b68dde48917b6695537490992c847a544092c9e16f3715abb930080c10dd8bfc26d51e7fa4b8cbb785d3ca64a2a5e21a10312dc4b55710d7b2dbb727b285b087c542c0e4d9055e16cdbc90954a91dc417ab19eddf8084c765ad1a2636b542411c15f36953f9e6a177089fcb9bc45f0f2256f7b461ff5551a5518c5c33f8fffb282d4698d1ad630cef7bd6c0577624a642eabe3ac0f78386d8dd1429f02a9c206037bdd6ef066ec15fdcf52aaedc1771f3f424e417751b3ee9f8a71ca47a45bb1b8608f68aa1cb29afac84fedb11f579b848e76a5664a8978d5ef26bd087bc28822216454a193a9c4f19126a108cc00b25f9cbe0bfbe704834153bc6dca55f32c4ea87ea6774768c5a36e5e39be927c2e1d4055fd279d99d1b3a8741a4320436791de823c96cba601c0ba9f36f65eec9d3117c6d73bdfecd4a3556f84c
+  Bytes(out.data(), ct.size())
+    Which is: d584c9027242c1b4c75c61a167c7e93637c0b13cb8158618e067867ebe21679cd3beb4d85c789a96314b739d34e25164bc5a222f3b927b037d6cae354b79ccc501fa5ec85912e05e24960ea8502ed13809de0e36f41aab19691db68a914ecf62515d0c30fd2af607eb3234b91c0686ce6a23ef5eed5d828c46fefb04fbd43e5012a5805baf439e3e8af5b4b68df3aace41ede303032fcc25fc62c8a843ed4d7c31d0dca932469cbbd3d2e450256d8fe19f880d10dbd089d9de2525e79e0f22f626979116038ea3679ca46a14e8f5e90a212bffda0baa685ae5c976c6c8db6b4609ef8b4e557aed47b39792b64fdfd7cccc5fc5cc4411cddb6d00f4878cf9955174b8f5aedce9ad477e016cec1257efd39701ab58880fc4eb48ddb2036fd5af1f833278fdb2fdf9b3aed7edc7af6cf7dc82c39fa2929a44cccbb415713464fee39b314dee5f815763dddf6b071d3278e79c4981d5e335fab44b16755e5eff3c3e0d98cae44fa038fc6d4dd2e87ec0da49c6e7fe25ed9a6235fe1df027797f34381bd8b76ff697e4816414025e195a10e5163a8b409fe4810d207e04beb7475e44a2cc2dcb0f67344b8328259d1ffc4180ed2ccf21759d5c6490cce9d12738bbb4cd3d368db28e43af3da70d68c04ee06b5dbaf5595ebf1b6fd5dddce405f1860567b79eaa559c30395cef995147088e78974714dedc610406c58c94645ae756b6ff27b6fc6138a1ef0f101937a66be52ced
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 349
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 8ab0f495275a56e3a0d77f255a615fbf
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: ebdcbd51169ca61e6b745c48e9978c93
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 349
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: d0bace68d76a5be6b31bd038b921b6377f8022e09bfd90a8a94d55c9147b07e9857891b8f4f43ef410378fc0a54966918bae5fde49658e1f6d307908b5346b9d776c1a6dffe52213286fcb298c741d04e9280a4b108419fe9dc938fc5b3810183bb7004a3eb05cd1fa81646e7e64e76e69ddba6d086a020f7c89ceaa7ad53b13b01c5c1addb818eca6d4e060b60e31320267e199af494739f67544542baafb577d2bfc36d7f92b8236dfc6dd5613c9b81681f10ebdc97e49432309d8d46ee1770bfa256b871f9bf76afd426fda88b91fa9a407d6364c181a1f04f17083751944a6925292fb42defb24c215b0128c6f500a642cfd230c89ae2ce117a29adc5c09f7dd4d97a34b9fb4e55802d325a1a13d0f6e664fd5f5a35f22c96c5b567d2297c5832f928ea7041b11f7ee546dfa03bc03385b231c0503657f0119b545faec4010fb67469f2b9bf69f4ab89abd70c339893fd145758b3ae47b44fcd36c20d361e597ca573317b04a5d00997755c97ab20f9b0592aaa8d10a940be50f33c9fab16bb0fbec7d92d21c378a3badc8c2137fb989c9b6111ab8228c427338e0685ccf979afa9e887f06cd840c2795a9e08ed641990f0c29d061c4f93ce6a15836b34dd428d5906714315cd9bd2f636bf9deb8a6371ead07502a46500f987f2ac124428256044948fc4a2cf778012d349ff5f9e3847c8b71793e8acdb96b68eb034d08f6b06db00c72e10bb6574fdccdf39a775628bc387b9ee026866854f52d91cc62659c
+  Bytes(out.data(), ct.size())
+    Which is: 91bb9e5f8c92c886db94b83256507e54a9dccaa9bce49bb75f964cf2ef782e98316038865b59ab4da5407d9b3a724347ae1b5be92c5fed8a72f3efadc21cea9549be8d81c0a64d84b31e4eb00946da5d1b47d15885cfc9fcca7769c00119df4de19193adf34aaa3453ae68275b01b59be4826fa8ef1755156e8caa40be16c7659f63281ce3a4bf49c6e1f0abc6f226771f527c559db87b1e49cb755cd5a06b57ad162ec425e1d2000a3f9e89e05142a34e2d961620078c8f51f613eeab9177f4113002c5ebb282757f1838b8520dee85e9fb42c2ae850f3aeba9e77378f2c58cc8419f659cdaaf8c65e4991a0b5e15ec87e0b6821325164abdc41f9e46edaafd1c40e8d8fd8d001a9a187765a84fc06e7f016e6cd2cc3594012a5682a75ebcac3e477d766ab723c9a90bc38b7e180195159deae46ece42c1a374f766b022d8cb81ae66c12d61da6a3a521d8f20297323478cc1c7878e97a3aa28ace6beb83bd18936d9b6b4947157f551a126602c5a724845e8e83d1e1af9c299004f3c98d4fd3972299a2543d249ac0180c9d81f7c0faaddf8f00d90b18cf3626e6c1a57b7655fbf521c185de841157f9b08df55d571ed748c7ee23fa4d993db762c36eeed84ea5d27540fa9c7b32f0ab10e393a396c33ceb19faa083cf254a10257b90b8540786c76f6114e521f0a9471903052c04f495d11f7463d0d3e448bd13abc82f0610a45dcb524cce4eb4265246a40b28dc19e4bae1598f7df466eaa8c0a663063af40a5
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 356
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 54c66aab6e2939029293205527852b9f
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 18a99e877f94d6fe470fd04299e88e38
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 356
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: abc04db39ba31976883d21f55078e5e4f5ead60c56b232124dd035215a124a489249ba560da193cc3152352f241070313d8e8b693bdc7f72e91c34a5713688a6a8ed1d3a3fdd0c5f118fc83df42b8ae307e39b35021b4479fe240be8e161407bd82950dee7d9a13d397cfc10d38ff3736f47a4da0ddf2cba1501c18674a71d1a1c948e038632d65ab51fa41347c583bcf2d13b2d22201957f607e57dab80e8a1bdd2b9cfe95b204976c1fd5f5e9fa304d3f9761b63d0f5dbc7a129bbcfd97c437b7d3bfbaca571a50192cf309a209dc29d51a18cee2ea9790309795ace41ce20c12eebfc6db620c398d3229e773f44048d596bdfacad90e277518ad0b2f8841eba71551f79fd891cd1aa84c6c87224bccac2c95d9ec27d3d0278b274dfa30a3fa8684f7cf50bbb80c49ab4b4ead2943e87a31dcf29df040f1dde7e2bdb097d230bdefa5d541572b9e759edcf498d0db993f5904e838d53230e231cfb57266fe0128c2d8ed81d6be4b0a14c286e9ed109fffd1cd4d5d5b8b280c238e7e276095659da7db5bb400c157901b111036ca13af2c7763fc33fb45f857d4250ac1145678dfa99960c03327cd39f521d71b582a85da13fbf2905faadd0c4b7bdc818761947a5fc42215657959c335d0dd01c8562bcc6338dd183d51e8b3261b90e0642853912da5a19e3c74a6c109e845fb700ca20c5c9c4a185b1060a830c7ddda040de695df1ac085d7a0b0d433a5530e5a5fce1bced424383520ad85c40d709389a4b3e151e4e8b3c68bc5f62bc9acd0885fedf11fe
+  Bytes(out.data(), ct.size())
+    Which is: d0c39c6b3532840c16485b97e3866faf3ac313a5ac90d55b265046528f318da38b72569fdd34cee2e678d01bf0c25584d4fb644d9f8b9fb55664d92c6fda671c35f60052827196d079e6bfbd208d226b22923d1e1aeba1b241b43488346e5bbf4a8371a154df82516a6e9a4f09fd04dedad4bab55d7b4efc2347d69f1c9cfd031884bb720e97300173ea93118fad2a8efd7194bc3d240ac3aff0f37b4c54e39704696f61f75be0c076bea62a22410faabd2e1f39ea191a10be74f0c7754e0c4684285875932e25a060f6006d984c5c278e857fdff8889e39a386f2c156f46e9e53a6c2920016a43b58a8a851f4c32de359247d888a378db4bfa5cdc5f32ab638e19b96eceb9fb34fdc8dee263a7429b1bd75cb6b5d3dee2c5fda42f2d8172a4eb681ec56fad4abb393d4bc8dabd1b7ad1bcfc0a96b21b8a8e9f4306cf8cb0421c8258d528dd251cad255b6281df515b009afc91aee745405a51f917a50315a8c577ab220b04eb8fb582913fe483704deded7ff549fe51c899cf7bbda334398d9ad35868a3c473ac5b84f6f9a7eceddea115375cf87b38b300b4c3aa3147dd715bd959f40600adbc80d7f76a37d6cb388ee30a88d4f6ed9d2a41710f5baa934b295a525645dd26c09101c7dd51c591edf3f6d04276f764ad664594a1f8912d2e5a67528a84524813b9110dfe1b033a3228980f5b175d9e9bc502500014586b8949b99c55e84037e475641c1dcf5859418ca734f346b8d60d490c3ad2c1266460a2ddd9e4a7354f5b5ec49b69e9a01d513af57da
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 363
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: d340ff2101c55bc874a152a64dbfbe91
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: b79e0839b059530dac8a1694d2beefb7
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 363
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 829f34b0c9a9dd142c05e45001836bd524075423cd40507819ffc9db5f5149cfd97cb6584c280f936c8fa3c0237673ff858aeab5f678be466c8b0f9356cd48d0a4bf55f5826115100316d5b11dac5cbe21b817f8e5b2587971d4a1f47695f1f917a87fd64356336481b92922244639cb2455c3bd0b338b24727f14c3b68a92ced6a6a58fd2c07aae4b5206f5fe355de532b996e6348d357906ed4736734b62bd27f8e832690b2e63a2fac998b7af27cc98aa64386594eabf12d5989716e8c36169ac8f548433c6cecc114279cef1a62906bb69233a3d74462f4a35528a98651a0325c06c3667ec31f7b66bb9941b843c6faf6ee56a813b03f3bc8775bcaf1efa10cb4ce784c99ea79d49ae57e4a77d7b069f8456b66ddd04a8addfcc441fc3577b5ce2e38eecebe4963e78dd5728e347654403ea249f70817e545528780668c69bd5186cbfa73e9e7cf3813952377f748c6736988a0faf9f06112dad90733847dae8ea272ac49f1290a417f4eb09f6960e0bbd90c098b3d6bd1f49802325e255ad104cd18a90189aa486eedfad8ca999f533ccfc30e63b31809a2f0dd6bacf29e7a4de79813dac86e3b324e7cc89abfe98e91e02a37e3a5d224207958fe4627aa5861cc1d58515e2da73eaa171e29bd436786a8c54c449bf620b0d91a0c001272b5d047a93289e2d6a31ccb14347b019473214c9dc066d867fd3cc9fbec4c1ea887c6e009bbda41f5e888bbb14587c04c406566abe1a7f473f052a17c3604e837d1358255c70098a4993fb0cc25cf89326044f11a7f4e6e320afc5c8ae457425427d5a08
+  Bytes(out.data(), ct.size())
+    Which is: e124824b546491f1a26a53cb7fc23a021f652761864caf37d10c3c8f9ed618288fc260fd0b5a45fa859023b2e195f005cfaf122cb3753531ba54bf5c728bc65a06c95fdcea4b5795626e9ebfab38faeede239b0d1b3934cfd8d5029ff4f5f7087f30a623580539dd3426511656eeeea48385b47923df16bf34ac0aca2bb8a7ffde37b09c801846d2d2416f04a37e870de9f39bf29fe47802f70b1ec9ad23d2e6bbda13ce4064e5178a75cc1cbfc869e5fe1a83a353c880446423ee7fd5ba4033f0411a603cfd8f2f252c68f65770288414c6337245dadc3c279a309ac735f10e11964278a82ff82caef63284bf79372acd97cbb63ba0601efbf749d24eff635ad97307c76ce0d6d4912fa3b08bc12a30fcee2c6aa1871c4da996d05506edb79606a05781d5f8b89e59211df087744e074bd4797dbb60cb655d255ebb6484e838b7bcceb2f6cc7aa5dcf3a288aad9813c102a2eb37d46192690c98a72736f2cf951bc775b768cb117dc4b002bd7c9312d59ec7ce165a757d8a22ad93593a14c3bed8cf7bbcf40cbb3c4d2bf58f047132fafcf8510fd1cfe39d96e17b99fdb85909eedc4b53703074dbc52a058be346a274a9911efc3daab27859a8ed8cbf03feea0455ecb7f7527d5983fabdf9a643452410c7ba06cb30d8e4738f0cdeb86d3bc6415fc9deb9c8128a82c0c22434645bbadfd9261c06d6a86116c300a9e2105f9659bf0b0b545a82fa69a7631fadf151681be369db8fc9a10bcb2fe429179b55360c8fa682cbbcc5d7247f9501361c2612ef6cf0e30f603f37d5892a0841beaa694764cf5
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 370
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: ef86f2b8d839c403d817a7a4b73b727e
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 0e923f526cb3f28251e9549ba9bf4cd0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 370
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 93ebed6f7254c65c204278a9acae0b123dc19d8e226e41511f349961b1939ca83970b9696f31a7fcac5f5e3d4931b0a592ac27fec71b4e5679a56ad1bc3be37d4bdaa50bfdd0d00545d4b77e757ce7a0c8abfedc9585199ecab1226763a81f9a8c6853462c483f29798a9b28073a57689c5514e356f9fdc3f7bf8ee0688e8cb781af3a365ba940f7ed36ca68f6622fc6b6310a4dd7f8587853f58ef485c82359840e2784460109b4921e4b7ab014b28571938e18b4525bb4d5de35e77cf44573b167883feb3c730945e9ab71a2b755cc315ba99ab96f8d4a8f46589f2e8906b269519da3a2dad2a7075629c82096f028ba47c33e264f55b8898ac5681d396b8e6d23616c1f8db24ece718c2938f88c82da1fa940ecfb402fb300041f9d30e5d47e2d74a4d9822d35aeb6223a4457d621286444f732bed704d529df95627e153246e0688fa97399d96033a06091e77db420c8007ccc33386c28fb76a697dd99ffab76705a7f55797357e563cb607e531938380dfa64800391f06e5cfdd3dad5f91eb7f2138d54cefe9edc0dd3f4d674f5f5aa315f0e1b7922a37821c6cabcc9d81fd002d159d73b0598ddd21b66d3db416b789a40fe886027f1a13d802e54a6bcf691ab029560b67307ecd373f2f9ef2ea2c334fef7d25799088106bbee9fe2b88d06bb23ed0510284c5e1289c1b65a27e4f0fe33f18a0065411ea9e09e65b589a2372f37d0f8f4e07d95f6e8f30fa882726d29f41782b3d5abbd4a9f2dc62419c684a4c8aa92c4adc71c4db805c29b0e561760ea3deadb7d41e7a07a67fed68b8a0f4460e5535e9e0b9f7a754d6f2398fcf399a277
+  Bytes(out.data(), ct.size())
+    Which is: ed665f89e64e4ea291c29f29e76221e325a3bee3c99c4472bfd87e0ab1f9d1623c8e2146c0b36d1e510a9f488867a2701d316f285058f2e2a3031e521dba33fdeba317cc6e26e19e6d5038bba2f312e66c02677375680fbdaa7bdead7fe7ff73f3f8afc77434b6450387e4d63ce740b26898af93309dede1bc9c2d6bd20adbe345f4b4dbf6e0b45e4fa74b82b46a22a2fd0386787f013ad04e15ebff1d01dab9f1535bc505ceed5d5a45ed55ea793e7ca293e233fc336e2f46ff7a50ec3f3dc17fb70a2f852560b75c9839333e30542310b0c1db2277a0a1a7a27a6f6aefa5288f598d0baa2fe649f0e197d4470dd749d9ead9cb9d4a0e402a6620fea62159ae43e0826651c0a2b19d2b8d55766e7e016d6a70d859c8cff45a03aea642ff8bda08e027e523ea2a1f4cbf88b5b7e4670a90d6cf941b4b92e5279c604cb82bfd93678848240280532254bd29da0e85ab40f2838a4c0cdd0fbfaed7706c6bbf1ef034731a6bc86479b6bf441f2ed905fc26471e5dd8f6aec31309f9d267c51d9ec6def366c4f9932220ce53bf247c1dd690dd48109494a1de695b3b7e93994af31ab554350ec8ee597fdf8fba9cf64305c553c0c1daeb1722f2d9a0b9220d5a1b81f09be7e8fcb8a7ef06ac7840268e56ab696e84ce1eda10681964c9e6f2a2126621016436963d5957d3f6dd30c073aa678754f7865c4c41decadf1c4e4cfb5d9f409e5bba30501fd2a898ff3ac740977860b1a437a960a2c583218d6deecab4414a0b605f28b76e5bf6b15bb2dc7d30fbf5ab9cd9cf18d357bd6790183bd54da46816a5fe5ac2995edcb42597b57c87340fd00bb19c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 377
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 7ec06820957f6a0e0f4a8f7ae0be696b
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 1778ffa268832b7e7957df1555974c67
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 377
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 84cdf98efa641c2c008e2b2f6a8b59e20e95aab15c276a21569a1ccf8b7494b6c9585220620944517f167e38db24bce3c81fba1743bc6a51abe0ba858d763420ddb06a9a36eb417fdbce903c9528f1db76a70f73e50e22154e8807aff8e05fe6d3d28e3f09135486b33e59ef353e30a294be4870a79664d86ea84dc581ae58ba8aa6355ac8289855e7aca0940669cf5e7b00eeb5a5e9c7ca1dd483c6664def93e76244636eec70296965eca0f6c34f1d9923295e343ff9affdfd51492066cc4d5d762db2864db889441dfaf9c2354acd97c823071098b8b9da9b2a91ea98d6391e40ee4e13b7c5773ad7124c1dc22d4e2dd6142eb665be2e936a20edcba8badec6081a07e54649ed2c371a7f22d4898fcf8cd9916c7033925908c2a03c02000a456ce2beec2b2f94c0f92b9a7885c9231886993600e734948b34fa025b733ccef10a8b66d52dc53b850d2632e1d1573256430661d1aa716fb32dc525e80c96afc19808449391dad1165de6668f9743ae1da522c9a953374fdfe214329c00cf359b40bf9f3edc4144da66e3eb9ded0885a1d3b441cdea692ce0e324686e7b2128bb28f6e4256b4ca1463f93f67743a53509deee18be4f9f0604c3491559612b4052370e4fca33482aa0d2370baad1b7e64a1e6088ba87fda91c83f274ef9501385a96b4df53d0ade464abbc8022498f9df1b2608e42b1905d1dc08c3e4bbc7e3b830145a8ea9d7bbf64cec752ea11195947b587cb5abc811307a66b24df8c95756ca4ec7e7bdce47679a2327f08b94849a7760c702ce07072ad7621e0bbb0fb78e3f6a7739de57c29d49057a7ffece9c013384df796ac954f61590c472eebc27a7adfcebe3ffe
+  Bytes(out.data(), ct.size())
+    Which is: 666198e6ec48310adb1f33d822a693869a0f24a0e0bc2245c7baaa6e2bd9687ed2288b97eb3fe1190751e7a6095dee8b51776d4fa836b61b0111d3f1eebe2f062344250c4e0b5e3d64034985b68886e02dea3fefb2761a7d1f80eb99006636489a1c18d44cf1121b67fb3204c870344426f26846ea5d45636de1e902116c424f0d94d46604283e53aba5c5557c100d62177c0de7d3d088353b47f7be7628d8dbaa7b9b74472522c985ff75ed2e2a0cb604711948cb4a802eb5b714627b9901bc2926b8556cf1d631f6f33019f10db32045124db0fc0f2517a7fe41fbdc1d083955194e36a6a7be7e7fb39807c5a92e9f599bda41ec76718c3a967c8c1ea1a0f861c48edfa9cef9fd8e1d53c89ac10ffe0de1197881fa539c19c4df5ff7d9ec5fceef52927c2c224d9000a30ff902ac315f5305efb971340d6b40e4aa696dcdeca75f8a1a787ddedb9aca670ad949dbf8946cc0012d5dbbc0bd9453eb2fe2c23bf960bea520c964b78668c96d63fb147ca16d56178fde2c80357b06edcad495b62e6150f57898debb80219946770dbb96acc7981bf70c9610232a70fce0a90ff346f1b12193bf36010f0e6c84376c95af7f31389e5fc8dd36ff1a396d18981be9aaaa7e5b7939d95daaa6896535a02602c237767f4127ee641e1e40ae971bbbefbd9ff270c758c4ed9a48de34af00411f06df7a69591900ff25398cc285077cbe30ba99e2df139006c15c264ac64c52a4c719bcbcb47de4689dec415ac08e1688185a5612e1b2799300dc129c7507db938b172350306eeb3122a61fb73f426bfadf1af0b7b5e72ee9e2a30ed7845dd0f667de1c6800cd921595187b1187dcba457cbe428c21a5
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 384
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 18d8a0469f1ba110dbf77ecae36e63c0
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 3fb965c5c0b2abb05bbfe8f8746d4b32
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 384
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 5d0cafef15ec06bb165c248fe447bfbdb89207ec1331c65a5d88d419576ad9d423d20d660c95b48bc437fe243a6f860f260894e0230b702af0aaa4260746008ad679676a92003a10ccc12654251de9d2cb09f7294c2fe8c2f4764efbe3984e7265abcffc2cb3e30c5611c3f9eaba13e847fd73fb3aef12c8512b44283935c51d48032865bd6efba3ee4e1f07dea2e26022958f6a966fc4059c81fbec916bf4486429f55732fe3e927bd4109a8bc9ecb820d2c137790b0e296df28f2701ef5cba2c5ef0c7732849c75f59f81460333255f139fcbb30376c21ca317db1f849f79b1826c8f3cc0852e00b0dfb94bf3601afa09c27c130b5088c05619dacf00f36e7c01a9f4a2f24d8be1ae778fef1d367b04313f8cec89c708a57bb332b63e60d15d5b4abb2d5b0bd0dca886e0014051053a5e946750be4a9553549d9102b0d8c08bf9f850a6e06aee7030536ecfba48aa577c7d3614056d790c9130544c172bb4cb386fd3988f149cd77ee8275b0fe434e589b64c13885e9ef4047627dc192a6ad646ac6d62f482eca0183d23f65a29937e9e53a1235f66436897da1213607cd850c32cda9828010e6fc3a93f5f9c709ff259921ce890435b6454c046fb01c76513cc99f66a5c2da8f16525b68e3cc66cd6a7674e674bb0cd8487953ea9048a170ac8e81b616e78d0b8460b729d885f4716b741c04e6236d2171017a5d433754aedba3aa7a39675402337db7081f45ea37374a8f86ce8898ea837583a300c0f74c6292d37e7c6d19c190394dbe777e454c344d7e16bc51c0d93465f05327ff29303d80177b9098b4a4d809fcb103a8c199e3e8f827b237408a242a80ab388d29ea12ee8a0fc313367ad213f7e696f90331c7ab9a5730cfa1
+  Bytes(out.data(), ct.size())
+    Which is: 25d160c2236f37ddd763b420319a933814df7f41887a7bd578e01820b295bd1c90b209839bd30cb92934329ee89e4be26481c28d5d442fbe73787ac6e87b9412711680cbceaed517630c99d58fb5270b59349340c670481c953fe0ee47d7d7baaf39a5ce19e1046de8128500b18a6f41319fa4f103afb1e2a1e48b415273f6a06e63a0c47994e32dcf2b4a9654d539429f0ff616d723a248eef28911b497029a1408175f12283ea7ea6bd4bf0b331f777ef67e292e59940d98c0a67fc05b84b593675360ea51f83b24ff05995ac0aa76fe79fb3cf978b767a72a5d8aad4a231c5553cc61d630fecd0f880c4ce010a9d28059d0e31adc13607888977d3a408fc54b84e3a8959eb5e0ed426f445cfe69b3abd9aaf6c171c6bf37ea0e2a162e3d79d6d9ab82a5d525a79020cfff4894378ab0dfe31a9c558bcd89fadddbc00e92dc01b191d86e682f38792ac29ae4e0e74bf51e945fd10878cb5a9959825a8a2dd42b6a7bd1d2559106c3f5b3fa64038eba4b3cec2dee24666ec4164cd27e2b8ca54929be90b4b64f9b263fd87c5906c4c01169c274bea2c107fb2357bb7a22de22101f78351b67b34e557ae42a9b9bed747d33e407c3ca59b85ecbdf5ca2a76045133c5232d849238ace27c2d91d894e52280a24f8873c7b82d424d4868c07862f3daee25021c32ef068d70b4e9add56eccb0fe24b42dbe9bd474bbb911dfe74f68b3b2f6a603e98ed94e0f80e7c45ccc5a5318f01b360424bf00c3ae90ef2d85283ef923b87d752911d15fb5e29f9a916614175d49b352e9447a7e925ed8e92dc643dc21dc706147a54ccd1bf3e692d54e6f20d8379ded9cda40168c095f55d16b7939ba60e32cfa7051abdf072964313ebc3f266bf45b3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 391
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 359febfe67037a485d7ccaa4f1b6286e
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 11d79c113329d956040d35445eb77c71
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 391
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 28c9024090abbe09b35c4e289dc1b9574ff5172edb28f34e9133539dc98b4557168bcedb11a94c1ea84eb4b803661e405eb007c17cec80afb3121f27f185a197b4ea3f0ba231e538ae3c312e2522218ca2a73402ea7cffd3c1413c0ca2206caa91722cb048e1ec15e63f6c55e563dfcb4c3404a9c380608da0e903bf8037ee1d740275d568a2a3f9ee232d88950b233287b2bdcbace62efd1425c43efbaa8d12f66852cb5f1b665e7f4cb6fb5e3746cd5e8d612bbda8c031fe5ed7f4f3b5741b2aff9bdb150f637fece13ea1f2f5d32718560a49c841f3923d993b1f5f65715aae6b651e7d8f75ff34a9d1737b9e3f9a0375861458faba779ef9f4b72ebf42097e1e0fab5b925fe85f54d40f940f7ace96125273da94c9e394fa9a80680f6567207ee40ffabc8c152bc6956dadba45eff644213178a7a24882ab59ccfec9fc525ea9e37064ff5566e9ef2c56a9d634f59cfbb0b593d3fb19262436b68f57029d83205ed6c466885d7ce9a33046bda7dad9e2ca92691b3d5f1e48348b17aecc311479c4b147f4d61ac14640006a7c0d83b45372073752f9abdb5d1908dc3ec05f85e70324088e360003dc774bb68347c2acd4322fc1733d36e68cadfa95030dfcb9f73165786a30a7e841717ed8b20bcce47ac9b4900fb6d35c917b291a9b5dfc4ec2679846447a1dd140f48699b792a2969384c7e8914522286765a3013e229d3f3e30b130efd498a1cb56cdd493a5fc8bd9726a8784956ee379f907cf2280745379784bf1f177318cac159ce656c4321eac7ae00adea35e209b38c0ce622a1d4451a2dc6e0c3d2679543cdbed19310976d0748db13e341c396089d977546e956c96199828a8cb72ace556a2ece3edd3efec2493a13d61701a1bd525841933e8398ddbe16cd96a2c
+  Bytes(out.data(), ct.size())
+    Which is: 0315957865ae93acc9dfe4b5b492579db8f6319324894a29d12d9d52c62f7aa7f068dbb21589301d90285531321eef284ae036b38d5e8ac1615b359dafeb71350f55c11ef3f2578b33ca595350d0e56b926540657d5df41f9000d928ce08fa7413ef1202f7b44b1b66d64b8c8391bcee083144c66fcbe9eefd8ac48444e44209b31273ab1dcacf201a3ab2617e9fd7e7776561d934a8fa7c26b8519b28e6f84f821984eb1bfd92adc86ff7a6d84703e20f3e96e1020a77262ae476a80fe2d5dda5dd686b18fc69443817d619e9668e393c5a6ef290ec91ef89a0c332fa11be0ab12a00a396730968457dc089e19a436c38650b8af3d08ccab058f66b29cdc783026ede88f1c2061306607ffc2e8cf4f83411c3bf7c9f546d0bbce070833de6f54a82a660972582f00053c74e6f9f415ce5fdfedd61e22f07f69560ed4aa6dd65e83def284e6d3dc98556ffdbd791b348934e4c6c3e4b736da1463239e457e86a7bf4bfb3807350385fdfb23e7537a410e3dfd4dfef953f8aba7785259af7a5e564420a6ae97fff5c442bc67dde55315ac301df880b1388b0fc8dc106c5752cae98d0510b602d71213ce13373cabcc84d12d793cbe0faa20c782e98ae652860d165681e725c449ec9a009c23717c1e0ad8c28780240382c576e8d4f293005bf6c13cd0d6fe8e0ff7bcfa7b4cb34f44aa9750a5082c147d1d28bda96892b71b511c37691b869435808bafc517f3a35d45f3d21e140d00da515bccdd9016f929f4a692ffb9dd07dac67af39c7b9a3ad3eba442fdbc6e92883eb51cfdb90ad093ca634f575b6bb5a55dcad6a402fdd8239a9fd76b69e7d3a760c949bcffd97a5ed9c41fcb4516a26c2cbe5fcdded35a9e0bb2a4db73cead65de8fa191a95dad6b4b638e496cd1a6031b9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 398
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: a1cefe9bdf19616e49e6dae07c8a73fa
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: a7aaf6d330ea49b10d91f657dd6be209
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 398
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 2a59d868291bda6113708e551c89d1d4fd3fbc81017975fc0b99d8dcffd757f19fa4acd4acd47c90100e27eb228ee59ff1910911f8129b8a2cdc59ec38b73cd096271e55fd097329768d102f4398c4f70c52d7b15fcd66a94d0e910a5b6b8bdbb857592ee42871055be1b957013695288e52ad934c6f802677aa89c08654fd932039417bdbe062a5242d5d38b79ac834c7e7fc920bc3981dfb780c9f10f5f761a49a3b95693ee764a97d4de73077838b5ee04ac09e10c72669f7c151446497c9e2c3153938efcc62feeb9b82e605b4bd76ad97b7401ada9bad71718539d47e6edd058c23b5c4f3bdf69d74ee58b7d1c94ef660e4e6b1d43b97cf9e8d191178160bdf0e4fb6db2e9aaa2563322e4413f3b5d57d0f1082d160ae2bb2d3cf6ac17d75f73ca1c80365648a394edcf62f520d2bb648d7c963b1d7deb6eece9583ebd2b2bc2cccc5415c774d9f25c00d221e1f0c2829e288721a9e416df098392f67643d52a9fb0f2f47ca97664aacfa837105e5da4b86774223bbd238a060648f689c59aea623cc688c1aecdffb13d9471fa07352ec02ffaddf080733f07d10ba61eaaa9f8e0d89b6144af9d4a0094bf9fbdfa6b35e9f342a7140ee4c931ffc0126eb8b4cf6e227fc6bfe386e81a32593acafc6d44925f1cf21924720972729e2e9daae0e74f55045d17c25c4c3b8454f912a0f6f6ffd43119ec4f3046d921d20f24662d25d0aa34d95c3a5aeff05ef1a8905ffcdb1b9e55ea22e59a3f5d60106db64b998f0e9683a16c5d82c53b424220690794bdedef384d91bc9a58563fadac76b50e80b64dbf695a38540a9167cf025ee64d28e26fb3dc7e9f33979b33eb887e55d996741d9569642769ddf6332e369674296d510181023a1a3e4ea7327af5838048458ac90a71732fe29e2edc9c477fb6d8827ab4f83ef8626
+  Bytes(out.data(), ct.size())
+    Which is: 14fb12c35da2d122fe5bd756c15180bf7ed685bf698ebf2dc874d70577d98dfd1b4cb0cf4954d582343c19cb53412aec88d451d78ab4c09573d8e456bda5e93ade2e2f68994520dc183a321fbfe91fb2040cd8e3cc9e8e65e6d77e128aa74534f7d3044d2b6799404b7944a4e999c365366bb40d8c6be2268a8fd9617da077f008ff16b9a179be43245b3ce035e28b7edf687d1736f7a57726d2704262f85c4855df5c3dc73690d03bc913d21a0ad45dc75f7f84aa2a370fe7c7ffbb24a8dfff61c7fee3d3128a13e76e87963b7ecacbe613f150fc25ef9c078a5fc68eaf2d81aa47030437a755be8c113df1458aeb2878a1d97f8ebd3e77e2be34d6f75ed58f94e47295fa92c5d4fa6abe9340854e567e48505157a34748b613a6b1d6ee8e437eafe3848081c4bf7d5c6422478ce295334123b5a085f4878cf0a316689724f919feca08d5a1383f07005e8507a05408c5c7085c78ccfad92ecd8ee124cc1fb543bad53c6fc5ff94e31678784e0ab6387ae25e59cf5bd69c703af61594b48dd047135965b483ca7c531aadccd6dcf1c395f24174d05251a6ee65df6fb520f8d5848ecf9cb343eb1f9a9d543d3a17a91480396d500c3c18df8b926438779a4e63963a282e5082e34da6d1307ab9758c42215cd9e48d1f3ebdfeb8b7b4d22550e502ea1fbe6a970d7a7009ce434227e7d6ee970f4f60e9300009b7f4a995b8e5a7d92d26ade5892f94bc43cf370e81a684e127bb73f0870c0ea96b9d40eee1a39738e924cd045f9d317f4789d34de7b36350639ae7ec0206730d0227b1afb42f294ade4a5a7c9cd2f7587a20fb1a90b82251c2f73d21dd62b21f47ae66ca2235384d50d944da2e78bad3d8c8d79eb406b02170dcc75f5f80e1ee57ea27930a1e44e016a8c6a0ee5e9a4513273d3ca94c373a6c91d3078145e124
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 405
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: ddeec4a2536869f8f89ac38951bba13d
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: f8477d7e0f33fa45cce9fd58f15b0249
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 405
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: a56a09a3c7cac593f40fd3af345c1c84d29a7905a05087553640f0727283d1fd270773b6af7537bea2eae40f603567132c199e7f74b7eb98f1d7e73a7b6474d1b0b0eec43dbc33ef6e17e07afbb94848fb78d53729f358c2eefaeae4b92724fe0d6fe97075644ad5b12d1ed93f8c07aeabe373b5bca66b52117018955edf01c238a937c4d5e7993fda05799533a5a15889637628e158604a99b2a21b24dfc2af7ec0013390e6e7259b7ac92f232bdd375fa99a4f6c45f54ab231f6d60fc36809efd3d213813be1f3e1b91ff3091469590f6cc439ff359b0706ec0d0667f58c34ba549e9727d9045adffd0481fdd13c4069160eb871afb2d408e4dfcf6b70a7c2e21e4e54f44b2daa3676ee998515dfc4c8518288b46d92ea835d5e9a0c8c391020aa6efb8b30a580601178e486957918ed9f11fbd2021ed7830c3019c935ce19dfbe95c525c8498803eed097d565b94d047112d494518f7af094705f3fb83b22d9064450701ddbd8cfb209a4c68fbc1667099e605b7cf853d5a78b92df4f6194a7644017434f2658a7529941d3cf71865f8e29238709b373e68fe1e800ee858d8286d80acf4f1d8cdc2668f40338f48dcf5774e5da72644bd9513018688509c444f821c0c648802cefc572c6821005db0fdba6f4eed0f122ac57a213750632ad2eee0018f9f240f2bcd1cdc03d4c8a6585d955dcee93cab5d7041148385a77533a41eb9eb55d7be87432e5508e798aa4e4fd4a06e83bfe355cc698bd16f9b5ebfd17145edb7bfb3c57a0faff18df6075d98ce7a53eb4de7563768e3257ac225de47b8a52ad65699f8c7efa64676a268f9dc97c46bb23dbb335e79be532e0419583e0f8753a38d2de790a3160d0fd63ad5840601a78057708655cde8dfb08060cc0f233688227eeb4a0f20d5e9d58bd858ca3e338ab402011ad975503cd5c86ba3f12a05a26f0b0f79c9a
+  Bytes(out.data(), ct.size())
+    Which is: 686f260a2aff9560541d0f93714b5fee0fbd31e488d43b65d22fd4d77ac7e65057df43f005d01ffa744a66da575deab0aa96a6bb28f811fba16403c7c77e04fa22e282475510fe68a1cb252146b6500dedbcfe6d56dfe60efc8bb46e67ca9b9be6726ac895d9d04f619b8fc9624cfce8419cc068e462c9076c69db06e9e0fd0b370376af7b4b8b422743c40777bb0b3e825aed424488147e2d4c51de8994f1ff4c5aa884c3933c4abe841263c8571a5a1b9515a9185419357a699ff5073cc90c66e3f94dea8dc0ad5eb9e706ca0dcd0877404f51165b9b6be0d28304a363d9cea31e97e3886523a5e2251d132fb8be5c7f7931f8bdab5c6f810aa973c4208dd29026a7b2b45a61146f43e48eb702518d70264a0445d2cbc7f5dafb1d019d6c946abac4bc215cd630bebfbc758a643dff95fa69705bd3bd108864adf75505ca52bc5d370b79149d43ca4b00625483bcb2222983fa78fa40c3e17c857136c865465a3c682dac320e0a83f5c40c434735cfa7a930ded328887da843ada09313672f53abfa011961991afa7a062abd973f90cf867339d357ec50a5ca62810edf50ce9d1d32600ef9813a1d9c756a5024f627bfb212ab13ff117dabd9abbd4afa4021f143e851ab5b061a25768eaebc86ef99f78e4d889b8a6e36729315088d9593b26d0a5edbacab8e6a72d4641b6d30941c99dd164939238e3f16db144dda0d328973b6d4e7a92dc2a1aa9f2419eadfc29127ff88deb99c9cad1a10d0496954f427c6b02220f1e679c301378dcdd658bbbfd3490b3d490097271f15cb8b6009c1611c4af84e5d544033cce208be2f40780882824c620e9ab896d171809ad7f9ea2c186b26c2d660ac5a2f5211ffb3f4aef4941e864f03948c3a819f6106b0da74bb43f4fef4af1664a7686a60462d399539dcdcf7474b76ef852435e61df8da6d6e59b73cd6e51ab375bfa2
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 412
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: ca40f0179157bae889d49b5697a0e26e
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: f9547860ad9b5ed1ddd55c4107c961c9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 412
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 2422ea9d13895921401f84f25a5b011eccf2670b1f12985d4e2c4106829a7ec3c7c75f11e348829a8285b34c745d8892bd1efd02c27a6764311962302524f787866520a562ffc9f0a644c242107a7ff868e20ee2f2da9d41e2e85ef00815e6dc2f242a2fe8986d40e37a59f53c88a168d230745a57714c3e313f8be3f4b780c61c0638c3637add213b1cfd5d07255116d9fe58dad2941f8bd7aa7c37ff7a041419e02b8575b46be6dcb23bd5594c713c93f8415e5da427dccb6f3b6d649ebde09f4f627beff5647bcceb10413f0a58f04d3a03d3a59b4d9f578508a21bdb609a7291bd8863e091907f83eba365e5df61991836fbc8df69fb7d6ecc15c85c8dcf99f771b19c995ea85578ff39ad5e1eeca002dcf843f471198d1d4359845944fdcbeedefd158ba9dfc2045910a911905579a35a4d7749361b8197fd69ee1c988cb7c1a6f5a5db2e926b4b2a0cc8c5a6c01fe1d04ece3bd7d2707c00e001aa097e6fea51bf87654f389fa4caebebd513527c186125fdebb3672316b57d12be3619e125d642719ac96ca97dfb7d2380800e48d8fc29b4e50c81e6238ffed2a3e788182cb6ac51023c587a66b3617734d18f6c2e4c959b84f04609eb81eec83ce7f8589683682c683762355f9a8c72d1423d67da7b654c00fadac8fd2dc4ba22017228acb6b287101719726d0b1d97e9ca2fa67235e768732756cf2662a078c5ca753275d1261011127ba47265e7565422a9da627085f40fe22b680286408004ee5db318b0869f8f8ead0e3d1b4a564e250b6ce61304bdaddd2686041c505b91a8e3dfe411e932549ee9956adabba04add4808a2ebbf0ed92394fbb00c1466ab06f964a325a877bccbc47e0d2ab4e24243164ab4166aee41b9222b8b42ce81668ae8d1ee8ca5a0c2698616183cd4c025b6210a33aa7b72dff37ec40f749fdc0e879a5135967f47ac95bb65c411f0306335afe6d7a2247823decb050578
+  Bytes(out.data(), ct.size())
+    Which is: 61ed58223b86dc2358d0148ffbea0cb41c7896636841f31b1bfedbc89c0e2c884e348de317afd9de51649a02842add1185f155e7b27e58dc717b470062009608dc3333b79f202227c86e6a87c8f5d399be8a3958ed78798f16e610f41c2e0f8144485336ab673f22e55f0283bf5dee4b9f8b0fc4ca93db4c663033797bb57558a3ff591e165a38d74e864e47f52c7c8a9934a06c278a6f5f8dda794ca66b6f6ef3f26f7e51c0e319d3e433c933f22b8bc144f54de91fb52950f55832a12ae75f401f093de696a522e3e64f55315d20f62108e0852e5f95c7032d4b5d786b6884007a9ce5314921baa3727e91b1034513aea4d0931433129d5ff8ed005c5126fd417b4873637052be10ea84f95f4b82669d077fd19313bca9e272b757a08771b0310b3ca4a856bda462b473382b507ba8007b73b309e48722b1da902655cae14eb933f2b4b66aa5858180e44098e9bdab904893a8b3a2c70ca6724ae2833743c0de9b49685c59b3bb1c83e977eec0038a741d48fa7dc209cc4da172e629af61c92ed4d7e7faf5ec62db85e111277c9e9c22d0aca85f7e640a7fa1a59fa4aa37db17317dc3aac0bf60547a77807a1e77d7af11ddd4bbc5d24d71510ad6a8624bef83252b6850ddb602709b0e4f5a156ce478728c6be717f79092d7bc48a4eb062fc206146dbd1b9fa8b1d5b756ab593cca3bfbb13709a5445fd7b75149d332a050a39e300b8dce975d03773001ede7a79fffec58c8eb1f901703070c6facf260b447c8d6cf174a3452e4462a8cb191800398ab7b7d28844c46091e6f1fb817469c867381112a087f1c0dbf83d468ed02f10a1cb0b97e0864bcfebff73026a0245cd88fd73c81eb7bb5b03747ef8135106134c69f3704b87daa724a63f239484ab9e42aa354e21ffdc80490afa984d267094fa8f8e276dedc7cb31a350ec946bc7733b12d83002323f16f1cccbddefd069b66112e0af065b51f5e9fef
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 419
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: c867f21b1b4c62500ab27499d11eff4a
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: d80f7ba2ae49fc8f0419428b1c207a57
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 419
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: c43a2c260b2421b4f4d0016112a6a90d09f5505f982a66355ba55284f15e24734afdf58bffda6878ed052c5c97c01ef9214e19057b87db04ecb9e8a72dcdd04e6c8194283edbdec0b3182f73a009b5b7ee42edaf82d827bbd49b21f9b33b013fa934d710d38d156f35491004a9f29b7fb11fa60be85179d970a95f6a4321c2250d3300186c186adbc9151f94a916531107237c9f51f1ca4a16067111b3357d26c9caee90656bfd4317c2d52e97b87f7adccd296a295b45a173780db1011d3dc010b8b951a14e0057451cde7984a62b3e29dada4cba1cd5bbdb32acdfdd6160fd41ae42c40a3f294057ba27737f815592ee1ca89a57db35ada5077be4ce805555bfe57293552296a15a9be89473af043f193217ca228afc044e6e9a8ad57fbab59ec12c8358361f38eb9c00b33aa97c90f51a5014fa497c102b7f6dc0e0678e99e7ab7b98cd2521ea98ba31ede92cf621e36addf622adc7b0f77d8df828dd511b9e74f0925c8c7df1ce56cc2e5ad79feb27de705d780c2b77c931aba6a032d99f658f73fd9b9872959cac0137e9af2a565ceb6f73b011ab3aa14132422c14692f7bb3255cc96a3d63dd167028d4221fe4a66f0a010f35ee42d97326f3638fd15cad7d9afa2208efc4e2f0203d1254d93bf532961ab24df78a6a33eedb0d250869244c17074a283ea083c211528e91a13e0c585a85cf5887b09734a5aee9a01a0de3ffaefbf3791d1b1e478ac1c369e9e0e4ba825ac6590aa011cfa0ed15f9fdcb0f386fe1a796dc243862a292844b90d32db05ad0eb8f2839fb386085b7aebe12e7477d5eb5ef9b6603004b3c2ecc6e961059b11495d07ab2a164c64cb0d6f3c94555a5c3fe5cc687601c03861eec326b63b614cfef131a89058d0b320f1076023884882aeda8f28daa0a3dc96ff9ee982925db55fef48586f407f576c5e5b9a723f1f10427304c19aa1d39b70a12a9c9f07ae6b76faeb66f4b26cc00febae63ecfc629968268acceb5aadaca
+  Bytes(out.data(), ct.size())
+    Which is: bb8b9c43f48780b1f16dd00646485455eef032265c4fb230ce1c6eeed4c5bcff43e6a916512f2371c4652c585274167d017fc9ba5ec346bcabb9e21a7bb4e1fd803f0a72778d7284acd480946b6bdcee777c64f8b8fda05d9f20d6f439273f94f5148565d8af6ccdd73b71e87564a166b7e7ca4bf95e882085e61b9c5c897ae4984b21561a7a22335ac31e8fa3ea6f96d12584c6664dfbc138a4163b0576a3ef65e627c0f36186e13b4adfac8efc82190c354bde8b4e96621271325cbadabb7d708946e505a248f00b09f9bbc74fceb4ed815705aee94e07dffa43f693f58fe05777a09cc765d3c8c049e51b0ae86be7dc6914295d53caa9148807694ba239aef3bf861c043ca1c70cc6c6a951cfcd30a1d623b12dd3138322f770c1510e47287688d2bb7aba6d96e718240c521534a6030a17cbf59977684bb564e459d3c9f62adcac2ca9e417d5f594827cff8b3d1c38486ca8f0a210b516b74f15fc5bb4208ce4c9ffe6800ca5e8719f17a236bc572c20e83b89ee919e876034521e52ed8a23ce6dc4e4c685de7029c93bbfbd0ad7c34367ef9a70c935b387efe85bc5e4764ca3214a25315dabb08521c9d57aa2c12ca8e42d28b2a5c13eb30ffb9c9322ed76a4c3993ea22d07365f1417561eceb6f8b34792c65f920f60e9eed966fd77ac9e06b93f11097d54da3a4bfeb744c6320ba75804eb41264fa5f530c01b5b2c1e9684827d105918210a999907d74980ba14c417133f82bd452fd5907254d4ecdfcc82b757b31cb669d13951753daa5be709af8feff5c600d275780393ad1b2023af656e729883c81e765a2273e81ce793ec4c1617572fcf5ec3ea7a369d7e36b9ba706e19b98155be96ad3977f2edc54eef9de922b1772d3043cec30ab6d680687dd3c391388ed24cc1b3c439fb239755ad728c819719c0d953bb9cc4fa794fc20931cfb43c13d08a81f9c47058b09fc89dea6351f7efeea10f0d647ceff29d1514052ec7cef76909fe6d8fbd
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 426
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 59e3b0e92ae4aa57a2fc4a19b74e06ce
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 84683300b2b305d1efb0b0d2544aa39e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 426
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 9d4764aa97244b3506582c24cf82947430e6749bbf3a907a941d398b39950dea9c21aa637a6d5030d9b070ff6c810a0f63cbeb107bfe1d91a2b3a71c2683c2d2716759a74f9c022b88afe5f36182153e5378c12f94174e5014743da44601908df428d105362d6299f2989ffbb67d45b65cb2a35e888d823605d2215f325ee59332a066b8139e01ac2ad5165d858fa809343fedaad3ceff19c50b218da9c1ececd713bdd657b02955afa4a90dc2f426cfee4de4b1e097fad3c5183fdc84725db9263bbc207579175ca3171e7cde14b652fa50c2032d59f2832196750731c2268c6f807625e8bce39faed8f85dfe5fe1cfd5d60434a753159b7196cc69c2eed5f50907299a53092d3f3d41bf7c8e4213d9d543bc235e50ec2f569840abb26490f1b0167ac423ee0a680a70797821fbfe7dee33d9ed120a95c6a75596e04eff2263c1c635da44322d18cf720bc90a113790b9e9d5141dfda46fa2c9eeec5afdd43ca5c0ded8a5abae0d3243ab2f81f3ace681a07a59afe8949061e21f8ad0a9d50e3c8d36a6270dfe9eb08451323f71793a5942ee7484cb1eb033037b209bc8c61b38ea28e9f9c2a4cdb629331a1517606feeaa0eb45c69958df6a5e48204489730fa83aeed0b2fa3e555437fe460980e8813e0521d88100088bdf6192257be14eb151d6f4b5c6b0bc9ca6a0ca2e2944d6d51e3bf4fed6cb7722971768da931c1f1e50872f25ca12e72bc984f48010481924fdaf3c744bd098d2153487617e321e665ec9a1346209695ef6b1e0e79f0c4fce7d33f57087512559a8290d8679555ea7f1554ac6374468f3865a2bfec31f27cbbc6adac1d484ca6da48119d88295cacf38b427f792f25f7d3c341a904dd9d3774e355edc0db3748d65506f2a0bef5d8abd37c31daba869dedbf19e3aff557b0466352db1f5820f3b494304604fb6fe42df9dae1c21429ea37258cc087cf72675a15a8159e33855dce7a09a77ba8ff296ccdfbcfacc7adb6b7b020de0bc302a7fbd1e3b8d51c5b1f520d384aba
+  Bytes(out.data(), ct.size())
+    Which is: 4792a572fcef8485033591854938d5600e95c84cb730114ed022df03924368476c29781ab9275932105a4c6c6472e9a40141c3eadf0a2bc435369185c0a6b9c3456273d685286d85a8817e3f9a23fbee9b3d8be7b3e7980a2ee597997e43122e7b07cad3371376cdaabb7f7ec7d05eb8b52c52c264f145524e0eb416c24fba25e732e5316bc0f634756b66304987571728d033d9793e0f01e9e632286ff54cdea0dc5638c716d2227175af1ff8c37557ec853cad5bab88b1a57923e7b7d1f304ca49470bb7ca29bbb6d1ea4c306a46f9c0c990e9487745b7a4bc1db47e4dba193eb57003461f96270af551351ee7c3a438466de83d7dec9e59f31e9af98fd1497e2b92aca4e6e529520829f42384c3d7a4ca8c0c630543bc50a8e2f2105ac67908e02f8219975dab45660354eb9bad6ef907ab1e2186a63ca0a9a487780b4e7410fad6d3d7f38017523c73f901d7ece27afd669a892e4f54e55670c5abc0917999acca5c06201262110a69958e8b6e49a6cb869bbd03e4b4357e3525a1b58572c1a285144d655edacf4567145cc87fea897c5bba4533983d0ca35f755156ca1cc35760d4b23952ebd421537b91f8a4a43caf79c6727be9943de3f772f221ac62e9ed97a1f070dc70cf513489e267ca8d6f106236fc2db3beb29e764a3f79d12e9a523e5a6d36ecd71db9b9dee8d4058734408190c317049bd8e75b0e1bbca5c15f1c3ea9009ac797c3c16df3ed66d5b76b2fe68b7ae52f73fb9712c10726a557bf827c6a08d71ad67c5edae8e60ac2fc3554a0fb36aa99adeb7650ae2aca95350e96c4cca5d507fe51bd426a7f4a5ec68efce649c595f43585e8173b5dcef34ac7e635b2465517aebf483d1a5b34e90cb8ef5c607781e901f943be96b604d1d2873d4dea6121b40db82137f1c115c97329ef54b46b76c687be7e5029636051ad825ebb9ce1bb840ec88e4ac77a50b3dc3cfce8bf9ebff19934e4b46194810a2345fc1149acf3131d7c018713d79d1be6dc82bba6ab225bb5f0bd859620
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 433
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: c22896658ca6cede859de01b80632d9e
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 3658153ec0c75f826065fe1c20161fa9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 433
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 8cf78ff0f64a19abecbf693d8575602631303858623968c8c4522c5351ac552dd3694b0a04fa270eb9652dbe58c07cacc2bfbc927f22bf561bd4cd2d639a00b240f41d6af836ec3f93dc0610f08d59514c49351e25cfbbe1ad05e8cb21e25f144d926b5752f96ed7dd05c816cc95f5c3a008716c8a18ada661ecc497c6e34540b8924ab0560c57e7190ab567762bc5ece63883ab5522c8e84efa3dbbf71179d6f286127f01e8b909b61a16fb2433798613fae1ba08524d734662bca15dc70a550740d1b741c0cb46528d061c786f129cd49a7f5b9c1f742c906fe7592e70a5185b6b1ab669498bac981f846dfd2401be46c0972f8945adaedbc7c54cd40c8dfa781c0faeb6b2c0150bfef21ecab2995da3426be508f21278a668e81b25938dfe2f8e1f85c8e69468e38ba924ffae71c1e1c990656d42c8069d120c75e840a2df0ddcc88a77fac1a4ee56d3bb00cd53daebc0c981571d0e3f467d2940b4b92c359afdfcecaaa4331ac45f0afd902e8c5815266d195e303eb16960fcc21162f025d5258786963250aad37610c6b191e479bd5ed29b8cfba9df43131feff2571fc87209b69d15b6c380a8623428f01944d6d5e56422fbec4f7720b607901f06f4433fb252ecc251660e6f9160fefff8af8b866c2edb11f6419a6bf91c5fd557851d469c256f511b9acc8e71750587e4ec0482bf4ddb0b73ed82cce239a4d9c6b330527cd8d529675c2c556456b10ebceec05e7971580b553b8a5f720f8ed38123f56869753624f4a6cf9036c3566cb4f6ca8e0f36d914758f07e7f447c67c8b40d703270d035d1cd39b22c291333ac1f628d2ce4697f82ff6c043ede6dba39c03e250efbdab3ed5e73c28e194269d8657862829f7b43192f95766f77a7b9b4c154a787d0050cf11099d372c3f97add6c9cf4a467df0922f7d9e1b17e552b453e80aa050d8a3e4fbf9aaa4c01a463b796cadf65b492f301ef03476bcffdf96a4f5bc933d0d4286bd9e2ac9822957ac9a69fe34b3701d913cabe970dbfa5830e083add43682f261c3aa80fa2beff7942c
+  Bytes(out.data(), ct.size())
+    Which is: d144c79933527d67e2b06b02a1e1fe7312ee8075cc227cfb06badeb9456c19cda966fd371636334f603780dd4fbff5142dd7c400e99d2b3720dce1b79e58a76778b8e7fbf387112c68017f5f2ee2dca6b08ba30d4e4be7be0829c1c25adb2ed6818521334b5d220c96fbc283270d4f9dffcbdc6c0514e1d5125c3524baf14b93e3229b6d87b167e63b9bbc1882a415f9873170bbee949f809529c876a48061cf90a31b918309895ee5c9e00694e71a6c7400afc80c73337c46b4ca4f6bbd3fbcdf175bd36015a57583fe4fae03a2cda2fc28bf014d40a35d98c6ca6017733f5bc9b16ff3f2f6ffaa7597f32478faa954cc91ac516bf8ead9164a7dae6612a1b28de7bd7c6d5c209b63133a826b642f9b3098208840fc0c45807b69fc9092f1fa45d9600377989c87a91720fd76339746c19a5da9c85d48e86f5ecf26e8374f5f7307d2d8288a20f6d5d01fd0dc08aebea7a47a2bdfc4ecafbaa8279a131f0cd8cf39f20f67d26face5f911c60055b0ca5b8bb521d6898b1ca870215e55f759026c82326407a4a235bc938857d60a402364bdf7c1cb0133d836c6c01d27046aabb4f276e35e45235aa3b510a03a94ad5184de3c0a5551132c1575241ce23957fe9dd4596eb585ae91b52b80b8f960fc9731be6e02d5707e76fe17c663e56f6de62df5ded66fa153e3b2f6043f8fa1fddeb39a8ddcf6e1502f0ac309c84b9b6fe9046859d88b613c270d34a8b3c507505f68db251b7418c8cbf4689acf680f607fe3174404c29775d1901a2a4dd51f415fab9a4bf39bce4eea434036118da9f5e77e6bd64d09743ea26e0a0f93341d2d542a9e48861087f94708f8872b4db7eddee0fb269fe9961158f7b1fa2cc6dbe2f696349530741ed242d4bbd7a3d745b968fb120e0ed5a6a7466d9a85f3770a13d05391febee9897fa1af99755555b214e416f78392f6894e0df7e2a52df6e90020cddf00d5d60a660ee16394573885672b9842b5836b142371709f49c60dd137705e868e88810a32f79db82111a42709630b38926382af6b435fddb66169ac
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 440
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: dc5369a6b0814d58060d033aba87a030
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 8abc4f8cec023a0f4ea335db2e88782a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 440
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: c6610234579809d78c1caa28765c5b05f33a0c5d99660ef94296ba00937522ff4efd86f760d3398a9029877192dee574ee7b882c5ba28d1c388444137c2ac96c6eb4cace7ffe3916bf196afc67b68e4daf0e191450b04284f930f6ebe924cec498e0cf2925bce9d25bb08e872352bbb9aee31a9ca45e41dedd3e931e3ca1ec79aad5390c7f81e8b9473aeb2fc6553bd0ef87a42dd15ae2edeacc148aad6615f3bda730e50f5ae8e44f3639c94242252c2b4b44441f6974652cf783cebfaa2f69e795609a94db16948bb30ab58377c9509ea682a21c408e3b057becf82dc73f1addbdc9b98d659e26092d4f5bc1ef819f9079e0c66bfb684839c0cf1c2e9503afd1ca7de025d4a3a86ac9578bae2d2f6452c2952b57452157d88794a4a872786794a29acb6e4cb511f8cca95cfbd33aebfdd224ba7ace8c12fee32eae1ce60ae0ab6e39766fed2c385ab3888780601cc18a3361468e057d19f97e94ca3bf814bad74f93b8c18364774435a83de1fa867b684a1f2ba8baba24583f8e3808ea7bf238409110959a90c93ae68d8e3fddd8951019e9d6699e868e8f1d156e57eb1d4e8688ef064f18bb8bda91f961d1dca461220f88646bafb0c0bb3e65be33c445f265c0c4e843eb155b5040ddda3a5d104a6d89dd0523e89bf3cc7125774562b5d7a9a386f8e227e6ad71ea9c0361a4e83d9509478a14e9ed8614ce0c39bc9d1ea361cff583ce5bea53cd84083b45ee18e6d4bf3ffec402657c01d54c6db3533ae6ce428317cc3c0a2b2621ca7f82d83cbbbe6571ea87686e20b0d24eaf8489c573353ea3b879b4e7a1f6d87370ff8437c9767d4f99f244d15ee3eab3a1ded233a26c1abf8f010a89d7da628f350cc93529b130ec1085abb62a857bcd8859f738b511f5dde072e723d8fa88fc21dd6d464358df9f972e55a659c5794e7eceda8b780af6ab65ce18814d5c3b38085be841df3b52b8cda8efb8a33fc52d6952fc3c70c42da59aa4eeb61e11ad4b1ba20568da6ddb31a8f1bde37e8c63c440ee90688186b9f222bd4cb369d9e077d0071dd9d6557f5b901829af6a3cb4825c76f05c
+  Bytes(out.data(), ct.size())
+    Which is: 82a764f2f7713b6bac5b6cf0b0dceaf164a6e07464a1db14f2c231ca430102c499d111ae6cf3cf77baff736338b82d175e866b0f9a78fbc5544fd719f1c99c91cf8e3f3d5b4eb15fc76f1b95039b25d457e4f1726147d02a53001096dd7f1a4cea0a904349a436babefd7f9fa1147f46b14666f6579d76d74fc2c8ed4a1e2065773a6dcdc6e36de7a2af353d2da5fd642de651e8b6d2b1f7f0ecf6690197469e3e4a90c92da374566ffc37fe621d502a4f344bb9d715489ded90bd9a20b7db7d756c6e49ff8f7489ddbd61fc89f7811f72dfda73878c97e30780e60d58b7a03ed3bd8190513238cd7a62fdfabae22d2065aa9512052146573242eaf90cc8f282b64c486e02b7326d427fd993b8da74445411376966ce31afd63df8d3c09502cf02df21dbac59fb160fe1d50bf25c7be89f957c64caf5098ea35bcd9c9c78bf20e35f755d33fdb8484173c428fc079e0d4bd584b090ac48633c49759d86f90220d6a82732afe8d56517c808fbc573eabce60b38372fcdc7120b430182cdef1fccc54b4f2a0f3953732b5f6c1a7e3466dadef3a35e5ead64c91c3194d2f2678f2026604beb3099a44fb4314242a759763aaad2a73faa4a6df63315a93e115fdfd606b03f9a240ae7439221cf88f5a8b4e54398f3b5b4bc444c6327d86f65a153c0b402d95b422ee6ffde882f5293314b8f1e3868c0a2175c5f2400f07597b3372b5e57c674d7ca1e40438a7a33e3c41e54abd2cbaf6e6b2d95e6abf6af3721719afadb179b1ebd61963a60b500b0fc2a854372cf94cc7cc6766d919d82a5c87cefd88bc5232cf212036586b5943aa9fe1ffeb7d90d77ed8eb562b62429235255253b2815bfb23f1c1162a1b39f486ae4250e53776941f8d9ede25d7193e5c58323f1218d08a261bf19998d3cf2d82da13835b0aa7bdee25e60f2989fd0087ff5c679431837f80690f94962f3420170c6e60de846b468896cccd0967180c3023f9dbc591543e1567672e0a1699bccfd52df4e764ef5afbeebc7e3cea6f33eab086e42766b0bc5544fd18b6b9bb1542aed2653983ddb51ade4254459667952a535
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 447
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 78ea2271c0bccf96f0d64594820543cc
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: e884b564505458a694e50ebe3f667247
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 447
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: a6c4079486af388ff129e360fef12e039e54e4900d091be16df1d3712dea1578f11cb12716431f5c6d26a0719012bb89d1a3515e0821258b65157b8e5a8ab7354ad6efe2530337c8974f3f89f674f5dbfd3e8b34d6d425031e4591b37991b5e76acf5c5c13bd47c28c6a55a81bc2f2297fe42e1500f03ac1d97a348cb9c39da8a95b1a5c4b3bd47c56988c19c1d8c6a10a35322acb4338027d2a32cb32f5ce70d4d967fb30052b86f538f1e756bc10492931b40bdb6a579885b94de17cbe917b454db89536a021c4fb230037a4d808ef71159630f48855b47fa90ead1c54903dd925e88516f0cc0968827acd6e57df044c485ed9872e57308e8c5a8992d5d7bba05f7ce949f83dffde903ad093f8fed3ee11a1c6ab031089d77a965e5a89f877b7c4b23c3118ae50e7e21d75e133ac98fba316019b4c2866257d02e6dc8ae5b476517daf7df313093c176a2ca6bd8312bcc96e4fd78fa94313a6ac1b053e72bb622dabc5fa216ebb3a99c4e760737a29d5f452176efd9720197432cf17e8182bf1af60608359195341fb0246baa0087a7af0a5155f32895a06adf69fd01e6f86fb46377e50dc67d5115dda5b0322eeadc8d7b3bc5d0658eaac577725b2656d4cb7803f28df819df0eabfb4d8a7de150887d168f1ab7e5fe0ecd71cb98e35918c8b739059eafdd254f9bc03064d3e27c4b41ae04c2ccb13042a839f82fe9335df59c6991b7e8f6c821026a0d39accd5ca8007aac60ea324eaba577eceea25b4f31504cd64929576513da857f6c9551347457530fca38b173a6e7fbb7219fe861397e0bb50cacf6368929a5a429f1bcc47f6db2517ec62a40bb8310486612d6362870c3980ebf3223216d9df538649b25a704bbf12374442cb489af02020e6886092b0410f922c7680d5fa89effa7780e31f9222348467acdf049ff39ce3df27006406642c01669b819ab61ad05b096270fa75bbad04e8b09b1c4f75b12761b2e2129559625f46bd1005ce39a4b543f34960f0e7c67cae9074b29ba86867a9b35f0a94d716fc7103266b7d14164473b1d4e19a7cb157fe5e04e83dea1bc886947c
+  Bytes(out.data(), ct.size())
+    Which is: d75e83f252dd524ab34672dcaafc2775105d9cfcbfaa3c4d69891a5b2f332c1ce3bd00cd5cf866bcd5b40183f7bffb8e6d2a7f1e8c9376ffb352998528504f649cbbed8f0bd046a1131ac38b5d54c42cfdc12f7cfff7545e471eaeb332d40737fd05a1b0deb7adca73f2e2ed4192a6a213dffa289285e40ee50a7ece183e33aae9d33bc8638d7a45368eb9d409a3ab90542c8aa6b8a5a19d8e77a8586f30d41de89ba78e3be0d9f4ff96653095faab31d9d958e17289a61593c64fc19ab904abbb565b603d9ea6406ab438d7416e00d1f8eee956b9ef723afb368ddf15ed2563e7800c06d323c3c586328ca35049028c0177ba93c90483370aa29d5f2a0af8eb9315eed89f3b491ba882095dc717b1795d476f2e287137ff7d244429688f34a57d86c84022f062850ed45dc5bf075815277ec9f9ec15272b0ddba0e1a77538a7029ff1f640cd9e0c61ed4a64a8b049698243ec18bf487f1002920b5a64fcae222c2b5e45a32929a3f6bc60d634dbccdf49b1428e257489477fa5471efe8c8c7ed97b6be7a5b601db9874b6652569a97382b62703dbfcedd94e70a2577530330769d6bf71c66fe01b7487183a48b2b2f05db81fbfc6075b59541fbfc66dcf90673f918ba84e81ef3f91fdf8c2527505159d54aabd24f0011b6006978837d131134a6d886a2c715cfad386ab1c50ede8d149d3fa8fcb8a51b3e251a24d797d3ce8f18f9f44434e557a4ed0d9667a1ab8c4d2de228c975cf62e3aecf131f57ca3c6def6c28d3543977f496916666cec3de5082849e0e4dc0951bbd500a2403dba10e3020a9e915a627f3e2ffdb41abf3408c20add8ac8c850c12e24580408453b965804a8ef6f2fb08aa2a308673a1797e044dc44e6659ff5d59f16c61591a0cb09b5ca063feadda6873c06a568c0d617e9ae340cb678387e449aecc4eacb736646186f74fc4ea9c2657a0df4c5cd1648160d6ce8153b467e75970545452276879cfcc499a1ce69c2b31ad1bc7ff354dba5b70b9110b4211b7bd302232c6feb88fe4679f834b0941cf5c7e72e5753f892ea4b65b340e62f6b008740fb10ba846a83
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 454
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: c3bb19a713afccf40080a1923350cf11
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: bce28fc76d4fc23337346e1bba9b2426
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 454
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 10327cff240fa05d2aa15a7b299b925a0ad1740957c4fd23ebe24e8a1f36cff5c19007d4fda60dd9d3231258021cf2d11d9ffd32bb221a620d68f2b0077a64a6d575c3802844500b2e6d08ee659006018b6512651a5b903b6d438eaabbd41d0366529788a33dd43a0144637b4a66371a7e58898c4b6d1205a239928c3c3e00907f50a79e2a99f2f675cfffe191f0c584b0e93d72f2a2aa8a400226852fb97ff0cb6d361342185500e3a0db1c9836bb8981d7b4152a399f84a047e5dcbe7c0dde2a85496d4fafd8990f70f28025519dc56ab2fdc150c215bac333af39a981ce5ec484d3cfb06ceeb68471d730e9a6a82d03a4b29dc8ba5ade90c55f6431109bd8c8be337033ca49c4f75fcc2b93a3103638d8516622625749dc4ab0dca45e02abbb2931895f3720bf0d915a6f2802b9a402a5a9c1f47419df6ac9fbe2356cc6c51924bc7c6d9399a92688fc6d75a41f69e4f91fd375df325a75dfdbea2084ee9dbead62754b4b97cd7fa075f6c016678053a8d6cc4de4dddc2c2689efcab3281f1b7f353b3e8710fe396e874784fa54c034aedf078524ecbb18f5bed06a88887797afb0442670224c3bc3e0b347480b7d84268ecd792641b697cc7ed431ff0db957252ee3ce4ab0dbbd47638c15fd0ea8a25d3f3ea75a81dc9986b240ef3189f323a342857ac59900bb8e3bc429435b4c00cce3aa6c516d0c68456a12929359b0bb9b02b349e63c4dc8bf2ed107d94af97af04c14ed454f3920e1f354378c20b3be5c12adaac6d96eed1df0496172a71b585e3f5e39484578475e6c257868b3d0bb45cf229c0752697ab66106a675311318733b02335ce46b1e035a92557d2ddc9536634cbc516800fddfe358d8848198045d746a5b6e00db3d2d0b22f7e4c4d5cde136f62db48968eb360a6d8b645022066ec54f2f2f05b3b8c9af2097986464ab60ad9f05cb63cd194e501507babb6103b96daee90c70efa78c609f95a20e85b26f2d9bb503274dc40aa0aeadc485a2859b3497f4688df1b2eeae81787375dbe3f9fc6ac8b4bfa339b92495d175ad6bc67856b58c1233ee1b0c2b524668750a48c0704e56da23fcb015be58239cdbe228
+  Bytes(out.data(), ct.size())
+    Which is: 88675c5561521be9f39d6b2d936a8e839f0f7946d1311aba1f5d0fd657a0f1fd4415ed43097af0dbe0a1adb2187fe964f41aac50a847b30491aaaf8557620621baefb42b70f1f7985ccc4f05e993c28ab98aa8602cf529147b5cbd24e46e122fd3a1a6093e3a3ea21f90adf25f0b7e5367a4fa86cbca113c54f549771b43325320508c946e4262ea87503292c4156d230e398109a7132695c5f6f8d075ecd152a3e7fde43486408657b8a567d3c40fa0028ec1f1e432e74a85abe3a87c2a7896fe419e82b7c2f17bb73bc8107166631da8a5b943c94e762878a72f0e98e3d882600b5ff989e757d5099bfb3500d26d5f477c0eee41cb870c6f725e6f04724929b764f092609f3fa38c4601651fb1276b3013013d998a5335a003680114e15a87670f922ed8d827d003f723e5058515f5746710d57279581bad50a12632bff940a960568fce84af328081150979bcd8140f1c79699710a7dc50168739ef51498fa8bf3b6c1a3a3da57c258c02237cf20df461911193731cff6d7883e8d2dddc5f3d9a2453bff86d6e677b199b1a95e56821d95405fef075b24ddf80d5304ef7dd12c84e8caeec395ca644e4dc50752eeb9f1d5b093765295e13a97f1b58d0b5d83914e57bd2c4517fdddd238691c369ac50828a63214990a15b5780923562bdd8a76523fc3a08b1a32f04279d92132948b7d3e6ac3bb9fd2a6ea9714c6fa4dbc796f2d2fee61ece930721940a041d4f2ea1f1172e255e0574ca1ff729680dfac3e2b6ad45358a5637c91bbfa6b1df8dae2bf1d053f27044eb722e23d9398a6c68629806d0b8283014547d09f8cf97e9cdce33cf3eb6045cdfaff962e3299a9f3e18a125adf5389b3de7d9fa439153f7a7dca9f7a9b71b76089e8e8838adb574bad8973a24ab6e78381d078a1096df76c3f3928f276b13f971eb8b9759503b0449411c6ec36573a98e69324dcab84ec95cc13aa5bffc8209325fb6749da71450d7469aa51be10940bffa096dc85cf7f189611935d464414de3d0735dbeb72647bf7c90dc5e5e14a99e1a67af55d4f65712f35e981ebdf3ae471589f760154f3f177f3e833ed4cda0804febd8b885ff9dc661
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 461
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: d5bc1db867fb362965c9ec4e686d95e4
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 3f34ad5afe5c31ce23e8533a98a4e2ea
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 461
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 29e739b7162cd3504c7a70f3efea5d6c2282bbf1fdd75224729aab622d59b2f680c92de483a46d2e8c45460c8f3efca1fb374ae8a04ab84aeee0c083a09ddae6cbdd1803e19b27fc1bbc4ea58ded24f9f630c16c04b605d107a5fbf640ff1225c919dce7b6f73b1a18aaa37e3d0c757e0062c0de6c516302f246f246051e1a0462db91e5ed5e1d178c3b384ff9d1ab3244b861b4c34e21a7ab194cc3d48d11588f53604609af8029a6ffd166c08a8f669da73f465efa2f0f54dc0e09916fe8903d0ceaab4e55494a043160e6962ca21ec86e1c159532691b34d507024a345aff411b46a1a32f7844ae3e1e250bc17c0c3edf4516231bc574d742b0b2411ceaa3c4cba1d910843534e34e3d405be0f51a304c80a858664142d285e84b8e008fa7247fc0583dc7b8de3dc9015f4d8e24505d1eadf4e7c598e628ca6b5c70dc6fa5c1734cefb418d62cb08b7d5fe81543d3d1b438ecac5359a0f1052e2efea3107b2da554ff669360db0062052917abc854ccae73623175f7e5ad37484609bda0b6ee3cc87667fac9d1d3de9fcd104b190c62e544be71e9badc2440e8b451532781dff81b5a7ec4f80d3686bed8f7747714e994adbb4612406499a6bc3925ab62d566660265ccf2d635c875ac6fec640b515b86ec5a7eeecd34b86d1f2eb6ecc5858cdaedc552175c707d12b677cad0a4b12bb4e717163002607eefddf63ba2581a2b1afca4865b97816e61813bc7ea99f8f69fa5bb8e306d5e6db15293ec2f7a9c4d8ba2d4ff6e258270c9ac7bf4887171434d034875b590fe20b959e0955034687679ddf98a5c777dfc06f11137b52121249ceac90f5eeeb6f1ac59ccc26198388eb8b5deb918cacaccf1e48145486c37bb2a11d371e095a250c86efacb85921129c2e19c9dc09c66173f394f568c47fe4ef0cd3a98a138b1750f3aca91f7677604613b6b0ccc92d6ba8a0c3cae6b7b22be761ce2922ab273debcbe3f68b662038e232430b3e7d3e4142617fea44c0683f0b7eb03950060ced6325409293422d058d88f0b81118183a05a13db7af89429731c8a37aa83328019626a6f2d87ee49f9b4cb39021093e4886d373a292fcf711945f9d572d734f422c92d8fa6e01c4dd778
+  Bytes(out.data(), ct.size())
+    Which is: c1efccee0da6a830df034459bf10866897b8d8865eaf5b5b660a890a9633934ee33354fc13b0a76de2210f06897a3b7ad7073dd20195d5fa7531198fcb62eb1f0ef30005fec7e6e3b3765411cbf6d2f7a92f0735ea5258360a1f0e5484ae2786ae3c32796f50888f25b7d8b8bdb89f9452043ae9f59efe3db834510676262e9c82d6d1071e3baf8f13f81ed3a2a85003ab3190fc2c165bb6efd40c0f4f77478d863db956edb74dc662ab0cc3faa8838bfed8a30655c236f4c5f18cc01fbd35ba8954766067c5e256ce52611833a3619c32153ee7e8be051afde77e8163337660c6d4d490edcd0eb4d13c035ad28965b9b8408a9485c5684cd58169ea060b9f1bbcb572a74ab5cc8a4ac3945efa5f6fed93d32587eed04d567686762272009f6315448fa17efa99fc9f45526b8e0a896b748eb31d8136cbfb0087336239405a6690ee1b9b03c7571f7435639a426cfadee4cc910a40a3a147eaa13fd0f55413982498583d8231a1aaab7796fce86974a89f050fc3bfccfa317a2bdef896188284d5e2a19c55e2ed74e67c5741f61a745e56718185591c4212b1a73be94f00e46eec4a6bad93eeebaa5aeeb2861fbe27ccf84cc391a5fc87e67bb73c6ae8e6fe7fcdc7888779a9b4d2082186b07e9f9ed6d68d788524f0a425a0f0fd54d54a7a0d60103c91ec54a656701a5dfb2030a2ed63ba55fb960a4a05e6301d6e8ee2a3df2e529c8b6751f2d57b7e56c2c694ba7cecc44b978b418e29d60c64b18458bb400ca6ccab05a4cc634339638599b8a27cb48e69804ac02f2173a8482e18f2be6d9bfc26dc812a7988a86e52b96fc4e3290091cb3b08a3977f2fefcc7c1c439248a932975ca2d1cdad803c5ef29c554cdc967f432ff5895b388a2a9c60220cb6e6d53a3452da5bbc0b5937b8033f114e4e6a4c7423a20bc6edb1c520139320cee2c48870c20136864cf8de2a2c0dfb9bc70f6d30fe385047a85a8855cc5fd17775218ddefbf99ddaa9e8727d083ff4cbadda8762266b885904c9b573ab787ea59641ca0b954fec504de69435399447dfa5692043e3e4448da94f849d220b7c7cab012db0a0aaba6e542dbb1859f9a3e8ad346e212dfa035d5972bc0f94ec2bae7ba3a2
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 468
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 73f6e44d8a2f3cc357707de856d2ce9f
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: da39dba487970b7d95975d86c02139fe
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 468
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 441def04eda7baf0e6edf24863166860ed05c9c3cd0d0c71a383b4dffdd6b5a59a18936779e63c8ce5a3ebcadef82c75d3f241f62d66125b4b4be0b8ae58e42d45421cc68b42ee062d1f6c12a75a80e854a1e44af9813e9be4ee85ea3a9f34534930cb4c51108160e4df6874b900cd293815a1d5bf2b064fef51d0fdce0e077cc26c4d405231b50a1c26ec03a8e956c9605cbb9b4ae68143342f6fa46a651cb39aa783abd0f6359365815aa8084102d856d860f7f6d9344f3d1e65b0af8c7d50f83afd151139808f651e23897331b58dbef7d301dad4ced88feb5db48b6b2e05e1c8cfb58610ac3c58cffcb411dce628c1975d5718631c1c1230ebdd40e6fbb6c2442937f95bd3d6578189fa72cbc963b922d17399439bad035a64f39e78c4aa7f0c4793173131d11c7693aca45c04e0f255daf0b1ab45c3e0d90dbe38ac08782f19325039127454e589953859ef87cb2e4edf1522f946b59b8251a1c154acfb50f0a7b0a349537e17e5de09037e385f51ec4f388517bb1ed1cdf891cf4fb39ecfef69eb553929c82941e078e0f4527614a002a8b8093e1c1ffc8882ece4e7f23951df6347d13b0e4ebdfa76b4fbc6baeda7411883fa74c8e0f567065e4bca86570fe31fc3738fce1469c9539a398a182756d26829b42e7d2f4b48fd35aa2738144a8df7e08678768cfa2e6ddf887558215bb44437939dc911af50cfddd936346155a3e543fbbabdf571cfbf34fe781e5db5b85791ddc465966c001b06efa95e5050f0a422d3026d48604f074f900ec66ae3b8f7b9faa7f438d28e6233428d74dcccebea033f2b57e8a9e77abd8f4fc7f35680062027a20a88c3fe2de501dac972f0296222e6f4ba0943a9d562771d757a8fd002fb032a8bd30f05b6aa0926e4a86c6f7555d3f1816c68db915d71ab2ef9492b97f0741be24e07108fa3e02167b72b5976c83faa4450b52de247f7c54ba7d0e65e44575a5a53bfc37e807983fad7ca5bba4331abb1aa30c1444e131b83af8d72e51dd248feca5e025f6ff0852f929c672c18b47d9e057def886f852ae26d137492d24f8a2c903b84d88b92a3f6679d4039aa4e4292374b66edef378a7410ac091ec61561cbabd788f090d418333794dca3f9744b25b9b8c2b065ec71e9297c0b
+  Bytes(out.data(), ct.size())
+    Which is: da4c9e795e1c8be631e5008515246ab3af4232af504dc4a3221e001dfa6bc12a81a5129a6460df361730a606a33ff0adf94ac31c527a2dbae61713265347a44538475c2a476ab1aed23f92de22d88558c625170b6847004745a4d1c07c6301e1bf864a5c7f7e15ccc3a347ba12e301b841fb3deed013567fb0a83fb02d4226ba2127e6efa3c35292a8b65727b5c98d253c62dd27a7b8e150d73ed764f2dfc121489852dd8c04134004501b18f5a76bc4300fd17e3c0bfb59b866902f4eaaa2c4e837d2dbf5802105ba8678596a2650968e3214aaea03534d7b663c6a6c024d9b6aa94b7ba095bd1093806b408d81a0e7fc02f5d093ebd3d8c2fe06475edae7ffef0bcbb21112a892ed48449512e7e258cf3c2a4679d57fa6fa38af8da9bfc33105c8a54244629bb13a23622166c131cff250381f4adfae69929e27556b6e727073b207f7edc80cc277e139d51b685ec8187abd30c4698a4a7542b5e41264aa9ce9edfe90ee0ed6152259cd6d40074049f30a9f9982e9c961f42feaa6dc660d09efb76bee9bd07ed49826aed4a8b0a1fb8576c7e6bb8b431b0b1c098335ab871008d31efd0f7b111d3c89e6a9c82012251edc3cb760d1c8f0ee2fa7b8c8bff655c593dd47d4aca060a49738a502a8f28dd4fbf3acaf3cb8d6a5b3835e7f67fb5da06da0b78d026e44b08a1407695d4d6601b3490e88cab022111ad8dbc8cf8d385f5b061f4f56d3cbf4de28a49b75d0a6cacfe9502355d165d3fc8ccacc6183ed2c4c7102cb6c962e957e7b2f4b9886cb6f1b201a72af13d4b146a6ad402d705cfc698d79e335c3deccd3bdf6bc3b1567d7bbc145a55017dd888ba5486b3bdaf6e1126db25846e6089ce932a82c3c0953f53b1adfd6ab8e637f0cdbd2d946230d7b6fda8b2bb3f1bd0690c966ca9e7d7c2b4fdba95db54c4360ab8a89837fc2c1838906bb2c06abf6eb703e8cfa483f5f2a2097387a53f35b7df64ef40cbd4c727c8258f3c65be74201dc1045b1134a90833caaccd9b8bf8decc5fdb3580c54b7f99c1e86941124d748141900d2f7103a97b1c46e20b4fffff99682d8f132578941778b99fd94f5a2d9ebbcb306a5525b5e28ad1a96d0ffedbe51731f174724a02f59c955fa6af1d31fa27d43602d826ac55b1a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 475
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 4a780eb826dde2371feaef229222cd73
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: ee870ae63b644ff5218cfbb6faad0c45
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 475
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 5493a45a3f9edc2fd6c8bf53d3f11be1262ce77f5845c1d47b306e486e6316abbc78fabfdc7ee8da152ded9f36b7ef3ca0ba8e55fcfd865d449fd6d44c99f16ff0280cc8e596889d737d0fcd4211e1e5ea7974698985ead5b8def15a8779674a6cea0715525269d2cae64ecdd8870b9f1ec78d6377edb9c975565eeda60448eb1c871bef0d951514640cbcac4e663942594f0bcf4da56fc56b961464d1777a177b3355ef3b5618f247035761f2cb7dec1fe2bc2ba3f825ce545e51b610613bea6c125a347aea55f8f4f5cd5400e689cba199105170bfecc8f0edce6a9d521cd1707cfb5d12f8f5a9dd2debc5907d05513a949e102e7f29d5ff7ad22eb57d429eaeddcaa2915333f88193f668067a695085853f7be8c0af38d774b3d6cb4ab415d70df8aa02e7461803f597108b27d4838d58b1476c10b570c4f8fd71ed9baef88c140163d5ba69a3c10df451c12a5c5cf66c2ee546c6da004dd5d671946df34987a19650ed8ce9e7ada14f3213d642a9b28d0e376e5e37907b7cceb86d0403b19fdb48b3b732633d498d847c2fd24e0260ab74dce88818941c6f8d9e73daeb7652c55c729c3eee7137a5b80899b036eef89aa02bb730ec277d26bd6498e7d4a2b8208d035498b8e0ff403b2ccd0ce6e9899e984a062b5bed1508f23d485642843ce34b5a8322efb9af3e5c0797c2f519d7ac054304b59461866413b0db05791fa9f16661fcd3d9d86291a48cd61d4696ee685a9aca33b93eef112e2dc772d6e304f150042fb49fa95edee661617d7ffc5624b346a82847249c06ca6174d8a408ad46d3c3073e7815c5e86ce31a82587695b2b6c89ef52c20a0ee8adb24263df1a52b4b3bb68b6bf775ba0029b36edf2406c2509ff633fb4e7b28e0a4d5260d48c364cf99ba662b65e3ac150fb3039f1d267e152f569d708c100121565d72e0f728823abad3a1969a4ca856e9f0f4cb0315f973471a4464ecb348950f95f8efc5700d5f2f0bfa9e4c951a9f37b576695d93a8ae5f2d59f0842f3ea895fb38f0f34f56dc498fc0a5d8816e8346f90215d68e86e69d656b1283d349200ee4935ce5acab7eb08b2e1af57a603a42ba3ce811d8b8c6d6af9796dccf549276ad7183f16a99c61e0208cccc2c80507ece9c3c44419e01a2e23abe2513ec13187d54fd422efbfe17
+  Bytes(out.data(), ct.size())
+    Which is: 7ccfb02691943452f749c287a6bc1108c70aed2274924692dbdbe7417ac0309868eb14d45b642e422e28443f729fae4b74bd47464e0deed43075e0a8ebc564e513dd9aad4eabc85e00f06defd92fab53cac5e61c041a5c52be9ac357409a0ce7ae117d263e293697b0e54e4e1d8efd1f50d594012e92fd1c0826e47894e9bd98804f5c4055cbab22d63494956e885a419cc2c1faa66c62f94cc5b3f4b73be78ff811d1e7c42b9620c8c0c6a4207b0a36e37372d5b0e92ad5ab870f26771076cdef4feac533795f5781051764e5b0ae72e845c5b589b51e0f715c72ee302709ae07e2638500a2f33b367c20516b9c2db7d717bbcb7fb0539d35bde28fe6662096dbd48656aeb7c2eb444e1d704b9c1c5d01870c5a0f96406496c021976dd66206dabc1bf96cf2ce2a598314281eb837c7fce0758de5cf07eb2c6dc541f33cc146412e919597a1a8f80851221a2631751b80e81fe6cd889f43bcb942884daa955a50e60b5eddbee9b6a760b65faf167e62ab7cbd89e6a06215a009731e19561b74099beb3990745ce0c1ae05f6453275b2f9930fb0ed820a479fafb670d705046973bf31b8a0451c8e15accea60061ab6048c551628ed9015cb89dfe73f7b82fb6962ff8d8552af584e99145b4f19c6dc088a2895732ae5ff5c2a5e88ae6898a491df03797ae11ffc123dd5c5ca8dc2497d7deee40a4fa0bdd2a949beb1fcb465d282c5038a3a0caea6a85f2d86b0b5570055b5348a1b34c0c2c2849a4b3fca4bce98391ce9012280ede751921194d98580be30eb0b6191a463e8c2f145a09320540e46029a6493446ea17e9505c2e7f55cedb5aa71247cf7f597174f4abcd6e0804c6326c4b00542bb44957bebd982c913e9ad1a669e2bb4e83eda9cfd53253b484aef84ad5446636ef24de40865893a744be41b265ab964dcbe668d0b1ba127926dba9f974c8e6cdec594098d9f11195dbcc5c9d0ac66a463afdb02c8a8dc4930f6c70a321be08e4df4477cf745be1ae99fba3f81e77f6b3e125d184d823db98fb6c943ea17e519fa3aa5ba70f6e897630241fc554a9ee98acec7c3723877eca5922e1e0959f7595bf01c6ece23a2a7ed77908ef28d952c18c610a2d872604450fd56e22bc228a712d872eace21dd1500ab1eb8582363610b8823c2631e8e6b150fb91a1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 482
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 975dfc03c9b1ef9a854d62ed2a0b628a
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 2bb0fc8fd6afe182edaf0a97bb32ba83
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 482
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 0353acae65a2b86f88795b91e2feb614ab78a508c57854ce78e70667db42d0e8d1288b7e5b55ae50e95a1e3362b0ac3e592ac497791cabcc70f68bde6cb9830323bdb3d7c47d35684ae9a81dcf551698258d0d132eab80cd8926b71dd784f7d87f18158eee49bbc220e57f77c65258a5191ed15d10cf306c4fd22ca91d92f28bb0c602baee0bfe31de77350ad2637d3ea7f7ec04f4708a64c55bf0674dbbb4e9ec7e5ea2db16e3aae57cb3611d46ecc06d4796a109a14a0f714753e979a4b0090c99622c28b62680d437a9f4133dd20ffbbeff73e3a9b47b7c788abf42eaadd7b7284bce8b6ea4cd3bfdb2320f7f3016ebf3f06fe255555c44f95693db7de6470e27165e5ab0640e674c321591d4fbc941b2560a62a42535274d3a7f635c922416f7d9a5b9d22843fe601b296aba676802eb55ece3dc9315d27f56433821c18e760ed64d47b1ad6590abc0d75e7d078aba97d697358112347e39b15c3d21248cb839b23b6fe4957dec22b1e25efb4d537bb0cc8b23894436990583627acf4def3a293a4b9f03a3e8beae184f9d11b79d632797b45e972cb9812b91beb1d861c27728b5cfdf9e370f363a6d85120aa1c21f39e5d52f24430bcb019d328855d7d77082a9a331b788a3bf9dabb65f70c20b64aa3ad3625dcf5cc3153380ac7e61cba17698c387650c8c73db3e9988c10d093bbf5e0695a75772805fd5b2fb8eb7b0aa91b453ca2413e36b285800873339311b63a67bb541d7002d5db39b016c03522023ee6551195aed5154ffbcf126a3618c0431d707104438f2b8964a3e0602a8e22f509e390ecba15c999b14a677e49ca95251d0b5980bdcc7e95714fe28a99023af2c564defd802e1f24e544a040ea295af20e9bbe89df72169265cf183961e78b21020b863f3012c6e4087634bf720884e001ec183711ee6ce14f653fd483c0c1a2719b9dc9b5c64955ba8ff8d5755b0f1dad0d949800b1cca343276efcf6e7633dee3675c8812790fdacecb8ad1e458002ce0396a9d7a4fe030da5582b8ebfe390498407abfa4d1d6fd109ef6811d00f7cf422580f63b8de9dcf66d760bd2c925c82e521c9edfaaa6539e78be6acfcbc6a3183dd29009ea6b51f84528056061b010dc59789cfeff60c15bef4de847e6c3c4cc1e127d6d1176aff9f7e208a1bb70d85ae3a1a581ef08dd6197149abe068fcc5482
+  Bytes(out.data(), ct.size())
+    Which is: 1d030d8978218c6f516ec88463c590ce6f18a09661f433c2f9667fd35ad7a88583df7ddc8b9617a002d7f4f97b2136643658d8d90fe88bd0de31b1ce63ec8f34e82a4030ccc5a993a632aeaf5a0f97b7b3d176a01abc7a1420decd37c69ff79abdba883fae4588ac55c726cc20e3cc81d845179d0ee4e2a5d4c6d6e4f7d31cafde83d1869b7a363e077d48acb3bccf50a95505940ce7ab82ee48bfcab1abfd6f4635a67ad751cac3157338e04bad4af58479bdacf574d40af97fde3b8af8df321e67b7f637201817e428ffc127100e80bd7c0c87d5f623bbe183808ece12e52eb46ee52f9b1b881e9355c2b78db4e57914ff993c6faf7e7376af6f71191b60edd0b0ee57afd989169471d4eac93361b42dc55cd03f27121ac87a22e093dc0079c26d793b0452408bc8f8cb43802e01054c85d3ca267a01a98538c1f65e58aa2a5d026d9d81a5329b2d89b8f5ae143b742e17c5cceca83eba1919972770eedc557bd9a18e52d96ab0123f19dc252784b2e036eaccc8ccad0ad7acf098b14da6d9c981e8d824073339d59d723364775a8939380bd79b50e1956bce020f4cca91a05c80572bcaaac157474d72fbe24e139fcd3d8fe4465b7fb99095b17eb14835537637a2240eb02de165aba50eaac5194116daaafdd30e049454bfe60f739175ec3fa1a08bb035cd0f14ba90e41f89a8378cf2ad36520146577a0b1859dde96c73aa177875924150411e839c670bc467f6447cddd00eb60a6da97ae6f90b58d574e425cf5c11e30c222d695f919b8716aba37933f2a912b70e9427283e32553feb245e7a9d970c784c5494552f0faced693eba5e3da3842ab3c3eac614215f5f1c3beede939027da378f5077d97e50017a43662ad37ef80df45044955331f6e7ef46b8146643a386826f57e42896144c9a89e8b6cf50b82f9a7385f1df5f72b8d94303f15b20c713b72857553f7bdd95732fad2d786a56b0c78fdd24a6ed1d58994b21748b9e893f4e907c82614691e5babd64b299e9e46c60397ce95b6b646f4b3c71cde7850dcab90f99e67a98d5a689aaa2c8e9b81a0b62de15eb95a964a40f6920508d27ce30584a282cd55f2e0794e7c22b75a2d85f50ba31cabb8b13ee74aa3fe18f706eea17cea9f9381f9f78793a4d95c5720cff07e6d32d899cdc7e705b67dbae5189d9ec10972cb3e271d35efff7c55c1b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 489
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: dc652a0e99481d728e090f5b4c9a70b7
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 77f9a31569282652548e2d907eb57d04
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 489
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: a8afc66ca05ccec231d39098ce3f8982dd55b80226a821f1a97919ff7389b464d8cfff1c65f784eda92bf2cb963e41ff5997ed60d23a80401a2a73a54ce880fd8c56284eacdafbad1ae72c4be9ccb761dba1a0dfb0983656b9749e05dad17c99fe2786fc21d3159f378db39dc227d2379f3851e94183df5c4cb858223a7cb43b68651cb3689b886a4ef24fe879205d0ccfd81872b6dbb0e7c9c5fdc0313130254f86e80d7cb044649051fe74425fe55e7472d396d8e15380386de6f8ccd303a9899fcaa63641f0e6bdba3ca3361566a2f89dac8ac9410032eadcc2d82123eecc677c7b16c100d54d8a297dbf30c6e9479278e513b500e74beba4b4a04038fdd68c96d5939a4041def41a6fb35510b86328cb2b8f6e80d9acfb555631acf856975464b770ded81661558b150b0896ac28f2946c63c9823c4efdf9595e867490e638ef495ffdd3045e0ffabfa669732f6fb3a4869b290006259bb4e19d49c5e88b02440dcac361b7bf6c60b09b5b597e9abde536b4ed29b1b01f386a5e18260d707d6ed9b67be012d0485fc6830c24bf4b384d2eff6de8b38b88603aaff7cb61b0812b4472a63758883bf5efd35680c85e4443b56e6f3097037ac92857ed2ce434cf5f28213539be251b28d3c8c5ee7c04dc6f4a3bf12ca24ce79a022bef0f4de9789c8dfbd8df1c7faf10f8379113bba9a3cc4f48e7d984f37c5626705c5f04c72e85902db3ee40dcdeed4156f68149b8b54722b93a926dd2bd546d1dbfedd4ea34847166fa4b6b325534d88e66e48aad81758dc45e461fe001a6e400b68d2974852950a0fe218933fb601c95ef818a85130c434e559997d5d534105441d0eaa142dad3e4ee686554c83128a1266c68c6186ae2a7935eb5a7dee455fc41025741a539fd84d5acaa60c9151987031f61cb3951c96b646ad3f9027f63768053e7a7fde524dc7bafbcca2819ecfb802cfa9367cfe54a1f0be9f949a471801b81d7b5d72be9d377c97cf452eaeeb243006f9dd1381c0e77f4215a8f4d62f959b83fa9e8012c121906f0bd2b688444da3e2377855976b5c68c888e0a244ccebc9f22f4051d030bc95e256fa95cf1e7a958a88d6fe5ce111b287c24e0e71e4928f7572b34d2f6bfce3a2c6fc89be7d54a1a7c222d5cb8fc3a108c20a1e1e55e6a2f3018c6bb2baae63c3cfbece1fe0959456c1506987fdb5b83acb5e4cd2112a0b18c8d0c0afe438917
+  Bytes(out.data(), ct.size())
+    Which is: f9b07221c4e9b8f58a9ddaa97bebaa7077f3e017d557ffad5ec14d858fa55d296a3e6ce8a2fd7580967d13bb4e944a4cfaa5a7bcd6072654cae88cf79b38c3e5e933e7b41044da05d49656d9f1c581576f391081267998655794792e76babafa498b6bafbf137590305838e8c9ecb410864e10eb61262a24812bf477b4ad10458760d4e2aca0d501203a18b804bc4da2d8f7dd47f9ef32201b6966950b3fd62b9bb1e0b497bb06190ec691b29f82c665426163c51b7f5fb75ce1ff9e600ad4f4c1bd83907e7a0a4a6f84a8a95cea2c865dcd171ae136eeaee5ed8aa6d5a51b5c9b9cabb78f7a4bff4d6ae59260d3cdeabfaecb74663fafbbd14a72572db8f69f585cf6a2e712a4ad206af9bb87ecce9b3c820596df9713452627db26960fefe71dd2857be71b392c8ee525691b678fe200756449192289c69d083dedac6fe0305d16ac43f6321154659bb9fbaf46a66d1548e5be4c27c29e5c132631733f9819c7c4c7491c77c2d40d9d685790110b9c5b85df85dcc4d044f6201fffd05368f43f28e978a14eb04b1e21a53121f395e281265b97e6ff8e33d5ec7a3b5634b2f558ca4159011fa29e5f6a9e0a409abaaf8e88bbf4f4fb74b2c44b80e66249f9285ab087f9a72576c08ad5e0ae7496f9ca38d1c26a72b62d1bab32906102487cae698b4ca6ada04d65f4c6934f06b748f81f58e9111ad29c0170451b7c8121535e0fdca29ae5372156c81e10faca50878cb65075488c7e890801286e61a7494ca20c1adc4321a7dfa33e2bc3d3e89744c1fa04d1b999c85486514d3f8940f2f28dfee2cbc758c650bdfe2bf033dd291de58ec7be677134d2b5d178edc3bac8367f633f45a531f16e5f8ee45152bfac1067d935807bee4c858f4f59bae02fc8ee6b4b48bdcf310a1ab02de2afe910da05236abcaabf3bd99b2a26681474cbcf40f586ce11b71f6822cdfb91f701a329ffdcbbc64dc4ae4bd6e796a2d06a583c18d6793108b98d0beb1a5160c0a77df45dc4375e9882fd1215e16a9fed395ef06049c880834929605f85022279cd5884d2f01cb1f2399d0c2df1959f6bd7d79348252f3466b9ccc8c63824500582a03dd4289904de03240b80aa1646b8049ca12721a0d19459f3ebf30187dd1b43454b0c0f3776dca9d17251efedd66621e8d1a62329a38e93dcffba9f8174a4ccf61ab00bc34848a3b67fdc9d26dd86287f930abebb19de34704d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 496
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 21d5eb52605d2ac429b971fe32cc050c
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 645bcd99d83bca55095b8e08dd6835c6
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 496
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 90cc04db6cb6754eb81e088d126829648e5b3ac91b89162b3046635f95d19586eb89646d9412ff3c28321504696d8d8bd7567214345c1e694eeed1ab5e3648300eef27739ba0c286e5f6fe389ac4b05f13e92dcf747aff418c97726e7f0820ea4e93121cc2152d92f2711f64e7a4c66e74c21ad58f80218c292e6d152fe5364fd2b186ddc811f8418d5ee5f7a03ecf98e69dbef146af1fc4d7eda7c261bc1d4d3781ef2ad9a9b316eac55758f97a73c67031886e867d98e1f7c126f19e0aae251d92781ba3ad6c949e677f6f71a0d26e45a8bfbd9c7a8b8fe4d63e687a2a476683f72203f24827a0ebd3162305f4c6e180eb3a7bf5ece592af7831b52479021ab76223e7d0714e0a08d5a621756b84d977ac5a13124e9206caae9c6a2cba1257a81903045414fd6e2403b2d68f07becc2e7a130366c0397a406ba261dd800c647fd087f50702d25177d1cf0097552365cb9a729e27ad9c1e4a61031374d362e309c29f649c7774756c46befc17a7c403a821ed254fe7f16542af8060c5743ce91f6cce0ebc68072c305a1f6d0d97db2541aeb87759804e15308e2955a0e6110c3613495115d1066e3701102531e04c1128ef2dd4434850a6c808cc827c27caf9d2d33ce1646228c26f6d9e7a0d05363694198bddf4f1603dab87e5b01363b3cb4daeb0eecedefe2614bf6d09b01813bb0995615d06efa5172b11d08a46a577fa99aecb30e310e84bc3049205534e836a44fa2de79134e6e7d7fc6e19f841e3f31fd5a8c91c7251b7c14960e2efecb2945dd64926a3d7052574a9f8ffc0f9a6c62025f58275a4ce3a084e73c1094834c65f59e09d4dd16bc75e26810506f0df6e59ac486439ebae613356bc5d8245e15a2c0d8997d80235e7475f6841b6e28cff61d9f5ab11a718b7b60c125118d3f77559aa539c1f15abfb32126ef7a9104c6902b5f872663539f78b002aa11f2224f2b724e346e9fef6b84deec427a05576a51aad885e0fa15e083ff25a1f97b7968dcbbced7b5f3da137e0b48c5bbf783c7125f6a1c7f2e707212bd608bd09d12104ee593838842b127a5b8050a0d411417a5b88ffcbaccd32d1642ff00ba22e42e8827b5be97318bd0a69b06839dce80ef50ca43778a60dcd7193af7ba5da86149f7fc716c22fbcb0b1671b968da755f527dd2ae05ef2b6b8809ce38c9cb8b7095d7b3a9afd16284334da5f0d85b70068646f4ca3c6c39a2ea1d146b84662219827f756b2d1ec641f
+  Bytes(out.data(), ct.size())
+    Which is: 7eeee91a64a0c397ddc285e39ba472a526fa2041f037eec3de20f319768e062714d35df5bfc9f573d5fc08b4d5c11b58b1b206067233a606aa8e3e707f16c196e119cb0681318b318accd446bdad808d5418df6e2b0d0f1e936f70e90a784c9b82a55785b31b4ef5f447c17b324add19faa093f83757c8a329de2f012695049d90ef3c0576776321c559c411c2d880319d482e3df6dcf45bdaaf32b2c0e0bbd661684feb5c2e299eb432cc1cf64a1feae8a459645e018ac1848a81eacea6cf611e22a29120b3a485565d158ccf8871a6bc4af28f8b6891da213cd74e4de883ae7d9392f3ede25e74ccefe31271aeb2ea07f006ae929604e8d23df50610e8d7a04bd27c351de9b66de7492626deadc57fa8565ea3b684069f8fbbfd6d3bf94926cdc8c2e874594396eb297ca3d6fa4a284715ac49e6f958d62ffb4bd1b5f104e43c73910dd1e4ceab3f58b86e8171d510816e33a941ac6037f465ad23de8c197552db03980947efc33a3c22ce78c9ff15ea4a533dd915db1c9608d6fba37b5dd70dbef085fddcfa63ade939be3d4bebfcd6344a7d05e0b7c32326877f77c254007a931e6215fe77c51727aef8bebfa21bab9974d8b4cb86a3b9476efafeafcfcc96a792070f8ef0d48a4b041a8a1391fdab23a442648e8c6e68fe3b4ab4c7df24b28b8dc00c89096134b6e955adfe64e6e1c0c76522097382404f35beec5a39c73856442edb091b39739f4c14b5e36815a098d7faaab86ca549e1f6291cc0fe1278e35f0a03bb35817010139f1bc10ce357ebe19c09b375042e59d54ad0ac7d9480f0bee938ec3b2b887cfcf6f6434e8d4cc1751be221620cdc2a637413da1327700732cac0f9eadc59953f4c4cc2b0af2baa07680aa36aff0dad95b7e61c9c54ed740fc346bfdcc73c62ec3c156ad8f29d0df20dd1e05945c5312a13c7659a7648778f6e1c8efaa3c1fba9912da4f133481cbbdbd06335cababa86b3aef4f7eaad1da7df3841bdb70860eaa8d6c60acb22f61800aa9fa46376cc6d97702f21e8f71ef6a34b056e681a17b5254847e37311b95080b51732b2b54792c840a5f2736d002dad7a43ea555219e1bbbde684de9d3243485e7d0305625ccf329a833a80db73d27255cf771dfbc6e486264cbb78526834daef83d3b9bf9aa9bd7707abf4580d73f8a3af6ec49d03013bcaec7d80c36b83438f5711f1806011becfa8fa41dac6b35e2d3353591a314d3fa3fa703056f9c8422ddc39
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 503
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 8c7269eae0df5ed6c8f452fd89c09707
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 73fbe5b88dfbedbc8799412aff3331d8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 503
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: ac56114a0ed27060f87c7698d659d16b05219d9e013ff22dc90ad469646177feeda9b41531c83ba781c641c740c273a43cac138450eca6c9ff42a2d715de22e0c0e1954842230a0dcc887a42acf1fe75d204ef881af3de7733ebd84a3bed530b34b737a35394097db372f19953b5f9ce288ff8785da5926be93ab67de884d8ace761393c2d3c4d308964a90cc49d9a5a31e55fd20230dd71498d1875476ce257f175135a22e1df34cfec1f31dc788e7c00a483692f1fab826f92ff497253f9e56efc70244346e7fb32180cdb689c6a404c64e391419ccebd9034cab1431be1bb2bd4defe4770d1d9b0cae785592a28ecd3e9dc8993512088186cbea448c8b26ca1c64d623c2535cca60d92a3840a01a9b2b0a7f359d1c597a550b62eb6ffd3d454df319c6c5846c26ccb5ed59e0d3e58aa63615bbcdf4861d85c1635fac7756818a3bd47f5e2bf2b3d14e13ba409379cb62a1b2bb420870879fa522f573eb9b1624d5efbf67f92e50892de2ae454950f97e2b181bae56498585f3b19cd9ea603b6131dfd3995ea29d0bb99f5e6eb6bbb35571d6ac9e52fe02750b97f024b9328ec1dec6aa3a21e391804bf7aba5d3b7bff48760f4fed880259c43ad007208a04a20ca0864c47f9e56b0c969b8a84fb7eabbd58e0d91c44bf8a6ff12225d2c0768c078cb0bf6f0dd67977d801634dd8162500d6440ceee0bfa8750e9411d5a579efb30c34842438105ae2eae6430ae6a98cfba882c974f0f6c870718e4700dd9fe27b98599918896a600b3ee48ec41da20079efff705861c245d31a5d827ad148d0a75cd02b5b7df3484317ff0c2a0a600b22b13bb3b96f2d1c95a5884210e486763cf8d96af48c5bcda8c3ce650d2968981fb003ed3afbd43fbb06502b547f3961e6ec636a12a551a9863b9b89f21dc9485e62a43fc1059d65e1ccab12620ec3a98f2237294567239882c5183c596050b88c38f8be62b364e937ac92ce5f7f8e540af6507f04452ffffb67b51d0e336f57ba71c771c35febbece8e7b0d4eebf2dc0c43df1f42433a3c83a38941d6bbe12e7110f7f266cacbb6fb07d52618e4992a5930e1d416d6e4d1b41a0ddc4ab4a592096bba9437050e2064e0c17d1572c44ea52bd071a8dea305a9d633b0ee963245474fdbb3f274e119e59eb50b63b58fb05ba74242d3ef63cb3e3c98576d2986bcee85d094bd5528d8f43415f627365b08316c11abc433661b83a36129da0550507dd62051a8f5e01c043a04f849899668b3ebd468404811
+  Bytes(out.data(), ct.size())
+    Which is: 90917132d17901167f15892119ff2268aaf6afbc1c5e9d6b9f169de4b5c5c8f6f245937371d4512c03c8d9bb70d0e6104eca903a3caa8a5b28fe5e5c6edd0129254c8b1452a25a61900385d22989b4b1e930b034342c08efbd3a87bbdc3f5260dafdbf0d80c14cca283577ffb72f96b33a98a799465c543c16646334f8837dec2bed6c456210bf2f47732e10bc59cb6c15585509fa3ebf775b839e24656cce50ce4abd98d5b9717f656711ac0bbd0b7123e5422a058f20e48ec57fe4218c87ff515ae6e1319723dd7a1a98f59d92f24fa318a398f723d120036d41a1341198a881ce1e0f8eff065a463dc6f8d61064ef670759fd209d57015ff57a36faeb7c8820e7404725d19efd858e5f926bab5eb4f8f687a2ede98bc6f7db867a07b0bfb8bf4e4933d30af6c8986d11d45243b8e92bd8c0d76ad7ea05a08d92757620976f30b046f46d5af7200fe875483c371412ec32cf85fa4920a14bb0fc37cc513a3a756fd166e32fb2ac3cb170dc9207954b2efab00d924c3a46c1092f5a8d8a550b771a5c1f1f256385ebee56fbebcba10f402327b10ce471dbc86a8a953d4b85a3f9855e60380d1b8fd04a5db66710724da947fda613483d8fab92f9bd0041dea459908af03ece469da5e546e187b4a638e49831ccb5715a97d44398b9d760492754006b8040057905f87355f0ecf429b1782b21c37f0412a202e9d045ce61b0208bd4376a1dcd2469e5db772ca9a193c3e2e66c5cc61c41e0ed7a1d4e1f5b4a3c50ba65ed6f95cbac7122a5b13a9d61a4acf9ca31c073b071368fe461299566c9a2e50589d8fc66d759c9cfbb30002e55e130d7c0108cd94f271622bf89d8d7b0a14ccc8bcf040557aec8186615b02cad74208575583c7f522d8d8248779577bd78492df6e24cecb543317dbadc09722e65373bd1a6a8058cc3c0e0d224feb5ab8b6fbebc9cf271bbb03d9133c9f74c617e900fbd009f21ca1324c4c2ac56b747d0ccd21130a556316e5563e9e1e38095b46870b4df776fdbe5974bb3d13be6cc4fe079abb8712883eed5a62b83eca2c3a441eed030a39b3a024f36c80f043b50cc1da3eddd7a636f64025cf5f4bba77c7d87b603280c4c459f9601aa58d49b4d4c28bae928db81108f586c7326b86a27704d6aa7a19dee1d80f9179e39a87767ad3771f8c0e795221c6f804ee2da1bf49b7d0edafd26af720e7c2ee13f587546e997707aa61421f58e7648595afccfcf6f7dcb02d527696d51233c501e1ab949b8f78fee1638558c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 510
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 1dc7ba2dcd3727f14ebee62ecdf66429
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 6ebfe92e71daf120b929f62df4fed359
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 510
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: d560de73e9674b561fbb54c6e4267d3101479c2fc269745be89c470109068cb01c6e3a4a7a9ec284606db6e735df2269ea16863673fc35c911fdd6201a1baf9e0b562a847274c2defcc0fb5c165662d0bcbe6b01fe595217d482ddb616ee87138424f5438069abda9dcedd48b29125937e3266cc9d468ca38fec9920ecc81952101c8aff3d3ad2ba4953bdcf26642311ec8c4a880870bc81ac647351a49183e182acd38585cafad3a37a0171c0a0545bb3ee6a67a2da41cdf2397c529064b09dfe0105917e1da7c3df24d2dac6bf06f58efcb38752ffb79e93031cbef73e6c0ad68fb7a192900aa8a23bbb7c6bc15fba8d80058bcf9656323da4c10f19198d9db3b42499621e1d60de8a16046853fa03b783dbd076d0f51fe40e9ce60f4e22aee657246d3ac80913bd495cbcbbaeb778a485bcc6c596af305429afa5f09736e7a78b335f484bbd70a3359a7aa2f4c336f5780f3186fd1753e4673e5234e3f8b803f4199bd859d65267857f8e0391b4e8253fa644a10bf9f68a664bf7573628490b1baa17c23aef5f0414067d2186c08e27eb9d1034aae6361054f2f9bdcb877e72837c70816fabf38e6976c8a5b20ef3a150a5d1ffc997a248ae199d598a01b5bf7da1d6f7a57f982026527e950f33ae33cea9d64e56a3a2d26ed2f2cf0a5d08e6a03db5c483aaa0049514e013b915056c4570c4606e6baefe7c6a74ae301d7b9b6b980d85bb500c8a61c05b38e79db47d2d3b88db098737def0d995267c931a2ef21bfc0d970652a3be8de5f42c20fa43e1f7bbdc34b3b5d2fbe3c396037fa885ec6213748de5a6b64634757aa519573aff1cb78a3191dda039a3c64940b816fd010a584a463cc17789c732d7a099fb423dcc9c20fa1c0f10436bf67f9796c1bab8c85ed76c2cae84ae599f7519991367d69948b757a312cdef01c535f1172ccee7be47fbab14362dc0f3fc89c7a71ec9138b40eec235f585e39b008d1f29a1be9332b2882f6d053acec077ebcb6393ed1dc46d069134d2c37c7f14c0fc9f9e280a6e2598ed8a070edcf9b79a042561dbf3666bc49863c29712d45c41d434172649baca0c2b43e3364cdee11f9da14eaccf8a853998a2a9637b268b6dbbb342575481c37014631180737f970fcb8b8fd5050ebbff873b5bf124b315799c94da41b8b5a4d57210c4edc26ce74738b2fda9c02b3fdac251b2b317d8edd345ce4a3e074255e8c49d8bd02376ee2aa194513963a220529e6c14611288b788b68e74f6dc206ad094e322fa3002d62101dc4d572ef00c1567f0e7a4
+  Bytes(out.data(), ct.size())
+    Which is: b604de29fd16ea88df28730a1d52c38ec2abe48e5e2faf7056fd6b8a9419652fced7ccfe752a2f2a1d161ca93d6ff199155eb7b4db1f6992cc4aa6d4f614eae7a5ef77defa0ae33893fe8c3fa1ae7f31eabbed01988dd7597d9642fda130e041f88decf7c7c789c7627a6c77237355292d095ce7933b63db9eb36859e4985c5ef1d0f2fe6e01d236f229a523eaa6654eb932ef4487722bbc74aa02bb8d0998b6c1c4ca5817e1cda626ed1ba7246705ad643925bf8b16ac088a7ecfe9d36b11ebad683a9e4fd5b00739adf1a53356c75a65a25a513716ef2411dbccdb46ed25b4493e20f1b193da569b0050381a9e0c114aaffdf8ef71f5c14d5377279ee82b6d9431e43327ba09343de6be81e28c39480fa405f80f3ebfe4ddcdda71e917eb3c8feb78fb469e734a80595d4bebe14bf2710a508cc1bda5bec5a8607068f7de613f7c287277d3c43f7611e3bfbaa331657e130ade7b8af41594027447168391f14bacf25a68f1ca8e175d1e69c8843121062f63d616b033be0196b0f534659e17ca21e9ea49209c5fe161bba8baf10877f4e173ebbc058261a816a4556008f9b2da6feda133ad35bcb113af036e302a882e27ea26cd7ca4feeaebbd69ba3bb51ba996575f49d09526764ff5f5d9eb16677bce8cce96e96960406a306f0c00451b97900aadf14c1640f94393a940646cff253e980c6e2a485e941f6eb9524f335263b269d096f35aca599324a92e2cf67ea151238dc3144f10c348389f773f7f88ea1cafa58f78d6cc8401dd28be46901f71484aa9e6bf78986775d5cc79228433653f9e96be8133baa6d830ae0d029f180f22b098dca0f93a7d0d44a921c724ec999c9de443f3c21d7f738cb80f4ea91633fd7b40ccf5f8e12e9d5434322de330e79997791db5e2f90d9afd59be5ad9b10415054cb0108c705d5f7f125d40ba63446f727c6245b8d87fe7b47294ce344907c475486e533d118d94fc63b54cf88668a760baa5a302cdc4545da3581ab1740bd649e9cdbae71e0478263706b93883d4cc8cccf477a150f94981da38b2d1aebcd8865b1960eb03e7aec91cc4cf3537263a4afc1c2b3f9b1ae2884059ddfceac98c7bf79c19c5a4962933cb42a2719d6e055a4cf77ddc2d1fc1a7b156e792203c391cba3abbd524d928604f35b9d86235c3a3feb70d95aafea42dfbc7534fdbbcbbe49bd7c1639bb34e4a79bbcfdc77af486cada48bcfae854827b62e05bd49a5f628f7a792b8f5190aa1fde6c70e38aa8c1af02bbf842479ec29a637ea907e3162043b78849a93de
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 517
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 799c10bc86be84658d0b03751a29c71b
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: dc5773655c8c32a40f848a0e23f255c1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 517
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: e6ae771db203f1e58b0336c9c655013940053c2a40cc7a6a27e707860b179d7895a16f7a754c2cbf2e0fcf610a3ce97be5e7459cff4684b6b2848f2a39e6c4572c1d7a41f23646eed5909228adf1052adb34b9c44e5ca8b2bfc18a80675e29749e72410851eecaf261868b6b69e7d9dacd5f019de1580549fda721e383b86eb0c51c2eac4600a4a27b5f663a7c89c81401fd452027819b93281b559153c74e5354c320cbad932cab5d261308e241e85c0967a189de09eeced69c834b4c64dadb9447a824bb38d8b8a3fa4128bd8392cd34b0999b4ff0511bfb9fd434a1a0bb3c507c2828d98ecaa9f2dd5a020320f6f31324fd8ba8c175db5284628d1cfc4816054587a6cdd5f9e6d6de2cbce9396e874df36bcc347ef48ee9e6ef7e6cbe976e4361651cf8f92866cc3a54701af59ba03fb8d23024d6be73e1938836c31b303c687c28b1785c5f9b97f3b09b7ec3d83d8e38dcd18c3409db665bf74b85abc540f678bae40157eabb69332abb9c47995f4c412a04f9b99214581f1d18e0662e77a2ef6520a23b5a031153d5586f169923dbcf08d403e37184c5f7977320cb33b8a0d5d7bbb25d7a8477054874a14e3d34b92f7877aed42f595dba8830757f8e92f21d5feab414ecc9e3933f082bf46fcebee2ce5246c2fe839fabd94d4f6bdf875cfa67867f9376281b1e5385d1677a595b018617f44c6113f6178e5446cd28facc9a53bad29cb5b3a3b0cd29186c24339ea008ead440041c6bd0e93b92ab37e3692ed13769d147a1be8335feca11a533156a3e416908d044a5a74454f10d3e59e5f9868c56c517ba1d9642c41c6a764e74540611545ca90219ef4a0db0d25e92196d700f4e57a6778d20b6acf7d1db8060ab534ef409fe35c30c300418641368f0a3ed2407027c126e967406809524860cd88906f046a069a22245d9b2065cc5fc313a7ad79bc7035cb681a39387493b6be51c813748c008269f0681e88616ecec8a01416e4ee8b7a6e4fae2af9648ebb89523434eeae6e5713eb8037bf173e467a6da7d6cd3d357e3962aaca14c03b04046a4f893106e199062360217afe40f40214d28e87eaadc175ccc11d172f6cd42e97c1f331e246f7660fe22717d7f1e24752b1b01398e4c8bead71d8f6aa2d230c6392ae21d43bd88258c1219d491b8de12d53bb9fb917eecb0c254a4e9007f789699de1dc90d35250c6ec4631ced06cef9dc0b0416148835be0be3dc4749d4c2edaff37d7607c9a3e872f723583a1566ee1fa7be77b848fbc4d741ccef311fa5ccb7c18f19295e53cd1da935d663f0b26f776db6d479b4cf3d
+  Bytes(out.data(), ct.size())
+    Which is: 42e8df7e37c143f9c6c254c6b7f1e8769339b56e5148c87a0417d6b61c2f5558f2c20f4491cb1ab287e61a368f17ee30d54c6e46abb74bd868b4a501bc01abb0d382b1bb580704a31d81ba632ce29ea0be3ce92e8151b9cc50a6869a2725fee9fbfbde20e687b705ca71a71a1fbda94cc2b62f330236571cbb83d6e77b853bbff12349ea575fffc8d2b1f413884e1c5c9e24154a167783b67cea0a23ecf05b97f72d781c9b7a2b45bc2d8ea2cac56cb65cc81cf8763a4e2fcebc1c8fe8856b7feb33766dc2f3670d989367cd548fb0a1906d96547f6e274a30981fb933fe63285f84e5f5314368a8a9533dec93c27b3bca09db2bf52d0cc5eb8b4127c0c2a9664a31ae05bc3c506314bec873e9b78a62424aecdcbe89bf456d5b29a0773b667947f1f8693ab538361a674cf9353b52ee7aab73b94619eaf46b641506ef328deb3232ee5dbaaefe7146403a31a9de0e15a08b9b524fce34e30aab41ede00c68d46746d063800720473b2034b63b28488b4d83f004a8082ce18972e7e150a5c6679406811744c17c12a729d4c6de543a38fa711148c4966bdfd7886bc4810464b802fc40d3322e02a4c9272e54d344b889d7e3a5da2cc37ae3ffee32c2e8acd759980c4b66f1a2946d4eb9b5ae623c79ffbeeac0a540ad614850ae4764734be68cc92c13f9edc5586d32ed6d509ac5445bde8bd405256120f6c11e0ac1439fc3c82e63f0da69381cebfe01a1db4ac2348b72398b4a736b6708fa6615b4548e73ba23d6921d9609a459cdd5b3e7825af83a15e071180805f9eb7cd8168bd7c4b9adc25fd1f55520d0367d3b53067bfa257f7ab78d832fbe61b63a152d79b5c53adaa6428161fd9b720f75500385a6b196a4b2c4dd7a354151c6b2535e14a7d562a67c97ae05be21758a90200abcd7bc2e474d09699207f95c8f768242504489909a80ec6963bee3a2e13efd0f611f671157b8e898eacae501364df3366fefe194b725f842b1c086d3c05216695ce15127148cdad2244b8d6382d85830cbbd22707a03383c247ef1bc6b848a7486d3822e2a118fe177a4bb1e9773e2648e033bece0620674b97a51bc6e0eb5798e7e5a49d8606110cbdb10a01c395563ae46fa57353bc5a116741321eae27c90cf34d9860a56c1c30e9f4f01c465b8de2f174bcc589a059509c25e92cad77ea25b5e2777e306d059d142b5aa9c0cb371ed5d8a9cab9736c72e2037e32b5418e883247b88b5872fc3720e3f931af8b562971599957b08a12748ed36dfaffce87f484abb22b91836cfa259b046dd92456c7ea567743d2209f2b10e1bafd92e92
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 524
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 4fb43763c09a6af54ef7103ea40de1ba
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: f9bde2b6047a22035d444a0b8cdc52da
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 524
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 0d8f126c444afe37e40d85b6f0c9f02b2232faf975d238cdb227a17ef28e18afa6d88d7d23b99826de9f6e7390f67c2ab722e1be3e5d9f3a2abe41e508abbd22897ec36a70d02fa54db8004fa3dcdfc729d58ee12ec5b1c85346289f2112c059ecfcfeb6e4723904ef1c5e3bd123d302f6e4cc393cf62513cb3e2df3ea822692edd0d8533d6103f22940cc82116c4ff1e5121f0ceb08ee581f40ac68e23c7e9a168661e6d93259e614a3f962fa2ebcfa3a4736f3490d401afc9e6aaa8a8d00ad6926b3a99c6cd2b3b05767cc5b45901d0c4301a68c0783bf1611e2cb95d6859293b615975be7e1d829f13eb4fe601b4d66af3f28171b02d09f820dc77ffdd22537ee2ef0cc291f785c466ea45a0dab45e782e7ec3d4bf0622680791883f89f9926009f6b6bc3fda4276b79d5d9070914e75488c033d47c58defe6b538c58b106fdcc8957619e008f6b508a87d85d4a46364535e76a890716a215fe5f2ecf50d8fc0d8f68d2ee0345497f94525c588eb3d21d66caf1cebec2685020523998cf6e24b5fbc384c32cad31a2345fd88c8b820276d5917d71e69d54b44ff96c8411f1a7b6267e20d67e35cf274cd9031dc157d5638f5fb8faebab2f5fc976fc928bffd8b60ac8d8932b8ac076a000675cc05aeb4d8306d65c6060a46bc200193d56249e605a7b10fa28f7a04a72055cdfc6ced9a220ac50d3c36ceb4ba5405945307f2d332a9a14487d7a74ed0c379623e2fdb04324e515e1d5ede3af27fc5f06baf8d354f6b68621e372347817cd3acb05df1817511c978537722f9a4967db31d24336704d8d7f974afedb487ffc6e877bb948f0c30fd64be7608723eb732a6be38394891e8cb789cc9ec2e09b8cc2ca76b56ee7e1d5e4c0bf76f28d705c61104b508b1c4c7c1a1cfec10f25676ea55f73c95af3fd34bcde939652fa91f5fb9d8b783dcacca1332230e2104cdbb905511e8479da129ad64acbb569809ae2a19e71bf7fd6acc18e7087bd49997e3d57eb19f30afd1a76c42ebadcc7f8d231c0c28c7a0850ae5463d1730def54c24a803bc1e889c0719e364492cb737378f7390e5ae506d36a7f42bd86a6184cd6cf0300331d0f54cd6f5b53200d59eeb8cbec25830eb74b0e1d931073dbd991c8a818d9d7f2b8691fa2b523bf73d9c7f101cb1d83699b9f5e1b3545f8efbb8eea286728045202ec8f81c71bbbb6e888698c69b92563615ee7d07f66c2495cbeeaf15825fdb3a3dbaff7347f5b52f6f886d80464aeca6e35cef31b6909bac29079ee1403f53a6ec45204694e967bcb318f91f4af5e868be46df4082f4e77c627bb34b017c0f9d9889184f8e88d62613335
+  Bytes(out.data(), ct.size())
+    Which is: dc8dd57834471a5ff14ca896cc093591a7503e81b128159d74efcfc9c55dc30bdcc464fb0cf6b732bccfea9e43056e4c906c270c6bab8acdd85daf78b0efcb07988f465b2438073733a241fcdc6946964f1a60ef0d5fde7048f1f6e34d997b4739248587789604d97bd1b5eef699b42278314bb2bbd6e29b05df45878b530b7389775a62ede1bb7412cb565ab897f83a473f458dd8b63ae3be27a1247f00298c36307b4f3469ed73a3f00e97a8a6bc4ff50c433bdc467ef7f900cfb5c7e863d4274d54bf35f425d74ea63cd4d9401614c0fd8b4fc499160ae686f2a343823c23fe89f4edcb47b94f330a664165ca82bce04f94bf715934b72c45a59dbae24f22c7964d84ccedbe4373e6b4a6202ddc6e111be580451eef1f8ad66fd84db2f5b441bb09bf4b8aadf42d0c53591010c3c7603b53c6becd860e086b038606ddb3707b2db4390b2c29bc4c4a2222c6ec953bfd4cd5df4773698b1a2da406b6e1cf84a88919a8d6f33b75eb3dc8a9dce0ff822d5566bd07db93085bfe80b150ef5f695f466a801ac23516f43d94c1b028017d96f632c02df4263988a67526c1909596ba68152d20defc171ac66a08bb240b2e67997ddc89a3768920ffd4c6a0612853de5ae14242e90ca1b2c59734cb0f97e952d4684a435ab03c75d5ff8c7c41971c3fd3851b9be4e6364efea2749d54577aa0661cb17881aaa222a9daf79bb1ed4df6c993102c5d53d812e3293fdee7ef5de951ef038573190848d6fa93f811ff18f0b2f2de0381d6917e51a8a6735bc98ff347bb23ab0f0d538c5f8ce45b582d737812d60a746c1405332bc47df8f6d1c53653520b59fca8298d26cdc9dd3e51f9bfdd2c3adc79d3de074d2946a0f022869821bc57359fb5641dbf0697d9ef61492dd59b3155dd59a33df206176c400427df62d2ef9b38287ac52c0ee6243f7f556aa3a412d19d2d93522a1469d41f5a37b5f55e071d94016b77b8807aa92db299797065c07f92292f4c021b4165e0672a4b84ce0fdefccf28787d2d0661d66180a177e3d3a5fa76f6e3948fc175c5901911188031fcb48357c036107be09fb66547bdae7a001d5000bd97aedc27d3a70f0d0befa1d5d815de097dcd293e59cf391e9e2e06677b249b8f5e27a1034888148a5714d3873847724fc17b2880d3ce4e91993de3f962fd58ed530be0c734629b1c4a9c9e3ab9f2c5dab8093299349fb04c12978e650329b61d72cb0578417bea7fa37b3745887aaad9cca6db5d4daf4fd22e89fb42280be373ecbd60e6ebaa9c9b70bc449b5a406726f05fead5519ffe930917e0a1c24b7a35c812a6c8fe2d4825494aeed4ae4001497828
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 531
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 3350bc1b6fa4c20bc1c0a28bc766778f
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 18abd8a1b721f16b37c51d994d69e6f3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 531
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: df417e819076b3a8ae2fa8f0ca968d5be1f31c4c44d02f29f9f1f69c8d2c269835426ea9735aaf95da0cf92b45d512ee8e4b073b40504cfbe9efc62770a0000706f16f7cc350080e52da3501675907b2f657091c1b5980d22bd7dc519203a80c674418500224900d74a11ef87d9f60296ff5074674552263b7b6b249c8adde311b98b4181a3730c101c4ab9bd29c044272751197498e8baff4a8f2558de20d4920ce21f4dbecb64e258d078974dc6c2d574ebc8c8ff32505db2ccd349e82808c44eca7f4ade2ffe9ab1ff2815fd282985a8de28147e547023f0254105d2d35aedc5e2083bad31e05ba905c1b3c53f354aec095add4c5cb40c51adb6a2c290a867ed58b05b14170f8cbaea863ec74a3abb66baf60608721b96c63da4b4d966d1291a3293539ead11167ce4e45f0f62cfef30962d2c979073cd7d0e89899397cc0ecbd858da7de3975fce6ca3bd6759581787c5559bd41dcdc177f6ff4a5cfe5b82236d467f93abf5b2abbd30a90cb25b4ae6723c92621820704542f9d5215258962c67ce9e9e2427c58b5819a709488236f12c1f2a7f5c915a4cf2f8eb3c103a4ab9769f76102a8f8fd73aad7c7b6146768f3a3f53b8e276a8634fc50446d5e0cfaa589a4a7fba9a8095f9567506dd6d2fed0c1e3146dbdb74cd116c13bc5a7ace595a2b42e0e3d46c5232cd92799d6ebfbc06c9d0536db35295cc4f7a7a28bf8ef3c649833d5f330196de4826462dd418f95450cd431454cef7afa6f2f4294ab69bb3e588d3b9300a593ea80890e9d678869e963e75bbf281b61f9f7cb9a3f9a773f2343ea306bea4609b03df78e57d5b9f682e0c0b10b57f360e1b0b9058c12f653b3e1fce60579b7c2ebdbedf0090fac36e72099ccf58d1bd5d7c26701f29f656261e8c2e7d5ae97b224293ac133b2cbee65401f8d256d5106c14da8c837ff48f2479432d5addda274e72ef5810fc3a42ef9b27e75c89bc4d72d6670f855f228609eadf8dda76ade9804c642b140117fce06bc441cf92429d2d3b03bee775c1a52dc409fa4e7a5d3e39f9d9a250a288a29c9de6abfd0303f676a98025a7954fcaf6406d765a260e08ae5948326173f44f2d7cfb5ca9777221f0c984699a9cd1d20c9dedda95b8f066736b372d23116fffd55f7b03d4c7f63a8be3e7806718fa6a961a68db681edbdeb4281c0901c2ecc895f9da0cb04cbb03b5f1323e00c827dafd4d42ff767ffb7531e412d5ce11e0dc469f7bd87549ecab2ed21ee8deb164f67e64bfcd85d858f79c20c8bd4c37d7be76ad6d3c040a3a27c13f70f14b895178ccb02858764e315158ef6cdb827b69dcb24a3f54c2816a75be64496c139d541302b0b71849fdd92e0b83d
+  Bytes(out.data(), ct.size())
+    Which is: d5f986b6104e19da678313e2a4901d25f065606f53cc82029a395658e66b6cd0215e0e4c2b3d7e9ef6516d3f64d53c127fbf7be930f60b103a331720835928eb522e61a3f5f5a1d05cc52533d43f78b450cbf533a54ea7d7c9725b522f62a8eb03e1bb1f034135ea483c63ad4b6c0f46d4016b008b4b1b8b9aa109c66691d2e00ee5c857f2e33a7636437f5611873cfac662457ec17c01209d579c90a0a7e0d66f142d65e9bdeef8c941b26adafe98ac76001f0be58db77c9ace36decf33e8cca5a5606adb93dc779a48978958fac9a301abe7eaddebeff71cc84527890601f1ceb6441fafec0fc6565ec065c5c3e11b42bc52c58677cac1ff43fae7f04720a7e0a509cf6e73eb4e3684b8eb497f5fff39f0fef297d6c321efddf8dd9b55585c8e9dbf32a75e021138de86b83b5d01ee3f88c64b11c85d46ff6d5f24e9c0b7073090db040fb5903bdd1bfaaa43829ac042ef8b373f83697f1cfe4649c3891da6060fd7633c6a1eed0fc2b354e2abcea57d7d080b9c4566dacaceb6a33b440837c0da6c3a814322eded55f31267be313076c6fad3f76683e5ca5b6efe3cbd1838f813687d0686e499d83474ffeccd10c61babee3986d3f20988fc0b76d122406f5505f7b9184512a2e39f445c7a9c452a17ef7e7f511d3feddad6d6f85787cb0081f2a10c45320f2eff711d4aeb110404d14968c02ae1614a2f90f45c83cc9cb77ff81df10356debda89b9ff69d7fd0b04f18db1bc7dd918ac8c97db49be55bb4691e76246348894c7208e7e3e289b6047369ac433093d074145310a79309be7178c38c3e00ed2c403f8ace710848faaef52c351de9d676a328472e1e533a509d9e20e30c1bd14191b5eabeb7f8917de07d314695c4b7ba6aa0b69a879dd281d8dc1846daa701d5cf4b0e2eb9c6a43e711c0b70531f15aef79a19e48e9224e0be9c14480afede810e243c0c18fc8024fd0ce223a6693e497383b830dc7fdb1b031bc00d5d4b391000917e55eb73d876a5dfb15aa4886d908fbada907147a3a320a066dd99d1d0d7aab39036254646668486f994512b65dd38a1e018eec2e0eb476639e873113eb576aeff02fe5922484a6b40c707404e16f4d47d608b2e449ba0b3831adf0667ae5d2658877b685153cde8d74c04925b31ea6c59a136a5f374c88280779e33675e691e6c3a724dd17c27153030c7b3a0926d135c45b914dc3aee81c1aff07fa485afe788f8376c5be51a84acdcbdc0df95ce2705c982520ab27dddcf9e48e89109a6f8065cf7b4fabd689a3fb16fee6fc09f20b7baaf9f4b269dfbb6a8384463292c8528ec0b74c2db6e27fd0e6cd8b9c04ecf6ca48702c778b455f706a94e5e90175b31df7a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 538
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: d8f838951f98deb27747a870cf55713f
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 9ee8180fc3306282f14c0812d0093c6e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 538
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: ac837bdf77bb97a1bac4cdde49ef8d6c7024f5f25a7bdcf924fa87b0c77ddd66bdb67c9b8798922f5378c0405be67d5da47f7c245c5f7330accaf74d5bec6a8667c911384d9c77e9d3ca38d88bf87deaca62b58d092bbabe64895b944fa9f6bca0aa17a55031fa19ab0c324948816c57f67adf84077b277e71a7db9a6ac537a95e54d3cd4c9517bcdb7e9e1ccc8e7dc252c27c89b9c20c9876ce7c01b17b80a05c6f75006cdd1e081ade6f9353c66f7113613a5f72d82dd28a65efb74d0d1c92793d652edf23bf7c70f6dcfd5d40b2799b60c2a6fb53beb02571c78001381fc97d4a9292a0eb7a4a0a67cdf20b4810aebe5aa4a6d20fc30e2971924a09f106d0b5b7fcf181321b6f8442f91fb7ff3b5610353500b9d6f8a36301e7cb12d94d1aab6ec0f797fdb57232c02d5fb4b2ffc7d0cd2336ff96a4a811cd1aa02248f4a48c7646591507f9e02f8f441cacee92b5bb3cfcb7a5dbb02993d0fb1818e0ec4cb719a6b43d82e15ce576f95912ebeac7a7aa377a50d1190799b00a6da2fe7cd7231c3fecfd4e6913df0b46887ae8412cd2c9de49ad7a4e8f55e7f53239649b566c4940db50e0ba9a915acbdf0ed97905b0c70930d49c5c31cb398fa4f52222d3cdbd9374ae9d7d979991fa50a2cefeee88b3943578f99b9a46e58900378ef22880c862103ab7e0c2066685571b28c3407cfef5bc0c9b176be8dacf6130bbc44389aac32cd0011aaedcb752e16a1f99838030f7364c17441de87d5ec670a25a2b55a77a57f2304233b3d9d1f4c7b145e7e145eb8607f2d9b6159e954f14b02609830fe54ce1a7dab775b49d77a0ed503773c81e3c53f50e0cb676387dec6e506494ea7843fe533aa7f09dd1d4c960dca585a1590035a9c36cc9f821b4a8aaff6548fddce5250efc4211b0ad0ad4dbc3dc5038218e58851da4848f399f8d7938da211484139000dbf8b6c6314312586311ca1d8639fcdbb20b6a6a608c23027eb46938cd6bb869ea2d3b327728f31012de124a9b57dc96d5d98154b98045943a24e4f788e48bbcf0dc20598fb91627f09495c8fd5bce762b1193fdcf9c45174005d589ba6ad971b5d7ee13e1aab89447a14f9d750621184cdf55ef4ac2f7fedd7b8fe89e0fefb4382ea18cc4feb62e9650e9ba5a12f9366584ec774f5aa09793293b558293991de7fd1793bc44341a5b59cdb45095d5b53a4b847512dd2ea621f9778b4c0f33cb7bdbee1061505f08f1f2919cafc5d6e45206cc35e89e1d366b7abfff3da64f6cfc0d0b855bf5d425a85d93ecb01186697f60a7a47870ee2a6a50cdf134a67a51565d28974dbaa9c62ffc960b70fcdadf79dc489741095ef3052df69c55b99c95a44728d30e267a02922c7a6ef2523ec379239a5148eef6
+  Bytes(out.data(), ct.size())
+    Which is: d939ec45e951ebcf95bfa793ef364005b23cf84571c31cd27f5e9dac0da85aea5615ac1013bcbe4f4f17bd8d90262b2608dd556055a4613a3fa6e28fa0574cd89a468e8b4e3e705e48f65c770e1868f26c2a5948c28ade9aac5323312eda3cce833130705be96c3d5c4371a52f26cff256b3098b6cab35ac1ebfbfcfe0be00068b18729a75820d7afbfb8b11d9fd46e603699c450c4592ff870640bf9aeddbd008feec1d9a9397a6cbec6bea5c14b15f6bebd0725dce2baa3030fae0cac93f2bfaa1f404d67ab166550e69dcc2cfbfb11b39a61b1c1b9dce476c7667a8ceabf275d672730f572c5cc871509753c54735cea41caa0b07622f275173e834e0ced241a9844160f9ffe0c70c787075a957d6408717aec48e47da53e4e98e8db4f607c4b84ecf2cca025afe2a93b4676be187be596db0732c61343db4e6e003d4fad5c885edf9126c6c2be1654fc942a3fe909c30248874ff33dabb0e16a013959236ef0f2ba8a0a49f3dd087e7385e163d53445b0d9b1fe4174967d8f16ba694c9f2ebddb9fb85df3796cca271208c3a654dc6a4fcd17a423996eb3021849b395d3469fb7a4a56265cf1f23109e7509f6a5c9caf61030115da0d1d4527cfc47f56a4b66ed4162fb36f38156bd9db3fc70b419c2a02adb12d3369782346c989e7e5428721370928d9cf0b25e54c4acaf8b3c51e0a8b2291f23930a56bb0abefd4329cc09f143c0c0ef0eab0bfff1e0a5bbde406c5b13bb1bb28846f42c0b8903c3c0f426da80ec3ed4b08340089a76496b81463edbb3186f6d967310da0b1bcc089d9aabcd927a7754f5444cbc66d8d3417eaae89ef989dc95f590888ed182bac196c384dd8d088d623e9b08057b69535ea09c6aaebdadc8ebb6391e897697fa148b15f8730df8810b1e1046422ebf56348610783436f9785ddc0ed792687436e8f81cd33bf24b502e19d91eca74c6b95446dcbc69c0bfb3c2acddde14272b66a67057c47e7b9277c9e48bede7bde031b014846f87fb96992fd9a355a259071b072c7544eecec51916495247a816e1aa637ff1d38acc2677ce6ba3fb9c3cbcc63a41d4540511a655a658d039e1df2cb99389e653787f19022e025ad2d7c8b57a215c170068c7f7762fa3be6e9a93527962c7d3aa1162f725b3c372b0fd7e4cc2be5c693aa2d6e6b8e66158a2a76611f73b44da6ad30a6e4986fb9f3a00c2278187cbcf0fc0034f9502814c6956b9a6d1066d917af2a77f4ec2479b4136dae4c519d0cb1a59b7b43a644101a068443dd2a081fce946ca776ba89a2b52b818322aa6d1277d629ec8ea56adfa42bd7bad7c2f9c732afd0a03961e0555cf2bc02ac74a9e6c20047c1535655296f7422e44b35a886d78435c8f465e5bffa363262ef
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 545
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 09a43ea9d67cec2b3f35d401141af9a8
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 0a9c2407dbc3794a6726cb57c398f9f8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 545
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: c5311b1a6e3d93da070ee0fc2c1007558db64bfdabdc23c832d151472513482314e7d9385918abe772970c7d8b3ae4eb0d12965e6d7f6d01f6c97d06b51d3be812dfb290592578713ed6342a690ac115c29d471826f37f7f7b46936ab9f431cc0e4029579036bc6311574205810fecd3a17ebccd0f15752152276d5169b48b0a4fa93613fde13997517956f84500edd7eac1082ab6b69bf43f56fb9046cefe8425140db5f6bd3bb201b3345b2138c7f42120a3009ccc19e2d95ddb2b4384205d2aecb47c89cb43fab6c353f781caafae280e93dff5bd213640c41cfcd81b9dfd1be05ce21758c5474c38bd24819e5d085241dd54c8d2cbb5b21a616e47c05d4c64c0f397fc16d52d008fe4e83c040a6304c41a448784fb0c54f8a66fb00b240b9d66e8db234d14534dcdd6b3ba78db0403cf0219406ca858fef6bcb259fb69c53c6f964f450bcd12997955d0190ccbb2d9ae6b3562d85dc7de2bf1bd5a8d49651fe5de73243d7f89ac8796387e0a04c74d5834e47afb6b7444df7d27592fbfdeca72428582703ae52aab48c1b587b12fad6c887e451a54ef81481e3d8b4da1e3fc09404a7c209db8c880c40b3fedc579fdf19f956bfb36d5b2d1affa0a3631681084ae4e41e3a0fed84e056bc72b6c0eb1f5449935f7c2d3de07a2a5fb65af65f91d2c1d730edb80b437cba66fea779449b68c557c5f8bc6a2581b6808a98a1acb9e6de414377f5b08fd5cfeb4806e8699e50236dc8100a88f4f55d887caaa6ae8ca09c23019126b62b5c3186b459c39ee397076c825b6e28ab62d8286743f9d07182cfc634eb4512ec3beb04ba81bc20294b16fb6d42301a74fa95f95510155a15eb953eaa51d82fc363c0c63d1cf401a3ccc0c577474f99f7c4f187316fb85e1db38dac1df4b5e7c710be5b5949dbb1925723d042944eac09dbfd74d7e876f5931f619bfba1ea9580bf4e6c2540fd68d5aa9cd21203ba207f0f62e325c1e054271933563063acb4d932eef201bf3312763dddf6992fbd128cb8fc8b7936acbe8712ad398c5a8719b9efbe0927b9f637f323c4bea80901091608ab76e483b5ef666560937705bff96d430e6e17b0b24c755de19bb88aa81077852c92a96e902d538b4e11b78a4b5d1f5669aacdfe5125d806a21c06ccf4980edee24e41b7e17672fed0ace9b19e4d55415d097f0b5874d60dbe311871abaf47220893c398d5595ee16275eecc6d15f39aa5e2181ad1448345406a4c77a34c3fac77b4c506cf393791d69e113270adf0393cad689a07056e388ea3bbd00ee5878e1120c869531a8b4745ca2debc1e008493d17bb3777992cfcaa165188b4801122af5422acfa0a1807a2a35e793ebdd95aa9e025edc065cf9ae85972a5f42da193cd9b653373a6e15d647b8d26207f3230e50bb49
+  Bytes(out.data(), ct.size())
+    Which is: 5a06bf1f05e49ce7cc86fe12c267f0a5b8b56cc630f07a05feaff8b56306f1f10eca69802b0309df2d5abe42c4e1277f1db0d51c6c54fd573585cf0940145b9fb3b9db4cc6f153415dfad48f89b7129cb6ca81ee858baaec428025122376ef9b7ca94bb269cd71221fac760514968eb82edde1ab3fb88d539e534a547270efc276b570552fa32c6a7e7a4225c1ee15dff7a05a6efa22317fb153c8a7a95cd4328a6be34044a0759511d9a91b6cf72df16ce817d17c3567e86885376db5847d3f0c43b48097070a86ecc2bf37da2e30e0c4b0a458b6b4cee9d1c2f340493560a573040c943d8c7db246629e0993f68ad04eb7eaadaa04c992b6faea7b9588666c070283bca73878e845b2e9a1bc52fdb75dee1ce1d00352bae7c3bf9e993a0e4324aa732d2de3b7f615366ae6521649f56b6d85a74c6a7d5fb8956499f8a71688244510af63e576a278c82875fd33b556b8cad1cff532eb42c61d7dc32300383c6d180ce4ff69abc03d33ef201160d46b892e06471deb8abb3f2f3f12997612387f4276deb7b2e81a9fa8b973ee0dacb953db03e5a1fd55c59066c4eead550962e9f8b6b0764dfbf232c25bf9e733f3b32e1954ff7c0c110d6da53a093a3a9c350da63034bfe1809f6bebecaf0cf1a58080ca8d4c6a357c2b3af3a65c07ef656c8bd96e393516c1c137419db2e3febbd8323334e057d5936a0cc842718db5df7148c5fb30f451ff2ea0ce53b9a9d08bacecc8037ef8cef6ebf326d4e0c8eed7b4c9ce2bd203e1473d2280b5cf16209966bf82bc27f7c629b22b137842f7b85b79e15455558eb8702c0e1d209fa19d0a76e8fa2857fdc986712941f4bd51cf4e368bca8acdd982ad967d465319f2838f550d077c036c5aad9dfab65cbf53622d1b97732d514f9c9ffc39aeec974412058c14474f87d625ebc323df4d1e2e7d39328cb0fbc892e39f06c7ae338373c52f3cf75b605fc96231bead6810169fc23ae49773ac96440a0dbec521b98b25d481ca9a8615f2ae8208b31f1ecf57d4bf44d950f53fd3f65fc70d2738ec993a850140e0878bf62b4a233df2eef805ba6eef71d475a9e44641c062a804ad57113cec647eabb395bf795e850985fd681db486eabe498c87b3d7cbaf99665335a582d008f1fbbfb6bca62c459dae4d7f0c6b6fc302c07907431c8e26be4153520e70c2c18f2f6647ba3dcda57b497f669313a7a116861f8e83fc77aa6b39fd35a78459f4519678a6e9de4102bdb82db8a7555e9c07f54b8215d42dbd0afbcaed960ac0f20b346f37ada2ed2ad4dea1688d3aebbfe43b78b893ae104cb5e686f333bf194a4e31c02670b1a535aae622214438e675950af4c3a37e5ae1b032334be58c31251de398351021ca01356eb16b642b86047197613c6687415955df52c5c0c9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 552
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: e2df8917d70683fb6e6ea67db55367b0
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 5e534a816c2116aac5f0d8f32385a6fd
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 552
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 98763c2423882eb5a1e9075920b2245f2243341f6dd2dceae7780aa738fab65c7d86f41dd4a64283752db5e86cecaed0ac1afe966171e94f2c30d63a93ff11343ce15ff3bf464d88a6912fbba42c08e6225cfaa63c6da17a6354a34362fda3d993920050dfb99c84a235726aa4cbd66260b0e5675bfe89078e33e76ef537d2071d5801758c6cf07557c0e8bfe0a49aa6e212d69617d1a22ff15a26ae28f4d724d6b537ed34af62672cc9d48836f284cbc7eaae8cd15b46b8e233c94bf3036713f2679e23e0bd829dde5b3a5d7a2d65193f55a45def3d52830cfb1ce3f8208c1425d8171a053ab076c2377f7c26b37970bc3c937db75181a47467b9735be331a0f30a7f3ae135a533153ecd0a5e0cc1568e303a6ba6065c0dca8162a33df7c5b69542938c88e2141e2aa697c48e72ec0573065e9d9a9945cfd070d45218f646e5cf0c0ba145ed1fc7b7cf96c64e3a4671eb6b51ac8eb79bf0b4abd56fffa2ad8a93c001e2baf0b65e257782d7b7e3a837cbae16d40183a8b629467f77f2c7f8640da57904ab75a642e99fe4b45ba7ee488f889b07ce7a4e74540c3e0e0e67f88d473509295a66e27d4ebda1d4d3313add2555477aebf7fb84edbfdba18afc6f04c4af6a90730518a8ce28c12ab90921c413bb822e63cae113e5254039cdcad2dbfecfd97c183679c6c4691c99ba771b1389384259b966f358f871343b4bc5f9a92d8f27588202ae1269658ed91bae33deec6a6a35b9fbc523cc11cbc15024f4dd386b8f41c3fc7097d717099e722e6243a13bc475d5f2b1b2569f14cae6710c8650bfd78520caeceb035f58adae811c0fe9857c8cec59a01123e5eb2774190943c2cc7d535af77ea1f79cdce94e23de21004c73fb8469c230e25fe245c8a5a6314736166a7fe4e1bb0f91ee8d60daa0e576b9b7c6b5957d4bd8d8b928d36aa46fbdf742dd602f9cda2ed1608255d6dc962cc6d3f270d6a42f5185b38e6f0085f39dd17260f0580b62d49cdb668e3e5f76d47dd1deaba0db5b315ed6deb62e6e4388a74ff21903d7bed3c3e87585675a608668bc031aa83e7546cee77bacf9d3f5cbcf00ca71d6f6c86751a5db0d7f7065324d33458b7fe66e2b63bf9d8b514006d14da70f0d64f171a7bc11b2fa5955b85090701260a13cb52b930681e10e9daf89bdffacb9c13b9b60319e3be0ed29f7b7d4723ac5af888375c9e23bc97d3b189ec778eaefb3e4649d1b1ea96979c8f004064abefdfb3479e924dd974ff6478beb1034124b1cf27fc739872bd24bf257df2068475f0b144e61411481a48739e2691e535b64066acce2e0fee9c239c4015014dd38570b01646bbe97a389a3604312f06bcf7ae288790b73434288ba0c90d7015bc1bbcd5a0fe84564cd6a692df04d53716bb96d769074d758bf1199f716cfe5c4c542f9852435fc9675a80b4d
+  Bytes(out.data(), ct.size())
+    Which is: 81e8aa18b66ba0dfbcab947a2cc95b3643b210473e3234bf7be4d741a6764daa894f11b59f16811c98b73c596c61b3b979373269e3626fbd957bdcce5036717c247152b6de5ebe03a8f2577bfa10baaa159184cdec14a3e54aa5ead003978256bc39e545d5c769e9a9574669cf47b82668aa46339c01893b2aad9b76a764ec8b5bdcd98c58c39c896f797874e04f0f334924ff63a4a90c3537f6a84815082c519a4e4f0d48ae0d15c52a51644a8092931bc328085f4b5956cc28f654696a0d419dc4226fc938c8dd8ad61b748f21e785ba9c8d33a1829ec0a49e6c0f914819af872a731aa7ce197e0759dd5a76b0345f6c5846eb02317af0abc5770ed32f0ea21dbcba848d42b08714696a8a26264c8bd58e9e3640a3f0770c4073a3de913371ee5bbd376aac23ad826cc8106d2e00374d81a95c447667e2a5dbcf949cca0d1e56d5a33cd9b6cc2707ed9d32ec187b7433a292222f6785782530c3a12b5ec27c45d528f2091d215a7840c1f68ccb8d56ba65c90aed150752d6770a5fbdbae384dfb68859400328c056b181ffdeca5961c0e3381db08ca5c6541d74806bb448d5169f2129cc6c4b43b8e07643fc3e0eb38fdcdf707e53bb7638d1c45c46c34f94b8b97edab4e1a1eb7869e3c29c37074bf4709b54222e24e7131b7d8eeaaf4ba3f5c35351b55264d6f24598a0fd130d9f6eb00c8fb7a219011ef7e29a29523ebc29774527bddddc020cb934be20efe067de98e2047a55bd3a9818c136bf11dca7a74982cc34c3374080fec6159c1e1373bc6b6c5ace658e125630813e102bbf3a9c910a9d53243bbeafaaed28ca97dbd617110d27ff8ccbca08fbd3cdc6479d647ccf659c3876fb8b0211dac7839b3db4fd4438aa94aafd8155a24ea0b3a8b8f0a8ee50a77ca703c898578026f853d62a44871ae4494eebae7e980730a61141330c7908eec6c28623237d857c6b7af0a5c63b1dde6b7232021f743e45482a82cf15c7202546c8f326e56129d3dae8254cb8b8b68a826a9ad1eca460d3602b19e92fb13032f7150a3020d82f6e41e58a3e2ec8b6164437554565324e5f85d4e8f95390c1af0e99d9b389befd32ede11c1762a2e5876bef65475f9b8dc55586519575fb55b23158107a47f28de67ed077b497eef879c4ccdb47fc96b74dee744245da267321b24549ea1f142b8a4c8a66e3e0df881871b2b5c4bc0ee938859ffdbc587e2b536461a140c4aad812f21210ba690dcd4a5a1972c517b39b47bab16c0ebfe19347e695552ab9ac96e344a2cc4c1ec9223549dfecaf1a12bf5d933967d6c5e625b3d7bf8bd8409f3dd4a690872bf6b9c4633b6fa69df44f3a92a492b431d43516286d1c9604f0a0b627c5eb9cc5250f304a633ab6f0719d8ce69839d332e14bb8800cd574e26e77f6484ef420f12c8efe4f61db578fc92c5c0e292baa
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 559
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 9f62d794a54433e79c71a5a5cc8d282e
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 649010c49db139e30ce3693c28b539c3
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 559
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: f3f80f2cf0cb2dd9c5984fcda908456cc537703b5ba70324a6793a7bf218d3ea
+  Bytes(out.data(), ct.size())
+    Which is: 88a4aac07cf380949ff26b58d24634fe67fd88bcc881f79efbb88c9b364f1290
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 567
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: ffffffff000000000000000000000000
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 96a65f29d711da4f37d17ded2d968d77
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 567
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:151: Failure
+Expected equality of these values:
+  Bytes(ct)
+    Which is: 18ce4f0b8cb4d0cac65fea8f79257b20888e53e72299e56d
+  Bytes(out.data(), ct.size())
+    Which is: c9ab941894949ef3806f8fec08994a79559ce386d56f6f50
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 574
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:152: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: ffffffff000000000000000000000000
+  Bytes(out.data() + ct.size(), tag.size())
+    Which is: 58d1d281be685f193867cb81142955b6
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/cipher_extra/test/aes_256_gcm_siv_tests.txt, line 574
+[  FAILED  ] PerAEADTest.TestVector/AES_256_GCM_SIV, where GetParam() = 72-byte object <41-45 53-5F 32-35 36-5F 47-43 4D-5F 53-49 56-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 02-AA 39-8C F2-60 00-00 02-AA 39-9E A9-B8 00-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00> (23306 ms)

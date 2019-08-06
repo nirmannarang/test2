@@ -1,0 +1,390 @@
+[ RUN      ] GCMTest.TestVectors
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: ab6e47d42cec13bdf53a67b21257bddf
+  Bytes(got_tag)
+    Which is: 3b2f22278d1e49a2ad7210d8bf8fb8d0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 8
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 0388dace60b6a392f328c2b971b2fe78
+  Bytes(out)
+    Which is: 669a501e1f1ade6e5523de01d6dbc987
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 8
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 8
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 4d5c2af327cd64a62cf35abd2ba6fab4
+  Bytes(got_tag)
+    Which is: 5e1287dfbf719cd075c91206eb2747f2
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 15
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 42831ec2217774244b7221b784d0d49ce3aa212f2c02a4e035c17e2329aca12e21d514b25466931c7d8f6a5aac84aa051ba30b396a0aac973d58e091473f5985
+  Bytes(out)
+    Which is: fc419abe59a2d4404bf6571627d67e5ba3bf1e813dd4d7201bb4f296944a161f05a4e75a55e2199ddc7bf7fc1f76e71c9c8523e188321b00d745c822077da9be
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 15
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 15
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 5bc94fbc3221a5db94fae95ae7121a47
+  Bytes(got_tag)
+    Which is: d002678d35ef74cc3f67768102d13f81
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 22
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 42831ec2217774244b7221b784d0d49ce3aa212f2c02a4e035c17e2329aca12e21d514b25466931c7d8f6a5aac84aa051ba30b396a0aac973d58e091
+  Bytes(out)
+    Which is: fc419abe59a2d4404bf6571627d67e5ba3bf1e813dd4d7201bb4f296944a161f05a4e75a55e2199ddc7bf7fc1f76e71c9c8523e188321b00d745c822
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 22
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 22
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 3612d2e79e3b0785561be14aaca2fccb
+  Bytes(got_tag)
+    Which is: bb8f66549dde3b21eb9b9984f364c17e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 29
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 61353b4c2806934a777ff51fa22a4755699b2a714fcdc6f83766e5f97b6c742373806900e49f24b22b097544d4896b424989b5e1ebac0f07c23f4598
+  Bytes(out)
+    Which is: cb39e8c79362e906fbdea93a1d6a740480aacfe2524581ccaffb353a5f6bcf7a246171036b6804d4656d7fde49e366248f8ea5c02b9f7ede432419f9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 29
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 29
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 619cc5aefffe0bfa462af43c1699d050
+  Bytes(got_tag)
+    Which is: 078703e097e898fe46c2c1b9f11b3b47
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 36
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 8ce24998625615b603a033aca13fb894be9112a5c3a211a8ba262a3cca7e2ca701e4a9a4fba43c90ccdcb281d48c7c6fd62875d2aca417034c34aee5
+  Bytes(out)
+    Which is: a96c4ee9d4a90ddc40668332001bfbab4fb338e1e9f056a11122654dabad09f3991d6bb2cb1c5d4e6d61a1021f1e496d67f09bed358447ef1708beb9
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 36
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 36
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 2ff58d80033927ab8ef4d4587514f0fb
+  Bytes(got_tag)
+    Which is: 09a951d46238099dc0ff0ad776c00e40
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 50
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 98e7247c07f0fe411c267e4384b0f600
+  Bytes(out)
+    Which is: a5a1bea594acc7ca80f09ea5addb5c71
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 50
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 50
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 9924a7c8587336bfb118024db8674a14
+  Bytes(got_tag)
+    Which is: 90229582fe87ba82d6b41b9e674b45dc
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 57
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 3980ca0b3c00e841eb06fac4872a2757859e1ceaa6efd984628593b40ca1e19c7d773d00c144c525ac619d18c84a3f4718e2448b2fe324d9ccda2710acade256
+  Bytes(out)
+    Which is: 9e145e4fc8a18a3095e1bc506af48d9f4f8149368be0edc6f0cfd711db48bfa7f20a1c04e4cc49bf4f4f74e432ca7934b7efa2ed7f377fe948662d7d7da1bfce
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 57
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 57
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 2519498e80f1478f37ba55bd6d27618c
+  Bytes(got_tag)
+    Which is: 0d6be0c6b3ca0b6a81344d767396963b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 64
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 3980ca0b3c00e841eb06fac4872a2757859e1ceaa6efd984628593b40ca1e19c7d773d00c144c525ac619d18c84a3f4718e2448b2fe324d9ccda2710
+  Bytes(out)
+    Which is: 9e145e4fc8a18a3095e1bc506af48d9f4f8149368be0edc6f0cfd711db48bfa7f20a1c04e4cc49bf4f4f74e432ca7934b7efa2ed7f377fe948662d7d
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 64
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 64
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 65dcc57fcf623a24094fcca40d3533f8
+  Bytes(got_tag)
+    Which is: 0d1d1fe2e08babdc98118b1a35a4cd67
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 71
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 0f10f599ae14a154ed24b36e25324db8c566632ef2bbb34f8347280fc4507057fddc29df9a471f75c66541d4d4dad1c9e93a19a58e8b473fa0f062f7
+  Bytes(out)
+    Which is: 9eac045f1227aa6ed90077867f8523a585c113511a24f5f886541c433a2b5323df0d5af42e86ea9d0dfe15d8528e7e391c991fcd5f9d16912ae3b131
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 71
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 71
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 65dcc57fcf623a24094fcca40d3533f8
+  Bytes(got_tag)
+    Which is: 0d1d1fe2e08babdc98118b1a35a4cd67
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 78
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 0f10f599ae14a154ed24b36e25324db8c566632ef2bbb34f8347280fc4507057fddc29df9a471f75c66541d4d4dad1c9e93a19a58e8b473fa0f062f7
+  Bytes(out)
+    Which is: 9eac045f1227aa6ed90077867f8523a585c113511a24f5f886541c433a2b5323df0d5af42e86ea9d0dfe15d8528e7e391c991fcd5f9d16912ae3b131
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 78
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 78
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: dcf566ff291c25bbb8568fc3d376a6d9
+  Bytes(got_tag)
+    Which is: d50ce235957f692bfe58a11be8785508
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 85
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: d27e88681ce3243c4830165a8fdcf9ff1de9a1d8e6b447ef6ef7b79828666e4581e79012af34ddd9e2f037589b292db3e67c036745fa22e7e9b7373b
+  Bytes(out)
+    Which is: a21a7274ab0c7abcfe567b331921a103a82f84aef6d078e0080359e49227086b91ed49c35dc35a2715b4b482ae32dea14e103dc3d2097a1f94c94fed
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 85
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 85
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: d0d1c8a799996bf0265b98b5d48ab919
+  Bytes(got_tag)
+    Which is: f11b9e52c83dbfadcbb21cd07203a64a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 99
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: cea7403d4d606b6e074ec5d3baf39d18
+  Bytes(out)
+    Which is: c2302b7e701b5cc7f8b29e3516dbbfa6
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 99
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 99
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: b094dac5d93471bdec1a502270e3cc6c
+  Bytes(got_tag)
+    Which is: 432c2e00bb9abccf0c42300090688e10
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 106
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 522dc1f099567d07f47f37a32a84427d643a8cdcbfe5c0c97598a2bd2555d1aa8cb08e48590dbb3da7b08b1056828838c5f61e6393ba7a0abcc9f662898015ad
+  Bytes(out)
+    Which is: 8f5634e33dd7efdc09c443ea403b20bae17019aa6b0ec746a932c26512cb600519b15a754767a8d622ee338e805baa6a83debb3d3c2ce99601361fb180afd68a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 106
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 106
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 76fc6ece0f4e1768cddf8853bb2d551b
+  Bytes(got_tag)
+    Which is: 32ebd42bcc5a7b578db6624f86e76d02
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 113
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 522dc1f099567d07f47f37a32a84427d643a8cdcbfe5c0c97598a2bd2555d1aa8cb08e48590dbb3da7b08b1056828838c5f61e6393ba7a0abcc9f662
+  Bytes(out)
+    Which is: 8f5634e33dd7efdc09c443ea403b20bae17019aa6b0ec746a932c26512cb600519b15a754767a8d622ee338e805baa6a83debb3d3c2ce99601361fb1
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 113
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 113
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 3a337dbf46a792c45e454913fe2ea8f2
+  Bytes(got_tag)
+    Which is: 9d4c8f7f78195d58ae740b85214de73c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 120
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: c3762df1ca787d32ae47c13bf19844cbaf1ae14d0b976afac52ff7d79bba9de0feb582d33934a4f0954cc2363bc73f7862ac430e64abe499f47c9b1f
+  Bytes(out)
+    Which is: 0dd1017a9e66cad7d0643e63ea5e6d410724d785b6324ef04924bd0c09109f9b7f21c0170a730ee4f8394c3c917796e482876855dea7debcab565a8e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 120
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 120
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: a44a8266ee1c8eb0c8b5d4cf5ae9f19a
+  Bytes(got_tag)
+    Which is: db779fb0df1e2d7bb5a6734a0eeb1e2b
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 127
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 5a8def2f0c9e53f1f75d7853659e2a20eeb2b22aafde6419a058ab4f6f746bf40fc0c3b780f244452da3ebf1c5d82cdea2418997200ef82e44ae7e3f
+  Bytes(out)
+    Which is: 8296474c613efa7e7bb0729ded8a5902b3e8a5f2a293c3741e209654bf009d09ca38b4a005dd8589e441d75236457c6fb7c77e009e6ca4fcf53cc309
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 127
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 127
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 5fea793a2d6f974d37e68e0cb8ff9492
+  Bytes(got_tag)
+    Which is: ef2e9325731bae19fef3f3a294b750d8
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 134
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 134
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:99: Failure
+Expected equality of these values:
+  Bytes(tag)
+    Which is: 8b307f6b33286d0ab026a9ed3fe1e85f
+  Bytes(got_tag)
+    Which is: 1815deb94bdc5053a8b1fd0adae2e9dc
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 141
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:100: Failure
+Expected equality of these values:
+  Bytes(ciphertext)
+    Which is: 56b3373ca9ef6e4a2b64fe1e9a17b61425f10d47a75a5fce13efc6bc784af24f4141bdd48cf7c770887afd573cca5418a9aeffcd7c5ceddfc6a78397b9a85b499da558257267caab2ad0b23ca476a53cb17fb41c4b8b475cb4f3f7165094c229c9e8c4dc0a2a5ff1903e501511221376a1cdb8364c5061a20cae74bc4acd76ceb0abc9fd3217ef9f8c90be402ddf6d8697f4f880dff15bfb7a6b28241ec8fe183c2d59e3f9dfff653c7126f0acb9e64211f42bae12af462b1070bef1ab5e3606872ca10dee15b3249b1a1b958f23134c4bccb7d03200bce420a2f8eb66dcf3644d1423c1b5699003c13ecef4bf38a3b60eedc34033bac1902783dc6d89e2e774188a439c7ebcc0672dbda4ddcfb2794613b0be41315ef778708a70ee7d75165c
+  Bytes(out)
+    Which is: b7851ca179c8dcf65a9b48e3bdf1c68bbcd1d3e2ad9fc18b82eb244cba25ce2c0d70a5a461671eab8569db283e0ef8a1cb266d9e19174ed919760aeaf79ded9f6ade156bfbefcd0bf7e2aac2ceff298a390d3d576075ff38526960a69f94ef89da356151edd3f35542f3355c64cb56d6409ccf464c0f45080c53b6986ccccf41b9d8a025f400d735d93ade63663a41a11dc5008c599a2a5e0806cc0506539d376f5d5e5f6eb62db0e02e067fa7f41fbbb7da519b7dcd2d53baa6907e95790cc4f99eae6828992152c0568d7b5c9f844e14aafb71e0655e7af2875ae008fa7fb35ae01803aafabbfa072db3f47be4b10f640d667f364e513ecee477a4a2e5f14716dd81d278fcf566386bd85c98637846bead189ffcdcad266f9776fb04bf111f
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 141
+/BoringSSL/boringssl/crypto/fipsmodule/modes/gcm_test.cc:111: Failure
+Value of: CRYPTO_gcm128_finish(&ctx, tag.data(), tag.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/fipsmodule/modes/gcm_tests.txt, line 141
+[  FAILED  ] GCMTest.TestVectors (5 ms)

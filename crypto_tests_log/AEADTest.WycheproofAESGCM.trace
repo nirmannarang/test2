@@ -1,0 +1,625 @@
+[ RUN      ] AEADTest.WycheproofAESGCM
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 12
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 21
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 30
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 39
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 48
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 57
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 66
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 75
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 84
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 93
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 102
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 111
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 120
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 130
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 140
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 423
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 433
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 446
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 455
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 464
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 473
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 482
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 492
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 504
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 516
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 528
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 540
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 552
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 564
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 576
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 588
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 600
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 612
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 624
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 636
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 646
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 659
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 668
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 677
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 686
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 695
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 704
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 713
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 722
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 731
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 740
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 749
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 758
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 768
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 778
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1650
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1662
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1674
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1686
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1698
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1710
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1722
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1734
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1746
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1758
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1770
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1782
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1794
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1804
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1813
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1822
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1831
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1840
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1854
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1868
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1924
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1938
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 1952
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2056
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2066
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2080
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2090
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2104
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2114
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2128
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2138
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2248
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2258
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2272
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2282
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2296
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2306
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2320
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+/BoringSSL/boringssl/crypto/cipher_extra/aead_test.cc:734: Failure
+Value of: EVP_AEAD_CTX_open(ctx.get(), out.data(), &out_len, out.size(), iv.data(), iv.size(), ct_and_tag.data(), ct_and_tag.size(), aad.data(), aad.size())
+  Actual: false
+Expected: true
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/aes_gcm_test.txt, line 2330
+2930202306120:error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT:/BoringSSL/boringssl/crypto/fipsmodule/cipher/e_aes.c:1001:
+[  FAILED  ] AEADTest.WycheproofAESGCM (10 ms)

@@ -1,0 +1,21 @@
+[ RUN      ] EVPExtraTest.d2i_PrivateKey
+[       OK ] EVPExtraTest.d2i_PrivateKey (9 ms)
+[ RUN      ] EVPExtraTest.Ed25519
+/BoringSSL/boringssl/crypto/evp/evp_extra_test.cc:649: Failure
+Expected equality of these values:
+  Bytes(buf, len)
+    Which is: d24045634601a093b33e724de0545db4c7a390718f3444a2d6bafc83ceb6f6fc
+  Bytes(kPublicKey)
+    Which is: d75a980182b10ab7d54bfed3c964073a0ee172f3daa62325af021a68f707511a
+/BoringSSL/boringssl/crypto/evp/evp_extra_test.cc:656: Failure
+Expected equality of these values:
+  Bytes(kPublicKeySPKI)
+    Which is: 302a300506032b6570032100d75a980182b10ab7d54bfed3c964073a0ee172f3daa62325af021a68f707511a
+  Bytes(der, der_len)
+    Which is: 302a300506032b6570032100d24045634601a093b33e724de0545db4c7a390718f3444a2d6bafc83ceb6f6fc
+/BoringSSL/boringssl/crypto/evp/evp_extra_test.cc:666: Failure
+Expected equality of these values:
+  1
+  EVP_PKEY_cmp(pubkey.get(), privkey.get())
+    Which is: 0
+[  FAILED  ] EVPExtraTest.Ed25519 (1 ms)

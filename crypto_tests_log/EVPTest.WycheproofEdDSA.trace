@@ -1,0 +1,453 @@
+[  FAILED  ] EVPTest.WycheproofECDSAP521 (8358 ms)
+[ RUN      ] EVPTest.WycheproofEdDSA
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 15
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 20
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 25
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 30
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 35
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 40
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 45
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 50
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 55
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 457
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 462
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 467
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 472
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 477
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 482
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 487
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 492
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 497
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 510
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 523
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 536
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 549
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 562
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 575
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 581
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 594
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 600
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 613
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 619
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 625
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 631
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 637
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 643
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 649
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 655
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 661
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 674
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 680
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 693
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 699
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 705
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 711
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 717
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 730
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 736
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 749
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 755
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 768
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 781
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:669: Failure
+Expected equality of these values:
+  1
+  ret
+    Which is: 0
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: third_party/wycheproof_testvectors/eddsa_test.txt, line 794
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:572: third_party/wycheproof_testvectors/eddsa_test.txt
+2930202306120:error:06000083:public key routines:OPENSSL_internal:INVALID_SIGNATURE:/BoringSSL/boringssl/crypto/evp/p_ed25519.c:81:
+[  FAILED  ] EVPTest.WycheproofEdDSA (4018 ms)

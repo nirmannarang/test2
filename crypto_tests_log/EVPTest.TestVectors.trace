@@ -1,0 +1,63 @@
+[----------] 9 tests from EVPTest
+[ RUN      ] EVPTest.TestVectors
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:234: Failure
+Expected equality of these values:
+  Bytes(raw)
+    Which is: d24045634601a093b33e724de0545db4c7a390718f3444a2d6bafc83ceb6f6fc
+  Bytes(expected)
+    Which is: d75a980182b10ab7d54bfed3c964073a0ee172f3daa62325af021a68f707511a
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/evp/evp_tests.txt, line 115
+2930202306120:error:06000064:public key routines:OPENSSL_internal:BUFFER_TOO_SMALL:/BoringSSL/boringssl/crypto/evp/p_ed25519_asn1.c:88:
+2930202306120:error:06000064:public key routines:OPENSSL_internal:BUFFER_TOO_SMALL:/BoringSSL/boringssl/crypto/evp/p_ed25519_asn1.c:107:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:234: Failure
+Expected equality of these values:
+  Bytes(raw)
+    Which is: 32747d1271a6d5347dec86f5cdbc5d71de4f9d30fed22e931b3786511fa2894f
+  Bytes(expected)
+    Which is: 3d4017c3e843895a92b70aa74d1b7ebc9c982ccf2ec4968cc0cd55f12af4660c
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/evp/evp_tests.txt, line 121
+2930202306120:error:06000064:public key routines:OPENSSL_internal:BUFFER_TOO_SMALL:/BoringSSL/boringssl/crypto/evp/p_ed25519_asn1.c:88:
+2930202306120:error:06000064:public key routines:OPENSSL_internal:BUFFER_TOO_SMALL:/BoringSSL/boringssl/crypto/evp/p_ed25519_asn1.c:107:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:234: Failure
+Expected equality of these values:
+  Bytes(raw)
+    Which is: cae4b55c30b031d3e77466e2e1c4ab87499239c21c7d741ffc25b0bab7b0523d
+  Bytes(expected)
+    Which is: fc51cd8e6218a1a38da47ed00230f0580816ed13ba3303ac5deb911548908025
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/evp/evp_tests.txt, line 127
+2930202306120:error:06000064:public key routines:OPENSSL_internal:BUFFER_TOO_SMALL:/BoringSSL/boringssl/crypto/evp/p_ed25519_asn1.c:88:
+2930202306120:error:06000064:public key routines:OPENSSL_internal:BUFFER_TOO_SMALL:/BoringSSL/boringssl/crypto/evp/p_ed25519_asn1.c:107:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:234: Failure
+Expected equality of these values:
+  Bytes(raw)
+    Which is: e3f055c96479145283c77269c2ba49d192a9a7b2d0d08d545291ed49faae5fd1
+  Bytes(expected)
+    Which is: 278117fc144c72340f67d0f2316e8386ceffbf2b2428c9c51fef7c597f1d426e
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/evp/evp_tests.txt, line 133
+2930202306120:error:06000064:public key routines:OPENSSL_internal:BUFFER_TOO_SMALL:/BoringSSL/boringssl/crypto/evp/p_ed25519_asn1.c:88:
+2930202306120:error:06000064:public key routines:OPENSSL_internal:BUFFER_TOO_SMALL:/BoringSSL/boringssl/crypto/evp/p_ed25519_asn1.c:107:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:234: Failure
+Expected equality of these values:
+  Bytes(raw)
+    Which is: 5c1db88c3c56004f5fe659e95ac2a87cc027de24ed88fb9cc8afde8398cf550d
+  Bytes(expected)
+    Which is: ec172b93ad5e563bf4932c70e1245034c35467ef2efd4d64ebf819683467e2bf
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/evp/evp_tests.txt, line 139
+2930202306120:error:06000064:public key routines:OPENSSL_internal:BUFFER_TOO_SMALL:/BoringSSL/boringssl/crypto/evp/p_ed25519_asn1.c:88:
+2930202306120:error:06000064:public key routines:OPENSSL_internal:BUFFER_TOO_SMALL:/BoringSSL/boringssl/crypto/evp/p_ed25519_asn1.c:107:
+/BoringSSL/boringssl/crypto/evp/evp_test.cc:566: Failure
+Failed
+Operation unexpectedly failed.
+Google Test trace:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:88: crypto/evp/evp_tests.txt, line 570
+Line 570: Unused attribute: Output
+2930202306120:error:04000085:RSA routines:OPENSSL_internal:OAEP_DECODING_ERROR:/BoringSSL/boringssl/crypto/fipsmodule/rsa/padding.c:478:
+/BoringSSL/boringssl/crypto/test/file_test_gtest.cc:76: Failure
+Failed
+Error reading test.
+[  FAILED  ] EVPTest.TestVectors (447 ms)
