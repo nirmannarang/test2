@@ -1,0 +1,8 @@
+[ RUN      ] PBKDFTest.SHA2
+/BoringSSL/boringssl/crypto/evp/pbkdf_test.cc:117: Failure
+Expected equality of these values:
+  Bytes(kKey2)
+    Which is: 8c0511f4c6e597c6ac6315d8f0362e225f3c501495ba23b868c005174dc4ee71115b59f9e60cd9532fa33e0f75aefe30225c583a186cd82bd4daea9724a3d3b8
+  Bytes(key, sizeof(kKey2))
+    Which is: 06b7562f8e191ba39b1953c086c642273c6f9a3b0d077f2da413778bd7afcbceae9eda3682f589b2ce67c4098379a87fbf1a05daeb0bdcaf1ac19843b67ccd53
+[  FAILED  ] PBKDFTest.SHA2 (11 ms)
