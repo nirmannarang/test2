@@ -8,7 +8,7 @@ COPY --from=qemu /usr/bin/qemu-s390x-static /usr/bin/
 RUN apt-get update && \
 apt-get upgrade -y && \
 apt-get install -y --no-install-recommends \
-    gpg gpg-agent libelf-dev libmnl-dev libc-dev iptables libgcc-8-dev zlib1g zlib1g-dev \
+    gpg gpg-agent libelf-dev libmnl-dev libc-dev iptables libgcc-8-dev zlib1g zlib1g-dev zlibc \
     bash-completion binutils binutils-dev ca-certificates make git curl \
     xz-utils gcc pkg-config bison flex build-essential && \
 apt-get purge --auto-remove && \
