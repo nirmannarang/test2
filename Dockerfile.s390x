@@ -16,6 +16,8 @@ apt-get clean
 
 WORKDIR /tmp
 
+ENV PATH="/usr/include:${PATH}"
+
 RUN \
 git clone --depth 1 -b master git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git && \
 cd linux/tools/bpf/bpftool/ && \
